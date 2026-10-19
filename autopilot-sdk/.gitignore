@@ -1,0 +1,10 @@
+# backend repo cloned alongside for local integration
+autopilot-backend/
+
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+dist/
+build/autopilot-*/
+autopilot-*.spec

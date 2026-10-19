@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: e6d835576733e05478ee9a0b6f47a698
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7880189054571844978
+    second: VFX_ImpactArcade_0
+  - first:
+      213: 7198646259730920830
+    second: VFX_ImpactArcade_1
+  - first:
+      213: -202170858034088844
+    second: VFX_ImpactArcade_2
+  - first:
+      213: -7878350193211201656
+    second: VFX_ImpactArcade_3
+  - first:
+      213: -3030863710356975258
+    second: VFX_ImpactArcade_4
+  - first:
+      213: 2775744875992492168
+    second: VFX_ImpactArcade_5
+  - first:
+      213: -4387399131254733134
+    second: VFX_ImpactArcade_6
+  - first:
+      213: -5793896301753596590
+    second: VFX_ImpactArcade_7
+  - first:
+      213: 5364960537180369148
+    second: VFX_ImpactArcade_8
+  - first:
+      213: -7569011402228407756
+    second: VFX_ImpactArcade_9
+  - first:
+      213: -7474014005812632440
+    second: VFX_ImpactArcade_10
+  - first:
+      213: -4128436087065416368
+    second: VFX_ImpactArcade_11
+  - first:
+      213: 243078960575302900
+    second: VFX_ImpactArcade_12
+  - first:
+      213: -8931619747566857549
+    second: VFX_ImpactArcade_13
+  - first:
+      213: 7779318828238379365
+    second: VFX_ImpactArcade_14
+  - first:
+      213: 5227718952134246015
+    second: VFX_ImpactArcade_15
+  - first:
+      213: 4320734790413691712
+    second: VFX_ImpactArcade_16
+  - first:
+      213: 1875798242759863352
+    second: VFX_ImpactArcade_17
+  - first:
+      213: 8572806704843026697
+    second: VFX_ImpactArcade_18
+  - first:
+      213: -6534983633990148712
+    second: VFX_ImpactArcade_19
+  - first:
+      213: 359584784433970962
+    second: VFX_ImpactArcade_20
+  - first:
+      213: 3094754367453139989
+    second: VFX_ImpactArcade_21
+  - first:
+      213: 3317444412408010621
+    second: VFX_ImpactArcade_22
+  - first:
+      213: -8694341881399320020
+    second: VFX_ImpactArcade_23
+  - first:
+      213: -7273331674934190106
+    second: VFX_ImpactArcade_24
+  - first:
+      213: 5234885188181239943
+    second: VFX_ImpactArcade_25
+  - first:
+      213: -1033957130287313282
+    second: VFX_ImpactArcade_26
+  - first:
+      213: 4822247458357375938
+    second: VFX_ImpactArcade_27
+  - first:
+      213: 5723551780063646008
+    second: VFX_ImpactArcade_28
+  - first:
+      213: 2499659385213219655
+    second: VFX_ImpactArcade_29
+  - first:
+      213: 169384666839659988
+    second: VFX_ImpactArcade_30
+  - first:
+      213: 6014004735011877245
+    second: VFX_ImpactArcade_31
+  - first:
+      213: 7069409772784479830
+    second: VFX_ImpactArcade_32
+  - first:
+      213: 5594769897287449256
+    second: VFX_ImpactArcade_33
+  - first:
+      213: -6506286706100381043
+    second: VFX_ImpactArcade_34
+  - first:
+      213: -6975114109356542665
+    second: VFX_ImpactArcade_35
+  - first:
+      213: 3796189262322027141
+    second: VFX_ImpactArcade_36
+  - first:
+      213: -1164679404037538841
+    second: VFX_ImpactArcade_37
+  - first:
+      213: 7014309734932850414
+    second: VFX_ImpactArcade_38
+  - first:
+      213: -1513941293248026523
+    second: VFX_ImpactArcade_39
+  - first:
+      213: -237537632806728625
+    second: VFX_ImpactArcade_40
+  - first:
+      213: -8728981111744000498
+    second: VFX_ImpactArcade_41
+  - first:
+      213: 5510285635151244277
+    second: VFX_ImpactArcade_42
+  - first:
+      213: 1679007852332483430
+    second: VFX_ImpactArcade_43
+  - first:
+      213: -2910461603317889163
+    second: VFX_ImpactArcade_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2027
+        width: 406
+        height: 1028
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2751da0b13e0c5d60800000000000000
+      internalID: 7880189054571844978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_1
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2071
+        width: 174
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75b4f612aab6e360800000000000000
+      internalID: 7198646259730920830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2071
+        width: 406
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47431fefcaeb13df0800000000000000
+      internalID: -202170858034088844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_3
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 2980
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88724859d3a7aa290800000000000000
+      internalID: -7878350193211201656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_4
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 2071
+        width: 280
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661dc8d738530f5d0800000000000000
+      internalID: -3030863710356975258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_5
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 2170
+        width: 398
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888a4a8124d658620800000000000000
+      internalID: 2775744875992492168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_6
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2980
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b644bd4cb3dc13c0800000000000000
+      internalID: -4387399131254733134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_7
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 2027
+        width: 280
+        height: 1028
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255078cc202f79fa0800000000000000
+      internalID: -5793896301753596590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_8
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2027
+        width: 398
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ff9c0f2b247a40800000000000000
+      internalID: 5364960537180369148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_9
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2171
+        width: 296
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4326b456b3875f690800000000000000
+      internalID: -7569011402228407756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_10
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 2170
+        width: 300
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8846e395cd7f64890800000000000000
+      internalID: -7474014005812632440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_11
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 2274
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05def809049d4b6c0800000000000000
+      internalID: -4128436087065416368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_12
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2082
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc4679d6079f5300800000000000000
+      internalID: 243078960575302900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_13
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 2071
+        width: 109
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2d96d49238c0480800000000000000
+      internalID: -8931619747566857549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_14
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2071
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56918a7f141b5fb60800000000000000
+      internalID: 7779318828238379365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1956
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ef98770b69c8840800000000000000
+      internalID: 5227718952134246015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_16
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1956
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ba74f466556fb30800000000000000
+      internalID: 4320734790413691712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_17
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1956
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ce00a309c280a10800000000000000
+      internalID: 1875798242759863352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1147
+        width: 296
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9017142074ab8f670800000000000000
+      internalID: 8572806704843026697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_19
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1145
+        width: 174
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d960b32031f45a0800000000000000
+      internalID: -6534983633990148712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_20
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1148
+        width: 300
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f72dec4708df400800000000000000
+      internalID: 359584784433970962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_21
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1246
+        width: 187
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514122353b6c2fa20800000000000000
+      internalID: 3094754367453139989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_22
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1246
+        width: 174
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d771fa3dd1ee90e20800000000000000
+      internalID: 3317444412408010621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_23
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1246
+        width: 194
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22646b9f1e775780800000000000000
+      internalID: -8694341881399320020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_24
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 1338
+        width: 187
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef53fd906fef0b90800000000000000
+      internalID: -7273331674934190106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_25
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1246
+        width: 174
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7882f71d75c06a840800000000000000
+      internalID: 5234885188181239943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_26
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 1338
+        width: 194
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e0e38d775a6a1f0800000000000000
+      internalID: -1033957130287313282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_27
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1250
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3fb6693801ce240800000000000000
+      internalID: 4822247458357375938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_28
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1047
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8319f30f4042e6f40800000000000000
+      internalID: 5723551780063646008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_29
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1047
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743fa1397f290b220800000000000000
+      internalID: 2499659385213219655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_30
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 1047
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d530610576c95200800000000000000
+      internalID: 169384666839659988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_31
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 932
+        width: 264
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7176e36179067350800000000000000
+      internalID: 6014004735011877245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_32
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 932
+        width: 264
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e6e76abb69b1260800000000000000
+      internalID: 7069409772784479830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_33
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 932
+        width: 264
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aafdd7449d94ad40800000000000000
+      internalID: 5594769897287449256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 314
+        width: 98
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a5a0c66b605b5a0800000000000000
+      internalID: -6506286706100381043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_35
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 312
+        width: 174
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735fcfb5caa633f90800000000000000
+      internalID: -6975114109356542665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_36
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 322
+        width: 111
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a4bd06506cea430800000000000000
+      internalID: 3796189262322027141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_37
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 411
+        width: 174
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebf025b04a36dfe0800000000000000
+      internalID: -1164679404037538841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_38
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 513
+        width: 87
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6ac3f5a85d75160800000000000000
+      internalID: 7014309734932850414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_39
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 513
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568e72d3a666dfae0800000000000000
+      internalID: -1513941293248026523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_40
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 418
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c84cf08c814bcf0800000000000000
+      internalID: -237537632806728625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_41
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 418
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e876f4ded6cd680800000000000000
+      internalID: -8728981111744000498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_42
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 23
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fba0262797787c40800000000000000
+      internalID: 5510285635151244277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_43
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 23
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6638e55feb80d4710800000000000000
+      internalID: 1679007852332483430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_ImpactArcade_44
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 23
+        width: 109
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577c2d19796fb97d0800000000000000
+      internalID: -2910461603317889163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX_ImpactArcade_0: 7880189054571844978
+      VFX_ImpactArcade_1: 7198646259730920830
+      VFX_ImpactArcade_10: -7474014005812632440
+      VFX_ImpactArcade_11: -4128436087065416368
+      VFX_ImpactArcade_12: 243078960575302900
+      VFX_ImpactArcade_13: -8931619747566857549
+      VFX_ImpactArcade_14: 7779318828238379365
+      VFX_ImpactArcade_15: 5227718952134246015
+      VFX_ImpactArcade_16: 4320734790413691712
+      VFX_ImpactArcade_17: 1875798242759863352
+      VFX_ImpactArcade_18: 8572806704843026697
+      VFX_ImpactArcade_19: -6534983633990148712
+      VFX_ImpactArcade_2: -202170858034088844
+      VFX_ImpactArcade_20: 359584784433970962
+      VFX_ImpactArcade_21: 3094754367453139989
+      VFX_ImpactArcade_22: 3317444412408010621
+      VFX_ImpactArcade_23: -8694341881399320020
+      VFX_ImpactArcade_24: -7273331674934190106
+      VFX_ImpactArcade_25: 5234885188181239943
+      VFX_ImpactArcade_26: -1033957130287313282
+      VFX_ImpactArcade_27: 4822247458357375938
+      VFX_ImpactArcade_28: 5723551780063646008
+      VFX_ImpactArcade_29: 2499659385213219655
+      VFX_ImpactArcade_3: -7878350193211201656
+      VFX_ImpactArcade_30: 169384666839659988
+      VFX_ImpactArcade_31: 6014004735011877245
+      VFX_ImpactArcade_32: 7069409772784479830
+      VFX_ImpactArcade_33: 5594769897287449256
+      VFX_ImpactArcade_34: -6506286706100381043
+      VFX_ImpactArcade_35: -6975114109356542665
+      VFX_ImpactArcade_36: 3796189262322027141
+      VFX_ImpactArcade_37: -1164679404037538841
+      VFX_ImpactArcade_38: 7014309734932850414
+      VFX_ImpactArcade_39: -1513941293248026523
+      VFX_ImpactArcade_4: -3030863710356975258
+      VFX_ImpactArcade_40: -237537632806728625
+      VFX_ImpactArcade_41: -8728981111744000498
+      VFX_ImpactArcade_42: 5510285635151244277
+      VFX_ImpactArcade_43: 1679007852332483430
+      VFX_ImpactArcade_44: -2910461603317889163
+      VFX_ImpactArcade_5: 2775744875992492168
+      VFX_ImpactArcade_6: -4387399131254733134
+      VFX_ImpactArcade_7: -5793896301753596590
+      VFX_ImpactArcade_8: 5364960537180369148
+      VFX_ImpactArcade_9: -7569011402228407756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

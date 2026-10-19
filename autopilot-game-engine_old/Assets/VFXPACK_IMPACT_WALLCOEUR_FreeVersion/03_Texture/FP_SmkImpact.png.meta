@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 2f2ddcea4c4788c48943c022aa9ed32b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -737332704870195416
+    second: FP_SmkImpact_0
+  - first:
+      213: 1256469196261474352
+    second: FP_SmkImpact_1
+  - first:
+      213: 2374220869056565353
+    second: FP_SmkImpact_2
+  - first:
+      213: -7375493672256622182
+    second: FP_SmkImpact_3
+  - first:
+      213: -5811345549655092873
+    second: FP_SmkImpact_4
+  - first:
+      213: 172606348835138958
+    second: FP_SmkImpact_5
+  - first:
+      213: -4937277338479563402
+    second: FP_SmkImpact_6
+  - first:
+      213: 8548274048203099090
+    second: FP_SmkImpact_7
+  - first:
+      213: -7385669871248456772
+    second: FP_SmkImpact_8
+  - first:
+      213: 8110047793334441082
+    second: FP_SmkImpact_9
+  - first:
+      213: 2472664120902033743
+    second: FP_SmkImpact_10
+  - first:
+      213: -3571926451089166961
+    second: FP_SmkImpact_11
+  - first:
+      213: -6172176820699401122
+    second: FP_SmkImpact_12
+  - first:
+      213: -9060255215740152812
+    second: FP_SmkImpact_13
+  - first:
+      213: 6021405795164387155
+    second: FP_SmkImpact_14
+  - first:
+      213: 9021643346920961174
+    second: FP_SmkImpact_15
+  - first:
+      213: -962018640293128061
+    second: FP_SmkImpact_16
+  - first:
+      213: 4895138588554116719
+    second: FP_SmkImpact_17
+  - first:
+      213: -1044382932441805283
+    second: FP_SmkImpact_18
+  - first:
+      213: 7769644911401493307
+    second: FP_SmkImpact_19
+  - first:
+      213: -8027005931581155533
+    second: FP_SmkImpact_20
+  - first:
+      213: -2175130981532006306
+    second: FP_SmkImpact_21
+  - first:
+      213: -3750219482912205539
+    second: FP_SmkImpact_22
+  - first:
+      213: 1987267824432008166
+    second: FP_SmkImpact_23
+  - first:
+      213: -7642725781081359643
+    second: FP_SmkImpact_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FP_SmkImpact_0
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2419
+        width: 312
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f1fecbfc774c5f0800000000000000
+      internalID: -737332704870195416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2331
+        width: 579
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030c262b310ef6110800000000000000
+      internalID: 1256469196261474352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_2
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 2288
+        width: 687
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9609f6e1d4de2f020800000000000000
+      internalID: 2374220869056565353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1559
+        width: 300
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b006059bf4a990800000000000000
+      internalID: -7375493672256622182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_4
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1556
+        width: 434
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771d2cd2304f95fa0800000000000000
+      internalID: -5811345549655092873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1580
+        width: 293
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dab4c4f88356200800000000000000
+      internalID: 172606348835138958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1559
+        width: 412
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67de6526b644b7bb0800000000000000
+      internalID: -4937277338479563402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_7
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1612
+        width: 283
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db06d5c4f191a670800000000000000
+      internalID: 8548274048203099090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_8
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1699
+        width: 124
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb34eef0264d08990800000000000000
+      internalID: -7385669871248456772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_9
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 1602
+        width: 210
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74d329cf7dac8070800000000000000
+      internalID: 8110047793334441082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1232
+        width: 296
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41283fcaeaa05220800000000000000
+      internalID: 2472664120902033743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1476
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d220f41d7fd6ec0800000000000000
+      internalID: -3571926451089166961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_12
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1383
+        width: 126
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54ff4712e5085aa0800000000000000
+      internalID: -6172176820699401122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_13
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1488
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4149d6372e1834280800000000000000
+      internalID: -9060255215740152812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_14
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1379
+        width: 104
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357704dfaa4509350800000000000000
+      internalID: 6021405795164387155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_15
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1223
+        width: 313
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6947d7743d0533d70800000000000000
+      internalID: 9021643346920961174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_16
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1219
+        width: 304
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3881606c42936a2f0800000000000000
+      internalID: -962018640293128061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_17
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 1382
+        width: 40
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e33195c960fe340800000000000000
+      internalID: 4895138588554116719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 665
+        width: 210
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e435e914b9181f0800000000000000
+      internalID: -1044382932441805283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_19
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 782
+        width: 177
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33e10fa1e253db60800000000000000
+      internalID: 7769644911401493307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_20
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 851
+        width: 176
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337d62652a85a9090800000000000000
+      internalID: -8027005931581155533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_21
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 762
+        width: 94
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5886d985e160d1e0800000000000000
+      internalID: -2175130981532006306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_22
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 722
+        width: 114
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15d443ff3b84fbc0800000000000000
+      internalID: -3750219482912205539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 202
+        width: 181
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb45dcae81349b10800000000000000
+      internalID: 1987267824432008166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_SmkImpact_24
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 247
+        width: 79
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eafcee15659fe590800000000000000
+      internalID: -7642725781081359643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FP_SmkImpact_0: -737332704870195416
+      FP_SmkImpact_1: 1256469196261474352
+      FP_SmkImpact_10: 2472664120902033743
+      FP_SmkImpact_11: -3571926451089166961
+      FP_SmkImpact_12: -6172176820699401122
+      FP_SmkImpact_13: -9060255215740152812
+      FP_SmkImpact_14: 6021405795164387155
+      FP_SmkImpact_15: 9021643346920961174
+      FP_SmkImpact_16: -962018640293128061
+      FP_SmkImpact_17: 4895138588554116719
+      FP_SmkImpact_18: -1044382932441805283
+      FP_SmkImpact_19: 7769644911401493307
+      FP_SmkImpact_2: 2374220869056565353
+      FP_SmkImpact_20: -8027005931581155533
+      FP_SmkImpact_21: -2175130981532006306
+      FP_SmkImpact_22: -3750219482912205539
+      FP_SmkImpact_23: 1987267824432008166
+      FP_SmkImpact_24: -7642725781081359643
+      FP_SmkImpact_3: -7375493672256622182
+      FP_SmkImpact_4: -5811345549655092873
+      FP_SmkImpact_5: 172606348835138958
+      FP_SmkImpact_6: -4937277338479563402
+      FP_SmkImpact_7: 8548274048203099090
+      FP_SmkImpact_8: -7385669871248456772
+      FP_SmkImpact_9: 8110047793334441082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

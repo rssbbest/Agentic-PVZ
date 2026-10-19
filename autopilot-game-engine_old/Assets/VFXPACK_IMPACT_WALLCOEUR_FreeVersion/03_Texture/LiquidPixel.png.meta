@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: bf5d9be6961e14c428525b9c90251841
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5939710415101986635
+    second: LiquidPixel_0
+  - first:
+      213: 5628522710792661587
+    second: LiquidPixel_1
+  - first:
+      213: 3620773950415418397
+    second: LiquidPixel_2
+  - first:
+      213: 17650925299936751
+    second: LiquidPixel_3
+  - first:
+      213: -7838155496448946528
+    second: LiquidPixel_4
+  - first:
+      213: -5104201035795155738
+    second: LiquidPixel_5
+  - first:
+      213: -8565053646555835009
+    second: LiquidPixel_6
+  - first:
+      213: 6944779531697245017
+    second: LiquidPixel_7
+  - first:
+      213: -4483948228480090049
+    second: LiquidPixel_8
+  - first:
+      213: -7669118737429475200
+    second: LiquidPixel_9
+  - first:
+      213: 504689508621201599
+    second: LiquidPixel_10
+  - first:
+      213: -7519748311794614372
+    second: LiquidPixel_11
+  - first:
+      213: -2858161268414030048
+    second: LiquidPixel_12
+  - first:
+      213: 6798493075325591819
+    second: LiquidPixel_13
+  - first:
+      213: -4635775138814654532
+    second: LiquidPixel_14
+  - first:
+      213: -3535095481427064787
+    second: LiquidPixel_15
+  - first:
+      213: -2903531530964087121
+    second: LiquidPixel_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LiquidPixel_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1171
+        width: 236
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4787d017271e6250800000000000000
+      internalID: 5939710415101986635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1119
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ae30395978c1e40800000000000000
+      internalID: 5628522710792661587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_2
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1067
+        width: 418
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14bf7669b29f3230800000000000000
+      internalID: 3620773950415418397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 209
+        width: 444
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feda57c4c65be3000800000000000000
+      internalID: 17650925299936751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 417
+        width: 444
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae82e3ba17493390800000000000000
+      internalID: -7838155496448946528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_5
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 469
+        width: 444
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4bf3f733c3a29b0800000000000000
+      internalID: -5104201035795155738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_6
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 443
+        width: 80
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7510ea8611d22980800000000000000
+      internalID: -8565053646555835009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_7
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 365
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bc7366030d06060800000000000000
+      internalID: 6944779531697245017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_8
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 365
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30c33ad7d0d5c1c0800000000000000
+      internalID: -4483948228480090049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1
+        width: 288
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080593b1421d19590800000000000000
+      internalID: -7669118737429475200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1
+        width: 262
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0bb332f64010700800000000000000
+      internalID: 504689508621201599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_11
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 209
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f732370cc74a790800000000000000
+      internalID: -7519748311794614372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_12
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 313
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fd6653875c558d0800000000000000
+      internalID: -2858161268414030048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_13
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 235
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b012cba9e69195e50800000000000000
+      internalID: 6798493075325591819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_14
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 209
+        width: 28
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb78d58921b6aafb0800000000000000
+      internalID: -4635775138814654532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_15
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 157
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28837ea361d0fec0800000000000000
+      internalID: -3535095481427064787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LiquidPixel_16
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae4db6c47594b7d0800000000000000
+      internalID: -2903531530964087121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LiquidPixel_0: 5939710415101986635
+      LiquidPixel_1: 5628522710792661587
+      LiquidPixel_10: 504689508621201599
+      LiquidPixel_11: -7519748311794614372
+      LiquidPixel_12: -2858161268414030048
+      LiquidPixel_13: 6798493075325591819
+      LiquidPixel_14: -4635775138814654532
+      LiquidPixel_15: -3535095481427064787
+      LiquidPixel_16: -2903531530964087121
+      LiquidPixel_2: 3620773950415418397
+      LiquidPixel_3: 17650925299936751
+      LiquidPixel_4: -7838155496448946528
+      LiquidPixel_5: -5104201035795155738
+      LiquidPixel_6: -8565053646555835009
+      LiquidPixel_7: 6944779531697245017
+      LiquidPixel_8: -4483948228480090049
+      LiquidPixel_9: -7669118737429475200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

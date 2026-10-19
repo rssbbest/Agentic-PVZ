@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 22c86fb530e82994380dd6db49b6968b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3080919047118018434
+    second: MuzzleV7_0
+  - first:
+      213: -1086573769923456008
+    second: MuzzleV7_1
+  - first:
+      213: -7818726399269513185
+    second: MuzzleV7_2
+  - first:
+      213: -7471548756624546504
+    second: MuzzleV7_3
+  - first:
+      213: 8946102216572556660
+    second: MuzzleV7_4
+  - first:
+      213: -7527616361116542788
+    second: MuzzleV7_5
+  - first:
+      213: 9216332011479333494
+    second: MuzzleV7_6
+  - first:
+      213: -7723292153780343424
+    second: MuzzleV7_7
+  - first:
+      213: 7945298597449283985
+    second: MuzzleV7_8
+  - first:
+      213: 2240781535270859756
+    second: MuzzleV7_9
+  - first:
+      213: -4407101179895176203
+    second: MuzzleV7_10
+  - first:
+      213: -5767949389577832432
+    second: MuzzleV7_11
+  - first:
+      213: 4748737750671609559
+    second: MuzzleV7_12
+  - first:
+      213: 1693335258415105328
+    second: MuzzleV7_13
+  - first:
+      213: 1715671960325204534
+    second: MuzzleV7_14
+  - first:
+      213: 5925852249339078644
+    second: MuzzleV7_15
+  - first:
+      213: 4328882411794205417
+    second: MuzzleV7_16
+  - first:
+      213: 4515496403445612168
+    second: MuzzleV7_17
+  - first:
+      213: 3140014096119528123
+    second: MuzzleV7_18
+  - first:
+      213: 3367219912318798272
+    second: MuzzleV7_19
+  - first:
+      213: -6132375899773065050
+    second: MuzzleV7_20
+  - first:
+      213: -8285932069739276097
+    second: MuzzleV7_21
+  - first:
+      213: 1223029590690008124
+    second: MuzzleV7_22
+  - first:
+      213: 2122878571903571242
+    second: MuzzleV7_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MuzzleV7_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1054
+        width: 68
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2875439cc8f91ca20800000000000000
+      internalID: 3080919047118018434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_1
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1048
+        width: 107
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f39475c9e6bbe0f0800000000000000
+      internalID: -1086573769923456008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_2
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1047
+        width: 96
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f185297e3cd4e7390800000000000000
+      internalID: -7818726399269513185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 532
+        width: 100
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835e167edf9bf4890800000000000000
+      internalID: -7471548756624546504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 920
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47554274190f62c70800000000000000
+      internalID: 8946102216572556660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_5
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 941
+        width: 94
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8da367dc8888790800000000000000
+      internalID: -7527616361116542788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_6
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 679
+        width: 45
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a794c522df6ef70800000000000000
+      internalID: 9216332011479333494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 820
+        width: 31
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d6c55b4ba51d490800000000000000
+      internalID: -7723292153780343424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_8
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 805
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199bf577afe534e60800000000000000
+      internalID: 7945298597449283985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_9
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 743
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3f2152fead81f10800000000000000
+      internalID: 2240781535270859756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_10
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 700
+        width: 13
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3a423a3d4d6d2c0800000000000000
+      internalID: -4407101179895176203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_11
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 537
+        width: 73
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01838cf079024ffa0800000000000000
+      internalID: -5767949389577832432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 649
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dec44803d7e6e140800000000000000
+      internalID: 4748737750671609559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_13
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 577
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0350a73227fef7710800000000000000
+      internalID: 1693335258415105328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_14
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 537
+        width: 49
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a2842de8a4fc710800000000000000
+      internalID: 1715671960325204534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 453
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f72e49693bdc3250800000000000000
+      internalID: 5925852249339078644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 367
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea0e6d3e97431c30800000000000000
+      internalID: 4328882411794205417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 245
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efde70e044aae30800000000000000
+      internalID: 4515496403445612168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 210
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba7ce41f22939b20800000000000000
+      internalID: 3140014096119528123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 26
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c942628ba4cabe20800000000000000
+      internalID: 3367219912318798272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_20
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 41
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a82cd02c9c65eaa0800000000000000
+      internalID: -6132375899773065050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_21
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 57
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb85c2eeea4720d80800000000000000
+      internalID: -8285932069739276097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 29
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c8edecee219f010800000000000000
+      internalID: 1223029590690008124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuzzleV7_23
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25d99b40daf57d10800000000000000
+      internalID: 2122878571903571242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MuzzleV7_0: 3080919047118018434
+      MuzzleV7_1: -1086573769923456008
+      MuzzleV7_10: -4407101179895176203
+      MuzzleV7_11: -5767949389577832432
+      MuzzleV7_12: 4748737750671609559
+      MuzzleV7_13: 1693335258415105328
+      MuzzleV7_14: 1715671960325204534
+      MuzzleV7_15: 5925852249339078644
+      MuzzleV7_16: 4328882411794205417
+      MuzzleV7_17: 4515496403445612168
+      MuzzleV7_18: 3140014096119528123
+      MuzzleV7_19: 3367219912318798272
+      MuzzleV7_2: -7818726399269513185
+      MuzzleV7_20: -6132375899773065050
+      MuzzleV7_21: -8285932069739276097
+      MuzzleV7_22: 1223029590690008124
+      MuzzleV7_23: 2122878571903571242
+      MuzzleV7_3: -7471548756624546504
+      MuzzleV7_4: 8946102216572556660
+      MuzzleV7_5: -7527616361116542788
+      MuzzleV7_6: 9216332011479333494
+      MuzzleV7_7: -7723292153780343424
+      MuzzleV7_8: 7945298597449283985
+      MuzzleV7_9: 2240781535270859756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

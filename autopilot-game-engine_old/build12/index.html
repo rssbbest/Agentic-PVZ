@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity Web Player | AutoPilot_GDG</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <div id="unity-fullscreen-container">
+        <canvas id="unity-canvas" width="1280" height="720" tabindex="-1"></canvas>
+        <div id="unity-loading-container">
+          <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+              <div id="unity-progress-bar-full"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-logo-title-footer"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">AutoPilot · build12 release</div>
+      </div>
+    </div>
+    <script>
+      // The build calls the SDK at http://127.0.0.1:5000, i.e. on the player's own
+      // machine (participants run the SDK there). Only when an organiser opens the
+      // page from another of their devices by Tailscale IP (100.64.0.0/10) is the
+      // SDK on the serving machine, so send those calls there.
+      //
+      // The game page also sends the call of every URL box left empty to the page itself
+      // instead of the SDK (docs/issues/build7-empty-url-boxes.md). Such a POST has
+      // no other meaning (this server answers it 405), so it goes to the SDK
+      // endpoint its JSON body belongs to. Unity's web requests use fetch().
+      (function () {
+        var m = /^100\.(\d+)\.\d+\.\d+$/.exec(location.hostname);
+        var tailnet = !!m && m[1] >= 64 && m[1] <= 127;
+        var sdk = tailnet ? location.protocol + "//" + location.hostname + ":5000" : "http://127.0.0.1:5000";
+        var fix = function (u) {
+          return tailnet ? String(u).replace(/^https?:\/\/(127\.0\.0\.1|localhost):5000/, sdk) : String(u);
+        };
+        var toPage = function (u) {
+          try {
+            var url = new URL(u, location.href);
+            return url.origin === location.origin && !url.search &&
+              (url.pathname === location.pathname || url.pathname === "/");
+          } catch (e) { return false; }
+        };
+        var endpoint = function (text) {
+          var body;
+          try { body = JSON.parse(text); } catch (e) { return null; }
+          if (!body || typeof body !== "object") return null;
+          if ("counts" in body) return "/api/reinforcements";        // pause snapshot
+          if ("durationSeconds" in body || "success" in body) return "/api/results";
+          if ("password" in body) return "/api/login";             // login screen
+          if ("teamID" in body) return "/api/team";
+          return null;
+        };
+        var fetch0 = window.fetch;
+        window.fetch = function (input, init) {
+          if (input instanceof Request) return fetch0.call(this, new Request(fix(input.url), input), init);
+          var self = this, method = ((init && init.method) || "GET").toUpperCase();
+          var body = init && init.body;
+          if (method === "POST" && body && toPage(input)) {
+            var read = typeof body === "string" ? Promise.resolve(body)
+              : body instanceof Blob ? body.text() : Promise.resolve(null);
+            return read.then(function (text) {
+              var path = text && endpoint(text);
+              if (path) console.log("[page] empty URL box: sending to " + sdk + path);
+              var url = path ? sdk + path : input;
+              return fetch0.call(self, url, init);
+            });
+          }
+          return fetch0.call(this, fix(input), init);
+        };
+        var open0 = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function (method, url) {
+          arguments[1] = fix(url);
+          return open0.apply(this, arguments);
+        };
+      })();
+
+      let canvas = document.querySelector("#unity-canvas");
+      let fullscreenContainer = document.querySelector("#unity-fullscreen-container");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        var warningBanner = document.querySelector("#unity-warning");
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/989dc998e7d3276a11b2786f4f3258a0.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/3962c324d9bcfd8d092ccb490b2ee735.data",
+        frameworkUrl: buildUrl + "/d36cc556ca0646bd6e88f28ff7e245db.framework.js",
+        codeUrl: buildUrl + "/6a704025ada0289b130ce79e0d9d55ab.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+
+        // If you have a custom web site structure, or want to place multiple Unity build instances on the same page,
+        // you can pass fullscreenElementID: "my-unity-fullscreen-container-id", in this configuration field to
+        // explicitly point to the element tree root that is displayed in fullscreen mode.
+        fullscreenElementID: "unity-fullscreen-container",
+
+        companyName: "AvikYadav",
+        productName: "AutoPilot_GDG",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+        // errorHandler: function(err, url, line) {
+        //    alert("error " + err + " occurred at line " + line);
+        //    // Return 'true' if you handled this error and don't want Unity
+        //    // to process it further, 'false' otherwise.
+        //    return true;
+        // },
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        document.querySelector("#unity-container").className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      } else {
+        // Desktop style: fit the 16:9 game to the window (at most 1280x720), so it
+        // also works in a half-screen window next to an editor.
+        var fitGame = function () {
+          var w = Math.floor(Math.min(1280, window.innerWidth - 16, (window.innerHeight - 64) * 16 / 9));
+          fullscreenContainer.style.width = w + "px";
+          fullscreenContainer.style.height = Math.floor(w * 9 / 16) + "px";
+        };
+        fitGame();
+        window.addEventListener("resize", fitGame);
+      }
+
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        const loadingContainer = document.querySelector("#unity-loading-container");
+        const progressBarFull = document.querySelector("#unity-progress-bar-full");
+
+        createUnityInstance(canvas, config, (progress) => {
+          if (progress < 1) {
+            loadingContainer.style.display = "block";
+            progressBarFull.style.width = 100 * progress + "%";
+          } else {
+            loadingContainer.style.display = "none";
+          }
+        }).then((unityInstance) => {
+                document.querySelector("#unity-fullscreen-button").onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
+
+    </script>
+  </body>
+</html>

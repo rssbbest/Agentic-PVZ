@@ -1,0 +1,11 @@
+{
+  "build": "build10",
+  "unity": "6000.6.5f1",
+  "development": false,
+  "assets": {
+    "Build/ac5520bfd1090d0f5772150a81bcdd84.loader.js": "af3245f9f5446ede68f3ab8db170e88d93ab76aa0cfe8be25da0df7f20f595f1",
+    "Build/3c624c1fdf7caa4d4500b6ca2b9366b0.data": "5cde0ecb5c3a4ba78de6e81c650d3e77bd40818b8896089dd20ee8763bec21c8",
+    "Build/adf92e13dcdd678934c3fb7eccfc1871.wasm": "eab0282011f380c4780ae1f0a15666bd38326cfef7c1b5bc571fa7911b3539fd",
+    "Build/96c68cb4af8100ea6778116f4593daeb.framework.js": "92e3fbbaeabd562263331ce71160ddf4d827d523a0fe02b90db2aae5d3478b04"
+  }
+}

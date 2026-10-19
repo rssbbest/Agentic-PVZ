@@ -1,0 +1,3458 @@
+fileFormatVersion: 2
+guid: 1609778b7d13c4f43b5b88d08b59fab6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8112267989106222967
+    second: FP_CircleImpact_0
+  - first:
+      213: -4513234574564260874
+    second: FP_CircleImpact_1
+  - first:
+      213: -1851735606926915081
+    second: FP_CircleImpact_2
+  - first:
+      213: 5350078426635372520
+    second: FP_CircleImpact_3
+  - first:
+      213: -3121588746920244133
+    second: FP_CircleImpact_4
+  - first:
+      213: 9082344327545594652
+    second: FP_CircleImpact_5
+  - first:
+      213: 2868630591544262124
+    second: FP_CircleImpact_6
+  - first:
+      213: 4320740962915072411
+    second: FP_CircleImpact_7
+  - first:
+      213: 6614533384619553216
+    second: FP_CircleImpact_8
+  - first:
+      213: 542679718224262298
+    second: FP_CircleImpact_9
+  - first:
+      213: 8152360918113190194
+    second: FP_CircleImpact_10
+  - first:
+      213: 718367349224163791
+    second: FP_CircleImpact_11
+  - first:
+      213: 9061044590189911832
+    second: FP_CircleImpact_12
+  - first:
+      213: 1494971617691400061
+    second: FP_CircleImpact_13
+  - first:
+      213: -7955943091406352104
+    second: FP_CircleImpact_14
+  - first:
+      213: 2236071572389625521
+    second: FP_CircleImpact_15
+  - first:
+      213: 7025225317787516820
+    second: FP_CircleImpact_16
+  - first:
+      213: -1195298015013113901
+    second: FP_CircleImpact_17
+  - first:
+      213: -4454667322284053785
+    second: FP_CircleImpact_18
+  - first:
+      213: -253746204823131664
+    second: FP_CircleImpact_19
+  - first:
+      213: -5147263801124700059
+    second: FP_CircleImpact_20
+  - first:
+      213: 8688100719225150240
+    second: FP_CircleImpact_21
+  - first:
+      213: -1523426617813880751
+    second: FP_CircleImpact_22
+  - first:
+      213: 885742942524555788
+    second: FP_CircleImpact_23
+  - first:
+      213: 7145068107130202752
+    second: FP_CircleImpact_24
+  - first:
+      213: 1210480516474944829
+    second: FP_CircleImpact_25
+  - first:
+      213: -7810125230655582184
+    second: FP_CircleImpact_26
+  - first:
+      213: 2049261810824628040
+    second: FP_CircleImpact_27
+  - first:
+      213: -8657703064133788831
+    second: FP_CircleImpact_28
+  - first:
+      213: 3389126735245658313
+    second: FP_CircleImpact_29
+  - first:
+      213: -1213750318543053288
+    second: FP_CircleImpact_30
+  - first:
+      213: -8552036132349382465
+    second: FP_CircleImpact_31
+  - first:
+      213: 3406213338980184973
+    second: FP_CircleImpact_32
+  - first:
+      213: 2204634870089572746
+    second: FP_CircleImpact_33
+  - first:
+      213: 8977646224447114453
+    second: FP_CircleImpact_34
+  - first:
+      213: -425598856864949531
+    second: FP_CircleImpact_35
+  - first:
+      213: -5713221490861570483
+    second: FP_CircleImpact_36
+  - first:
+      213: 154754329390364653
+    second: FP_CircleImpact_37
+  - first:
+      213: -263396178215732921
+    second: FP_CircleImpact_38
+  - first:
+      213: -7915119950841606133
+    second: FP_CircleImpact_39
+  - first:
+      213: 2538045060849486822
+    second: FP_CircleImpact_40
+  - first:
+      213: 4793502598955134789
+    second: FP_CircleImpact_41
+  - first:
+      213: 7840757689905606012
+    second: FP_CircleImpact_42
+  - first:
+      213: 3387617689191348435
+    second: FP_CircleImpact_43
+  - first:
+      213: -3305175666996602271
+    second: FP_CircleImpact_44
+  - first:
+      213: 3757502342634983229
+    second: FP_CircleImpact_45
+  - first:
+      213: -2200856377068792242
+    second: FP_CircleImpact_46
+  - first:
+      213: 2232793077091542006
+    second: FP_CircleImpact_47
+  - first:
+      213: 8265348888598772757
+    second: FP_CircleImpact_48
+  - first:
+      213: -7010348602423637199
+    second: FP_CircleImpact_49
+  - first:
+      213: 2430383418303719737
+    second: FP_CircleImpact_50
+  - first:
+      213: 497585924207380136
+    second: FP_CircleImpact_51
+  - first:
+      213: -6399996992803309868
+    second: FP_CircleImpact_52
+  - first:
+      213: -1843069120369372504
+    second: FP_CircleImpact_53
+  - first:
+      213: -2340572136667232044
+    second: FP_CircleImpact_54
+  - first:
+      213: -8824714103942127918
+    second: FP_CircleImpact_55
+  - first:
+      213: 2409500485998421428
+    second: FP_CircleImpact_56
+  - first:
+      213: -720094473768566670
+    second: FP_CircleImpact_57
+  - first:
+      213: 1163270585927133482
+    second: FP_CircleImpact_58
+  - first:
+      213: 715442325397513247
+    second: FP_CircleImpact_59
+  - first:
+      213: -8006403453999341742
+    second: FP_CircleImpact_60
+  - first:
+      213: 1000314683532274236
+    second: FP_CircleImpact_61
+  - first:
+      213: 6908779225864136359
+    second: FP_CircleImpact_62
+  - first:
+      213: 7177849166482191312
+    second: FP_CircleImpact_63
+  - first:
+      213: -7564572528897925016
+    second: FP_CircleImpact_64
+  - first:
+      213: 79541351428914432
+    second: FP_CircleImpact_65
+  - first:
+      213: 5373397992698104147
+    second: FP_CircleImpact_66
+  - first:
+      213: 6523016339369255485
+    second: FP_CircleImpact_67
+  - first:
+      213: -4160231370428653185
+    second: FP_CircleImpact_68
+  - first:
+      213: 8984131035298990627
+    second: FP_CircleImpact_69
+  - first:
+      213: 3966733472557499540
+    second: FP_CircleImpact_70
+  - first:
+      213: -1615454768241421630
+    second: FP_CircleImpact_71
+  - first:
+      213: -6239975058007652131
+    second: FP_CircleImpact_72
+  - first:
+      213: 9164221491801908552
+    second: FP_CircleImpact_73
+  - first:
+      213: 3281863500904470807
+    second: FP_CircleImpact_74
+  - first:
+      213: -256604728603705580
+    second: FP_CircleImpact_75
+  - first:
+      213: -6608453578621011216
+    second: FP_CircleImpact_76
+  - first:
+      213: -3215532817331157430
+    second: FP_CircleImpact_77
+  - first:
+      213: -4682931710382145100
+    second: FP_CircleImpact_78
+  - first:
+      213: 1325734128187684830
+    second: FP_CircleImpact_79
+  - first:
+      213: -4166697162327945707
+    second: FP_CircleImpact_80
+  - first:
+      213: -7212991638957138924
+    second: FP_CircleImpact_81
+  - first:
+      213: 2104053441829134223
+    second: FP_CircleImpact_82
+  - first:
+      213: 91036440858314014
+    second: FP_CircleImpact_83
+  - first:
+      213: -8832342001592712009
+    second: FP_CircleImpact_84
+  - first:
+      213: -8986751430905250376
+    second: FP_CircleImpact_85
+  - first:
+      213: 8879194107976591658
+    second: FP_CircleImpact_86
+  - first:
+      213: 1150867380178995279
+    second: FP_CircleImpact_87
+  - first:
+      213: -7475884919743145430
+    second: FP_CircleImpact_88
+  - first:
+      213: 7297424362550776895
+    second: FP_CircleImpact_89
+  - first:
+      213: 7902122944973145471
+    second: FP_CircleImpact_90
+  - first:
+      213: 8212572458694080220
+    second: FP_CircleImpact_91
+  - first:
+      213: -3195622599817604633
+    second: FP_CircleImpact_92
+  - first:
+      213: 951877183721757714
+    second: FP_CircleImpact_93
+  - first:
+      213: 329094384649636187
+    second: FP_CircleImpact_94
+  - first:
+      213: -6828691399256377970
+    second: FP_CircleImpact_95
+  - first:
+      213: -8498031052579431390
+    second: FP_CircleImpact_96
+  - first:
+      213: -7927594482271897916
+    second: FP_CircleImpact_97
+  - first:
+      213: -7094618199695723238
+    second: FP_CircleImpact_98
+  - first:
+      213: -2332286361900684755
+    second: FP_CircleImpact_99
+  - first:
+      213: -8104951705712017986
+    second: FP_CircleImpact_100
+  - first:
+      213: 7641352308890845414
+    second: FP_CircleImpact_101
+  - first:
+      213: 2091884064313233802
+    second: FP_CircleImpact_102
+  - first:
+      213: 8413907499139390719
+    second: FP_CircleImpact_103
+  - first:
+      213: -1635991604621800666
+    second: FP_CircleImpact_104
+  - first:
+      213: -2957269191543725254
+    second: FP_CircleImpact_105
+  - first:
+      213: 8912457029540305700
+    second: FP_CircleImpact_106
+  - first:
+      213: -3572726318253814234
+    second: FP_CircleImpact_107
+  - first:
+      213: -1748242747036916917
+    second: FP_CircleImpact_108
+  - first:
+      213: 8083341496073130665
+    second: FP_CircleImpact_109
+  - first:
+      213: 2329815805534977717
+    second: FP_CircleImpact_110
+  - first:
+      213: -3590310540748137296
+    second: FP_CircleImpact_111
+  - first:
+      213: 51405138761363393
+    second: FP_CircleImpact_112
+  - first:
+      213: -4184028290382359928
+    second: FP_CircleImpact_113
+  - first:
+      213: 3949600888157474409
+    second: FP_CircleImpact_114
+  - first:
+      213: 6813533279087408466
+    second: FP_CircleImpact_115
+  - first:
+      213: 7554780461970594967
+    second: FP_CircleImpact_116
+  - first:
+      213: -2211681342216550585
+    second: FP_CircleImpact_117
+  - first:
+      213: 852899586685621589
+    second: FP_CircleImpact_118
+  - first:
+      213: 7455058392135406224
+    second: FP_CircleImpact_119
+  - first:
+      213: 1827759329450246879
+    second: FP_CircleImpact_120
+  - first:
+      213: 7060759841378885223
+    second: FP_CircleImpact_121
+  - first:
+      213: 3106335543590429438
+    second: FP_CircleImpact_122
+  - first:
+      213: -856162878636178640
+    second: FP_CircleImpact_123
+  - first:
+      213: 990341259566198218
+    second: FP_CircleImpact_124
+  - first:
+      213: 1290120495893517056
+    second: FP_CircleImpact_125
+  - first:
+      213: 4769027694088360713
+    second: FP_CircleImpact_126
+  - first:
+      213: -3443082144523992830
+    second: FP_CircleImpact_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FP_CircleImpact_0
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2436
+        width: 224
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9881d8a9e3f6b6f80800000000000000
+      internalID: -8112267989106222967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_1
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 2298
+        width: 489
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3061b0115cd51c0800000000000000
+      internalID: -4513234574564260874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_2
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 2168
+        width: 607
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9cd23c6405d46e0800000000000000
+      internalID: -1851735606926915081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1056
+        width: 900
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7051cabfb4f3a40800000000000000
+      internalID: 5350078426635372520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_4
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1256
+        width: 885
+        height: 770
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c46f4d293eda4d0800000000000000
+      internalID: -3121588746920244133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_5
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1216
+        width: 238
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13a32bab08fa0e70800000000000000
+      internalID: 9082344327545594652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_6
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1347
+        width: 783
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced70d8035c6fc720800000000000000
+      internalID: 2868630591544262124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_7
+      rect:
+        serializedVersion: 2
+        x: 2905
+        y: 1295
+        width: 119
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b993805730b56fb30800000000000000
+      internalID: 4320740962915072411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_8
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1043
+        width: 274
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1f539611b8bcb50800000000000000
+      internalID: 6614533384619553216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_9
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1075
+        width: 213
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f097145cf78700800000000000000
+      internalID: 542679718224262298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_10
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 1051
+        width: 223
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2310aecdf01032170800000000000000
+      internalID: 8152360918113190194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_11
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 1087
+        width: 182
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9cebc4c4728f900800000000000000
+      internalID: 718367349224163791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 929
+        width: 277
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f9e3c1c0c4fbd70800000000000000
+      internalID: 9061044590189911832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_13
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 982
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7779cdf3c43fb410800000000000000
+      internalID: 1494971617691400061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 979
+        width: 106
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811508729efc69190800000000000000
+      internalID: -7955943091406352104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_15
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 959
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef1a47f3f180f10800000000000000
+      internalID: 2236071572389625521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_16
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 979
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f3ecd843d9e7160800000000000000
+      internalID: 7025225317787516820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_17
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 984
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfe96ec9c2796fe0800000000000000
+      internalID: -1195298015013113901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_18
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 989
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eae7b61ca7dd22c0800000000000000
+      internalID: -4454667322284053785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_19
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 972
+        width: 111
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9e96ecb238a7cf0800000000000000
+      internalID: -253746204823131664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_20
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 981
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5604cb028de3198b0800000000000000
+      internalID: -5147263801124700059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_21
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 982
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b1b369295529870800000000000000
+      internalID: 8688100719225150240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_22
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 980
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15034d30093bbdae0800000000000000
+      internalID: -1523426617813880751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_23
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 981
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c024c7b638aca4c00800000000000000
+      internalID: 885742942524555788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_24
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 988
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ae7755691682360800000000000000
+      internalID: 7145068107130202752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_25
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 979
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d3508cd9d7cc010800000000000000
+      internalID: 1210480516474944829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_26
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 981
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81055778b7cdc9390800000000000000
+      internalID: -7810125230655582184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_27
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 959
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847c9fd62c0707c10800000000000000
+      internalID: 2049261810824628040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_28
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 979
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b9e730fe8a9d780800000000000000
+      internalID: -8657703064133788831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_29
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 984
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8c8113fc8980f20800000000000000
+      internalID: 3389126735245658313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_30
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 989
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e59391484e72fe0800000000000000
+      internalID: -1213750318543053288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_31
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 972
+        width: 111
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb07201c270115980800000000000000
+      internalID: -8552036132349382465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_32
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 981
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d837c132cfc454f20800000000000000
+      internalID: 3406213338980184973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_33
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 982
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81e023dbbf689e10800000000000000
+      internalID: 2204634870089572746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_34
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 980
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc0c4feca1079c70800000000000000
+      internalID: 8977646224447114453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_35
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 981
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea90c73818f71af0800000000000000
+      internalID: -425598856864949531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_36
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 988
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d468112f25f86b0b0800000000000000
+      internalID: -5713221490861570483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_37
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 979
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de734ce1e3cc52200800000000000000
+      internalID: 154754329390364653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_38
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 981
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749714a429a385cf0800000000000000
+      internalID: -263396178215732921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_39
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 501
+        width: 398
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009a7f3758d72290800000000000000
+      internalID: -7915119950841606133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_40
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 944
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb4ed32982f83320800000000000000
+      internalID: 2538045060849486822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_41
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 957
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fe1a87731f58240800000000000000
+      internalID: 4793502598955134789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_42
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 933
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d6cbca397ffcc60800000000000000
+      internalID: 7840757689905606012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_43
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 952
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d87417075c330f20800000000000000
+      internalID: 3387617689191348435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_44
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 956
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a17601e38a122d0800000000000000
+      internalID: -3305175666996602271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_45
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 958
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fc477f874552430800000000000000
+      internalID: 3757502342634983229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_46
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 944
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46592329ccf471e0800000000000000
+      internalID: -2200856377068792242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_47
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 957
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f32ef849797cfe10800000000000000
+      internalID: 2232793077091542006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_48
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 933
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c7991c50b64b270800000000000000
+      internalID: 8265348888598772757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_49
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 952
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b02e8a61d36be90800000000000000
+      internalID: -7010348602423637199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_50
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 956
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9392efb97d47ab120800000000000000
+      internalID: 2430383418303719737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_51
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 958
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a68d9103c7c7e600800000000000000
+      internalID: 497585924207380136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_52
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 930
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6f368c4a4ae27a0800000000000000
+      internalID: -6399996992803309868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_53
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 943
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a254e7666a1c66e0800000000000000
+      internalID: -1843069120369372504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_54
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 946
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8c5c6ea0e948fd0800000000000000
+      internalID: -2340572136667232044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_55
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 930
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de562e1741588580800000000000000
+      internalID: -8824714103942127918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_56
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 943
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5211a0de3407120800000000000000
+      internalID: 2409500485998421428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_57
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 946
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2708d4e24e5b106f0800000000000000
+      internalID: -720094473768566670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_58
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 909
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29e8d34f64c42010800000000000000
+      internalID: 1163270585927133482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_59
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 932
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14299e1103cde900800000000000000
+      internalID: 715442325397513247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_60
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 929
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f98e37a7a83e090800000000000000
+      internalID: -8006403453999341742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_61
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 909
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a6c8f97e4d1ed00800000000000000
+      internalID: 1000314683532274236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_62
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 932
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6ea350a1ae0ef50800000000000000
+      internalID: 6908779225864136359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_63
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 929
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3318b79c7dc9360800000000000000
+      internalID: 7177849166482191312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_64
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 632
+        width: 256
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8606c512d5d350790800000000000000
+      internalID: -7564572528897925016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_65
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 632
+        width: 152
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dffdc00769a1100800000000000000
+      internalID: 79541351428914432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_66
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 859
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359419f3105229a40800000000000000
+      internalID: 5373397992698104147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_67
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 693
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d326c2cdcc8668a50800000000000000
+      internalID: 6523016339369255485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_68
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 677
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71e9264c93e346c0800000000000000
+      internalID: -4160231370428653185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_69
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 693
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a0f8e939b0eac70800000000000000
+      internalID: 8984131035298990627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_70
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 677
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494017e931bac0730800000000000000
+      internalID: 3966733472557499540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_71
+      rect:
+        serializedVersion: 2
+        x: 2953
+        y: 693
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c252448270c499e0800000000000000
+      internalID: -1615454768241421630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_72
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 677
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8082cdeb72769a0800000000000000
+      internalID: -6239975058007652131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_73
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 648
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8456ad584eadd2f70800000000000000
+      internalID: 9164221491801908552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_74
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 394
+        width: 44
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7191bbc47758b8d20800000000000000
+      internalID: 3281863500904470807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_75
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 643
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff3efdb5b507cf0800000000000000
+      internalID: -256604728603705580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_76
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 628
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fab2abbb7e0a44a0800000000000000
+      internalID: -6608453578621011216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_77
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 643
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a468d5370f12063d0800000000000000
+      internalID: -3215532817331157430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_78
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 628
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1824fab62e20fb0800000000000000
+      internalID: -4682931710382145100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_79
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 590
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed73d316a24f56210800000000000000
+      internalID: 1325734128187684830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_80
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 628
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e80d8c10bec26c0800000000000000
+      internalID: -4166697162327945707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_81
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 590
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cd818025e46eb90800000000000000
+      internalID: -7212991638957138924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_82
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 628
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fd9a42579133d10800000000000000
+      internalID: 2104053441829134223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_83
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 562
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15c9fe192d634100800000000000000
+      internalID: 91036440858314014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_84
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 613
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4cd4cceb73d6580800000000000000
+      internalID: -8832342001592712009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_85
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 562
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdb82cff25a84380800000000000000
+      internalID: -8986751430905250376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_86
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 613
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29afa94ffb393b70800000000000000
+      internalID: 8879194107976591658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_87
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 569
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f484723e8c3b8ff00800000000000000
+      internalID: 1150867380178995279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_88
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 571
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a92014642504890800000000000000
+      internalID: -7475884919743145430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_89
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 539
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34de195bc8a54560800000000000000
+      internalID: 7297424362550776895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_90
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 548
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75869283faf9ad60800000000000000
+      internalID: 7902122944973145471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_91
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 539
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6fd9c932be8f170800000000000000
+      internalID: 8212572458694080220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_92
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 548
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e159a53d2ed6a3d0800000000000000
+      internalID: -3195622599817604633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_93
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 323
+        width: 16
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cd88d514fb53d00800000000000000
+      internalID: 951877183721757714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_94
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 515
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b590e96699d219400800000000000000
+      internalID: 329094384649636187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_95
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 394
+        width: 43
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85fe823a5d9b31a0800000000000000
+      internalID: -6828691399256377970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_96
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 323
+        width: 16
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c93cc38cde01a80800000000000000
+      internalID: -8498031052579431390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_97
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 515
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c636d012d68bf190800000000000000
+      internalID: -7927594482271897916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_98
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 513
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a157d16165ada8d90800000000000000
+      internalID: -7094618199695723238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_99
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 323
+        width: 16
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2aeb6c29ed02afd0800000000000000
+      internalID: -2332286361900684755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_100
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 394
+        width: 41
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdb6539d5d658f80800000000000000
+      internalID: -8104951705712017986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_101
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 489
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0cc0770798b0a60800000000000000
+      internalID: 7641352308890845414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_102
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 367
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81d0b4297dd70d10800000000000000
+      internalID: 2091884064313233802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_103
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 376
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcd23baa4434c470800000000000000
+      internalID: 8413907499139390719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_104
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 367
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b0ffead4acb49e0800000000000000
+      internalID: -1635991604621800666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_105
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 376
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3364dca65ba5f6d0800000000000000
+      internalID: -2957269191543725254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_106
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 367
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bdea9b2786fab70800000000000000
+      internalID: 8912457029540305700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_107
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 376
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ecac8b7502b6ec0800000000000000
+      internalID: -3572726318253814234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_108
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 288
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4326b1fb7efcb7e0800000000000000
+      internalID: -1748242747036916917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_109
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 288
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a21d97634ccd2070800000000000000
+      internalID: 8083341496073130665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_110
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 288
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beb009912b255020800000000000000
+      internalID: 2329815805534977717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_111
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 142
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcdd51e597ac2ec0800000000000000
+      internalID: -3590310540748137296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_112
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 133
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf208b83b0a6b000800000000000000
+      internalID: 51405138761363393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_113
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 30
+        width: 164
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882139510785fe5c0800000000000000
+      internalID: -4184028290382359928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_114
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 70
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e8137f41dcfc630800000000000000
+      internalID: 3949600888157474409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_115
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 107
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255be4dea688e8e50800000000000000
+      internalID: 6813533279087408466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_116
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 129
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c91df9dc8f7d860800000000000000
+      internalID: 7554780461970594967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_117
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 142
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747c2d889878e41e0800000000000000
+      internalID: -2211681342216550585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_118
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555597db7ab16db00800000000000000
+      internalID: 852899586685621589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_119
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 97
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092960beb10b57760800000000000000
+      internalID: 7455058392135406224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_120
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 86
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2c9ce1d618d5910800000000000000
+      internalID: 1827759329450246879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_121
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 30
+        width: 108
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e5bbd8aabdcf160800000000000000
+      internalID: 7060759841378885223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_122
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 70
+        width: 217
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2a0e408bbeb1b20800000000000000
+      internalID: 3106335543590429438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_123
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 97
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033c305e56c4e14f0800000000000000
+      internalID: -856162878636178640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_124
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 86
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd2bd6e0266ebd00800000000000000
+      internalID: 990341259566198218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_125
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 60
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0031f2371cd67e110800000000000000
+      internalID: 1290120495893517056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_126
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 70
+        width: 217
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903132e9b6dfe2240800000000000000
+      internalID: 4769027694088360713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_CircleImpact_127
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 34
+        width: 77
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20148232807b730d0800000000000000
+      internalID: -3443082144523992830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FP_CircleImpact_0: -8112267989106222967
+      FP_CircleImpact_1: -4513234574564260874
+      FP_CircleImpact_10: 8152360918113190194
+      FP_CircleImpact_100: -8104951705712017986
+      FP_CircleImpact_101: 7641352308890845414
+      FP_CircleImpact_102: 2091884064313233802
+      FP_CircleImpact_103: 8413907499139390719
+      FP_CircleImpact_104: -1635991604621800666
+      FP_CircleImpact_105: -2957269191543725254
+      FP_CircleImpact_106: 8912457029540305700
+      FP_CircleImpact_107: -3572726318253814234
+      FP_CircleImpact_108: -1748242747036916917
+      FP_CircleImpact_109: 8083341496073130665
+      FP_CircleImpact_11: 718367349224163791
+      FP_CircleImpact_110: 2329815805534977717
+      FP_CircleImpact_111: -3590310540748137296
+      FP_CircleImpact_112: 51405138761363393
+      FP_CircleImpact_113: -4184028290382359928
+      FP_CircleImpact_114: 3949600888157474409
+      FP_CircleImpact_115: 6813533279087408466
+      FP_CircleImpact_116: 7554780461970594967
+      FP_CircleImpact_117: -2211681342216550585
+      FP_CircleImpact_118: 852899586685621589
+      FP_CircleImpact_119: 7455058392135406224
+      FP_CircleImpact_12: 9061044590189911832
+      FP_CircleImpact_120: 1827759329450246879
+      FP_CircleImpact_121: 7060759841378885223
+      FP_CircleImpact_122: 3106335543590429438
+      FP_CircleImpact_123: -856162878636178640
+      FP_CircleImpact_124: 990341259566198218
+      FP_CircleImpact_125: 1290120495893517056
+      FP_CircleImpact_126: 4769027694088360713
+      FP_CircleImpact_127: -3443082144523992830
+      FP_CircleImpact_13: 1494971617691400061
+      FP_CircleImpact_14: -7955943091406352104
+      FP_CircleImpact_15: 2236071572389625521
+      FP_CircleImpact_16: 7025225317787516820
+      FP_CircleImpact_17: -1195298015013113901
+      FP_CircleImpact_18: -4454667322284053785
+      FP_CircleImpact_19: -253746204823131664
+      FP_CircleImpact_2: -1851735606926915081
+      FP_CircleImpact_20: -5147263801124700059
+      FP_CircleImpact_21: 8688100719225150240
+      FP_CircleImpact_22: -1523426617813880751
+      FP_CircleImpact_23: 885742942524555788
+      FP_CircleImpact_24: 7145068107130202752
+      FP_CircleImpact_25: 1210480516474944829
+      FP_CircleImpact_26: -7810125230655582184
+      FP_CircleImpact_27: 2049261810824628040
+      FP_CircleImpact_28: -8657703064133788831
+      FP_CircleImpact_29: 3389126735245658313
+      FP_CircleImpact_3: 5350078426635372520
+      FP_CircleImpact_30: -1213750318543053288
+      FP_CircleImpact_31: -8552036132349382465
+      FP_CircleImpact_32: 3406213338980184973
+      FP_CircleImpact_33: 2204634870089572746
+      FP_CircleImpact_34: 8977646224447114453
+      FP_CircleImpact_35: -425598856864949531
+      FP_CircleImpact_36: -5713221490861570483
+      FP_CircleImpact_37: 154754329390364653
+      FP_CircleImpact_38: -263396178215732921
+      FP_CircleImpact_39: -7915119950841606133
+      FP_CircleImpact_4: -3121588746920244133
+      FP_CircleImpact_40: 2538045060849486822
+      FP_CircleImpact_41: 4793502598955134789
+      FP_CircleImpact_42: 7840757689905606012
+      FP_CircleImpact_43: 3387617689191348435
+      FP_CircleImpact_44: -3305175666996602271
+      FP_CircleImpact_45: 3757502342634983229
+      FP_CircleImpact_46: -2200856377068792242
+      FP_CircleImpact_47: 2232793077091542006
+      FP_CircleImpact_48: 8265348888598772757
+      FP_CircleImpact_49: -7010348602423637199
+      FP_CircleImpact_5: 9082344327545594652
+      FP_CircleImpact_50: 2430383418303719737
+      FP_CircleImpact_51: 497585924207380136
+      FP_CircleImpact_52: -6399996992803309868
+      FP_CircleImpact_53: -1843069120369372504
+      FP_CircleImpact_54: -2340572136667232044
+      FP_CircleImpact_55: -8824714103942127918
+      FP_CircleImpact_56: 2409500485998421428
+      FP_CircleImpact_57: -720094473768566670
+      FP_CircleImpact_58: 1163270585927133482
+      FP_CircleImpact_59: 715442325397513247
+      FP_CircleImpact_6: 2868630591544262124
+      FP_CircleImpact_60: -8006403453999341742
+      FP_CircleImpact_61: 1000314683532274236
+      FP_CircleImpact_62: 6908779225864136359
+      FP_CircleImpact_63: 7177849166482191312
+      FP_CircleImpact_64: -7564572528897925016
+      FP_CircleImpact_65: 79541351428914432
+      FP_CircleImpact_66: 5373397992698104147
+      FP_CircleImpact_67: 6523016339369255485
+      FP_CircleImpact_68: -4160231370428653185
+      FP_CircleImpact_69: 8984131035298990627
+      FP_CircleImpact_7: 4320740962915072411
+      FP_CircleImpact_70: 3966733472557499540
+      FP_CircleImpact_71: -1615454768241421630
+      FP_CircleImpact_72: -6239975058007652131
+      FP_CircleImpact_73: 9164221491801908552
+      FP_CircleImpact_74: 3281863500904470807
+      FP_CircleImpact_75: -256604728603705580
+      FP_CircleImpact_76: -6608453578621011216
+      FP_CircleImpact_77: -3215532817331157430
+      FP_CircleImpact_78: -4682931710382145100
+      FP_CircleImpact_79: 1325734128187684830
+      FP_CircleImpact_8: 6614533384619553216
+      FP_CircleImpact_80: -4166697162327945707
+      FP_CircleImpact_81: -7212991638957138924
+      FP_CircleImpact_82: 2104053441829134223
+      FP_CircleImpact_83: 91036440858314014
+      FP_CircleImpact_84: -8832342001592712009
+      FP_CircleImpact_85: -8986751430905250376
+      FP_CircleImpact_86: 8879194107976591658
+      FP_CircleImpact_87: 1150867380178995279
+      FP_CircleImpact_88: -7475884919743145430
+      FP_CircleImpact_89: 7297424362550776895
+      FP_CircleImpact_9: 542679718224262298
+      FP_CircleImpact_90: 7902122944973145471
+      FP_CircleImpact_91: 8212572458694080220
+      FP_CircleImpact_92: -3195622599817604633
+      FP_CircleImpact_93: 951877183721757714
+      FP_CircleImpact_94: 329094384649636187
+      FP_CircleImpact_95: -6828691399256377970
+      FP_CircleImpact_96: -8498031052579431390
+      FP_CircleImpact_97: -7927594482271897916
+      FP_CircleImpact_98: -7094618199695723238
+      FP_CircleImpact_99: -2332286361900684755
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

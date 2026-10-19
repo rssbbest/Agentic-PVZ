@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 803374269acfb9f499bff4977b268cbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1183614394100175623
+    second: Akmul_VFX_Circle_0
+  - first:
+      213: 1337504148292748298
+    second: Akmul_VFX_Circle_1
+  - first:
+      213: -7075912371974266578
+    second: Akmul_VFX_Circle_2
+  - first:
+      213: -1598783885620797037
+    second: Akmul_VFX_Circle_3
+  - first:
+      213: 1805201884929291839
+    second: Akmul_VFX_Circle_4
+  - first:
+      213: 2747963276656545022
+    second: Akmul_VFX_Circle_5
+  - first:
+      213: 4390326913407709581
+    second: Akmul_VFX_Circle_6
+  - first:
+      213: 3502021298038537707
+    second: Akmul_VFX_Circle_7
+  - first:
+      213: 8411619477508732572
+    second: Akmul_VFX_Circle_8
+  - first:
+      213: -4945846292963633838
+    second: Akmul_VFX_Circle_9
+  - first:
+      213: 1152197605862003977
+    second: Akmul_VFX_Circle_10
+  - first:
+      213: 3280018599091365805
+    second: Akmul_VFX_Circle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2073
+        width: 911
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7035167350b0d6010800000000000000
+      internalID: 1183614394100175623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_1
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2062
+        width: 952
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04c99cbfe4cf8210800000000000000
+      internalID: 1337504148292748298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_2
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 2047
+        width: 1006
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21aeaeff2f4dcd90800000000000000
+      internalID: -7075912371974266578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1023
+        width: 987
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39124f8d68affc9e0800000000000000
+      internalID: -1598783885620797037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_4
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1023
+        width: 698
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36731bcc8d5d0910800000000000000
+      internalID: 1805201884929291839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_5
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1061
+        width: 361
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc8ee07a0ab22620800000000000000
+      internalID: 2747963276656545022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_6
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1133
+        width: 588
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81f08911139dec30800000000000000
+      internalID: 4390326913407709581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_7
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1817
+        width: 119
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed7079e0dda99030800000000000000
+      internalID: 3502021298038537707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_8
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1098
+        width: 200
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c963aae19531cb470800000000000000
+      internalID: 8411619477508732572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_9
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1023
+        width: 266
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25558323003dc5bb0800000000000000
+      internalID: -4945846292963633838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 468
+        width: 340
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905d5703e9d6dff00800000000000000
+      internalID: 1152197605862003977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Akmul_VFX_Circle_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 579
+        width: 84
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7e38f9987f48d20800000000000000
+      internalID: 3280018599091365805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Akmul_VFX_Circle_0: 1183614394100175623
+      Akmul_VFX_Circle_1: 1337504148292748298
+      Akmul_VFX_Circle_10: 1152197605862003977
+      Akmul_VFX_Circle_11: 3280018599091365805
+      Akmul_VFX_Circle_2: -7075912371974266578
+      Akmul_VFX_Circle_3: -1598783885620797037
+      Akmul_VFX_Circle_4: 1805201884929291839
+      Akmul_VFX_Circle_5: 2747963276656545022
+      Akmul_VFX_Circle_6: 4390326913407709581
+      Akmul_VFX_Circle_7: 3502021298038537707
+      Akmul_VFX_Circle_8: 8411619477508732572
+      Akmul_VFX_Circle_9: -4945846292963633838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

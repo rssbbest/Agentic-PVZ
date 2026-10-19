@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 7db9efac9d2f91e46804d3ef29c93ce5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6090962212926227743
+    second: ImpactValo5_0
+  - first:
+      213: -915373178017722864
+    second: ImpactValo5_1
+  - first:
+      213: 3165260728105529097
+    second: ImpactValo5_2
+  - first:
+      213: 7609157184130532072
+    second: ImpactValo5_3
+  - first:
+      213: -3763226602206946373
+    second: ImpactValo5_4
+  - first:
+      213: 5022078548265319609
+    second: ImpactValo5_5
+  - first:
+      213: 3521030255898191973
+    second: ImpactValo5_6
+  - first:
+      213: -8831997337339784392
+    second: ImpactValo5_7
+  - first:
+      213: -978890348588721600
+    second: ImpactValo5_8
+  - first:
+      213: 8889058783376530934
+    second: ImpactValo5_9
+  - first:
+      213: -3071816416023276986
+    second: ImpactValo5_10
+  - first:
+      213: 2928888034727759723
+    second: ImpactValo5_11
+  - first:
+      213: 544163460960542776
+    second: ImpactValo5_12
+  - first:
+      213: -7608133860639073808
+    second: ImpactValo5_13
+  - first:
+      213: 6285158244911481287
+    second: ImpactValo5_14
+  - first:
+      213: 2971031379440068213
+    second: ImpactValo5_15
+  - first:
+      213: -538933326086984841
+    second: ImpactValo5_16
+  - first:
+      213: -3355934405908310200
+    second: ImpactValo5_17
+  - first:
+      213: -4346523379196324149
+    second: ImpactValo5_18
+  - first:
+      213: 1554713613882762946
+    second: ImpactValo5_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ImpactValo5_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1093
+        width: 366
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea743e732e887ba0800000000000000
+      internalID: -6090962212926227743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1075
+        width: 469
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e4557c1f0fb43f0800000000000000
+      internalID: -915373178017722864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_2
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1139
+        width: 279
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f6938acd34deb20800000000000000
+      internalID: 3165260728105529097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 627
+        width: 279
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e24638d428299960800000000000000
+      internalID: 7609157184130532072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_4
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 592
+        width: 108
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb972ef75556cbc0800000000000000
+      internalID: -3763226602206946373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_5
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 577
+        width: 379
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb67fd4d102b540800000000000000
+      internalID: 5022078548265319609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_6
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 613
+        width: 158
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568e63ecc563dd030800000000000000
+      internalID: 3521030255898191973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_7
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 592
+        width: 108
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8339aa237317e6580800000000000000
+      internalID: -8831997337339784392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_8
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 577
+        width: 379
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a9f421a684a62f0800000000000000
+      internalID: -978890348588721600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_9
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 613
+        width: 158
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd59b20ed74c5b70800000000000000
+      internalID: 8889058783376530934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 254
+        width: 253
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64218bbae37be55d0800000000000000
+      internalID: -3071816416023276986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 108
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f07d0562085a820800000000000000
+      internalID: 2928888034727759723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 238
+        width: 130
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830ec4ed8c14d8700800000000000000
+      internalID: 544163460960542776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 139
+        width: 61
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f99cf8309a7a6690800000000000000
+      internalID: -7608133860639073808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 301
+        width: 81
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c10111af1e593750800000000000000
+      internalID: 6285158244911481287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_15
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 134
+        width: 60
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57660146c493b3920800000000000000
+      internalID: 2971031379440068213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 325
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b27fccef25588f0800000000000000
+      internalID: -538933326086984841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 66
+        width: 132
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847d25630735d61d0800000000000000
+      internalID: -3355934405908310200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 110
+        width: 125
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69217f30c0ea3c0800000000000000
+      internalID: -4346523379196324149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpactValo5_19
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 115
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c622fa6bc3739510800000000000000
+      internalID: 1554713613882762946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ImpactValo5_0: -6090962212926227743
+      ImpactValo5_1: -915373178017722864
+      ImpactValo5_10: -3071816416023276986
+      ImpactValo5_11: 2928888034727759723
+      ImpactValo5_12: 544163460960542776
+      ImpactValo5_13: -7608133860639073808
+      ImpactValo5_14: 6285158244911481287
+      ImpactValo5_15: 2971031379440068213
+      ImpactValo5_16: -538933326086984841
+      ImpactValo5_17: -3355934405908310200
+      ImpactValo5_18: -4346523379196324149
+      ImpactValo5_19: 1554713613882762946
+      ImpactValo5_2: 3165260728105529097
+      ImpactValo5_3: 7609157184130532072
+      ImpactValo5_4: -3763226602206946373
+      ImpactValo5_5: 5022078548265319609
+      ImpactValo5_6: 3521030255898191973
+      ImpactValo5_7: -8831997337339784392
+      ImpactValo5_8: -978890348588721600
+      ImpactValo5_9: 8889058783376530934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
