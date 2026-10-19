@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 428be4e2fb9b24944a267eba76ab2bc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2118447399842556119
+    second: CrossShoot_0
+  - first:
+      213: -668872186410241847
+    second: CrossShoot_1
+  - first:
+      213: 3595826396229701391
+    second: CrossShoot_2
+  - first:
+      213: -3384322263439671062
+    second: CrossShoot_3
+  - first:
+      213: 1853195231172499674
+    second: CrossShoot_4
+  - first:
+      213: -4322937998994027047
+    second: CrossShoot_5
+  - first:
+      213: 4076068855494728033
+    second: CrossShoot_6
+  - first:
+      213: -1336646286410689480
+    second: CrossShoot_7
+  - first:
+      213: 5232873686139139371
+    second: CrossShoot_8
+  - first:
+      213: -4863918882939407882
+    second: CrossShoot_9
+  - first:
+      213: -4137729074936097628
+    second: CrossShoot_10
+  - first:
+      213: 4193959483086493645
+    second: CrossShoot_11
+  - first:
+      213: 685955182468429963
+    second: CrossShoot_12
+  - first:
+      213: -7558405613756687491
+    second: CrossShoot_13
+  - first:
+      213: -3866379847145441041
+    second: CrossShoot_14
+  - first:
+      213: 1890832441729731510
+    second: CrossShoot_15
+  - first:
+      213: -170488278527728296
+    second: CrossShoot_16
+  - first:
+      213: -7177867009258216513
+    second: CrossShoot_17
+  - first:
+      213: 3080608863026536672
+    second: CrossShoot_18
+  - first:
+      213: -7599102209840585414
+    second: CrossShoot_19
+  - first:
+      213: 5556374329145312620
+    second: CrossShoot_20
+  - first:
+      213: 290379221428062988
+    second: CrossShoot_21
+  - first:
+      213: -1287162099312457803
+    second: CrossShoot_22
+  - first:
+      213: -31374277621245711
+    second: CrossShoot_23
+  - first:
+      213: -1755023333895357421
+    second: CrossShoot_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrossShoot_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1074
+        width: 414
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d827f6afac366d10800000000000000
+      internalID: 2118447399842556119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1074
+        width: 414
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0f0e05a40b7b6f0800000000000000
+      internalID: -668872186410241847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_2
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1038
+        width: 414
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f8e3d4e01f6e130800000000000000
+      internalID: 3595826396229701391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 526
+        width: 414
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae08b3215d87801d0800000000000000
+      internalID: -3384322263439671062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_4
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 523
+        width: 471
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad81c7d7e3fd7b910800000000000000
+      internalID: 1853195231172499674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_5
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 523
+        width: 471
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd4ce73bc6d104c0800000000000000
+      internalID: -4322937998994027047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 15
+        width: 469
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169dbc3370b119830800000000000000
+      internalID: 4076068855494728033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 18
+        width: 387
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834552cc847437de0800000000000000
+      internalID: -1336646286410689480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_8
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 418
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25ffc084e6ee9840800000000000000
+      internalID: 5232873686139139371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 389
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1f41ecb83ef7cb0800000000000000
+      internalID: -4863918882939407882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_10
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 426
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4d0a73455d396c0800000000000000
+      internalID: -4137729074936097628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_11
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 319
+        width: 127
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc750c7edefe33a30800000000000000
+      internalID: 4193959483086493645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_12
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 378
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b887ed6aa90058900800000000000000
+      internalID: 685955182468429963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_13
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 363
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bd6b3f3262b1790800000000000000
+      internalID: -7558405613756687491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_14
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 351
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8ba24930cd75ac0800000000000000
+      internalID: -3866379847145441041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_15
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 288
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbc51376169d3a10800000000000000
+      internalID: 1890832441729731510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_16
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 205
+        width: 125
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855acff50dd42adf0800000000000000
+      internalID: -170488278527728296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_17
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 172
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb32b2c2cf7136c90800000000000000
+      internalID: -7177867009258216513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_18
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 110
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0ed9c607580ca20800000000000000
+      internalID: 3080608863026536672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_19
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 139
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35e09a4dc09a8690800000000000000
+      internalID: -7599102209840585414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 142
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c654ecf63053c1d40800000000000000
+      internalID: 5556374329145312620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_21
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 86
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bcf570d52a70400800000000000000
+      internalID: 290379221428062988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_22
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 16
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7822ee3e4132ee0800000000000000
+      internalID: -1287162099312457803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_23
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 19
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f81d4fb249809ff0800000000000000
+      internalID: -31374277621245711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossShoot_24
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 18
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c35aa8397e4a7e0800000000000000
+      internalID: -1755023333895357421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CrossShoot_0: 2118447399842556119
+      CrossShoot_1: -668872186410241847
+      CrossShoot_10: -4137729074936097628
+      CrossShoot_11: 4193959483086493645
+      CrossShoot_12: 685955182468429963
+      CrossShoot_13: -7558405613756687491
+      CrossShoot_14: -3866379847145441041
+      CrossShoot_15: 1890832441729731510
+      CrossShoot_16: -170488278527728296
+      CrossShoot_17: -7177867009258216513
+      CrossShoot_18: 3080608863026536672
+      CrossShoot_19: -7599102209840585414
+      CrossShoot_2: 3595826396229701391
+      CrossShoot_20: 5556374329145312620
+      CrossShoot_21: 290379221428062988
+      CrossShoot_22: -1287162099312457803
+      CrossShoot_23: -31374277621245711
+      CrossShoot_24: -1755023333895357421
+      CrossShoot_3: -3384322263439671062
+      CrossShoot_4: 1853195231172499674
+      CrossShoot_5: -4322937998994027047
+      CrossShoot_6: 4076068855494728033
+      CrossShoot_7: -1336646286410689480
+      CrossShoot_8: 5232873686139139371
+      CrossShoot_9: -4863918882939407882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

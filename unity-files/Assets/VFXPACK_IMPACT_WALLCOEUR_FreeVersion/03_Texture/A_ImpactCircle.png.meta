@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: bd6c2d4f45854d448907ea89cb67631c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5592720538612599640
+    second: A_ImpactCircle_0
+  - first:
+      213: -6628961454664928327
+    second: A_ImpactCircle_1
+  - first:
+      213: 8600278918943931948
+    second: A_ImpactCircle_2
+  - first:
+      213: 8623052769516199960
+    second: A_ImpactCircle_3
+  - first:
+      213: 8064829135349752392
+    second: A_ImpactCircle_4
+  - first:
+      213: -1553479129078944982
+    second: A_ImpactCircle_5
+  - first:
+      213: 5273518602249424788
+    second: A_ImpactCircle_6
+  - first:
+      213: -7209602976181050588
+    second: A_ImpactCircle_7
+  - first:
+      213: 6238701836688013442
+    second: A_ImpactCircle_8
+  - first:
+      213: 2343948293677150153
+    second: A_ImpactCircle_9
+  - first:
+      213: 3516917283710830181
+    second: A_ImpactCircle_10
+  - first:
+      213: -2455991022881864155
+    second: A_ImpactCircle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_ImpactCircle_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2073
+        width: 911
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b0908c2b55d9d40800000000000000
+      internalID: 5592720538612599640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_1
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2062
+        width: 952
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b0f0cda23104a0800000000000000
+      internalID: -6628961454664928327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_2
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 2047
+        width: 1006
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2efeec4c145a5770800000000000000
+      internalID: 8600278918943931948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1023
+        width: 987
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81026769ecc3ba770800000000000000
+      internalID: 8623052769516199960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_4
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1023
+        width: 698
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8422eba8e570cef60800000000000000
+      internalID: 8064829135349752392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_5
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1061
+        width: 361
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b244976fee07ae0800000000000000
+      internalID: -1553479129078944982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_6
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1133
+        width: 588
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fcd7b7a3d4f2940800000000000000
+      internalID: 5273518602249424788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_7
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1817
+        width: 119
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42321219a4852fb90800000000000000
+      internalID: -7209602976181050588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_8
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1098
+        width: 200
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288bd533442549650800000000000000
+      internalID: 6238701836688013442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_9
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1023
+        width: 266
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf6288ed80678020800000000000000
+      internalID: 2343948293677150153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 468
+        width: 340
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5660408d2a99ec030800000000000000
+      internalID: 3516917283710830181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A_ImpactCircle_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 579
+        width: 84
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52604955d219aedd0800000000000000
+      internalID: -2455991022881864155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A_ImpactCircle_0: 5592720538612599640
+      A_ImpactCircle_1: -6628961454664928327
+      A_ImpactCircle_10: 3516917283710830181
+      A_ImpactCircle_11: -2455991022881864155
+      A_ImpactCircle_2: 8600278918943931948
+      A_ImpactCircle_3: 8623052769516199960
+      A_ImpactCircle_4: 8064829135349752392
+      A_ImpactCircle_5: -1553479129078944982
+      A_ImpactCircle_6: 5273518602249424788
+      A_ImpactCircle_7: -7209602976181050588
+      A_ImpactCircle_8: 6238701836688013442
+      A_ImpactCircle_9: 2343948293677150153
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: d40afdcd0a99cd745b264b90c4ea1fa2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2375037263841712931
+    second: FP_BwImpact_0
+  - first:
+      213: -8460888069900289978
+    second: FP_BwImpact_1
+  - first:
+      213: 7934098352091136724
+    second: FP_BwImpact_2
+  - first:
+      213: 8534224084612095319
+    second: FP_BwImpact_3
+  - first:
+      213: 6954878823645250369
+    second: FP_BwImpact_4
+  - first:
+      213: -7007111051954154249
+    second: FP_BwImpact_5
+  - first:
+      213: 2162627520081069674
+    second: FP_BwImpact_6
+  - first:
+      213: -7289803280302433666
+    second: FP_BwImpact_7
+  - first:
+      213: 2254874049669986167
+    second: FP_BwImpact_8
+  - first:
+      213: 8720501418822921109
+    second: FP_BwImpact_9
+  - first:
+      213: 3240517875544977804
+    second: FP_BwImpact_10
+  - first:
+      213: 6447464861544888317
+    second: FP_BwImpact_11
+  - first:
+      213: -4931583089559494001
+    second: FP_BwImpact_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FP_BwImpact_0
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2377
+        width: 428
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd42668213c2a0fd0800000000000000
+      internalID: -2375037263841712931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_1
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2079
+        width: 942
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648b04dc023e49a80800000000000000
+      internalID: -8460888069900289978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_2
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 2082
+        width: 953
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d287612a649b1e60800000000000000
+      internalID: 7934098352091136724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1034
+        width: 1005
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d13e4b697af6670800000000000000
+      internalID: 8534224084612095319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_4
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1031
+        width: 994
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143034b0171b48060800000000000000
+      internalID: 6954878823645250369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_5
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1031
+        width: 998
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f41f8e9f9db1ce90800000000000000
+      internalID: -7007111051954154249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 1001
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a668aeb7542330e10800000000000000
+      internalID: 2162627520081069674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_7
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 452
+        width: 981
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a98132a8a65da90800000000000000
+      internalID: -7289803280302433666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_8
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 651
+        width: 568
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77773d7500cea4f10800000000000000
+      internalID: 2254874049669986167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_9
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 19
+        width: 495
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bea3456d1750970800000000000000
+      internalID: 8720501418822921109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_10
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 216
+        width: 282
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81792cb6d1a8fc20800000000000000
+      internalID: 3240517875544977804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_11
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 254
+        width: 179
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df73236a12ff97950800000000000000
+      internalID: 6447464861544888317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FP_BwImpact_12
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 19
+        width: 313
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82ab760f4f7f8bb0800000000000000
+      internalID: -4931583089559494001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FP_BwImpact_0: -2375037263841712931
+      FP_BwImpact_1: -8460888069900289978
+      FP_BwImpact_10: 3240517875544977804
+      FP_BwImpact_11: 6447464861544888317
+      FP_BwImpact_12: -4931583089559494001
+      FP_BwImpact_2: 7934098352091136724
+      FP_BwImpact_3: 8534224084612095319
+      FP_BwImpact_4: 6954878823645250369
+      FP_BwImpact_5: -7007111051954154249
+      FP_BwImpact_6: 2162627520081069674
+      FP_BwImpact_7: -7289803280302433666
+      FP_BwImpact_8: 2254874049669986167
+      FP_BwImpact_9: 8720501418822921109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

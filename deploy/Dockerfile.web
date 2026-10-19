@@ -1,0 +1,25 @@
+# Caddy serving the Unity WebGL game (build12), the participant downloads, and
+# the public routes of the backend and LLM gateway, from one HTTPS address.
+FROM alpine:3.20 AS files
+# The served game: the patched build12 page (repo) + Build/ (release game-build12).
+COPY autopilot-game-engine_old/build12 /srv/game
+# Compressed copies next to the originals; Caddy sends them to browsers that accept gzip
+# (the .wasm is ~190 MB raw, ~30 MB gzipped).
+RUN find /srv/game -type f \( -name '*.wasm' -o -name '*.data' -o -name '*.js' -o -name '*.html' \
+      -o -name '*.css' -o -name '*.json' \) -exec gzip -k -6 {} \;
+RUN test -n "$(find /srv/game/Build -name '*.wasm')" || \
+    (echo "build12/Build is missing: unzip build12.zip first (see README.md, Deploy)" && exit 1)
+COPY autopilot-sdk-binary/bin /srv/download/
+RUN rm -f /srv/download/*.zip
+COPY pvz-leaderboard /srv/leaderboard/
+COPY autopilot-sdk/examples/agent.py \
+     README_PARTICIPANT.md playerGuide_event.md /srv/download/
+COPY deploy/install.sh deploy/install.ps1 /srv/install/
+# The guide as a web page (Caddy renders the Markdown; see Caddyfile)
+COPY deploy/guide.html /srv/guide/index.html
+COPY README_PARTICIPANT.md playerGuide_event.md /srv/guide/
+COPY deploy/event-guide.html /srv/guide/event.html
+
+FROM caddy:2-alpine
+COPY --from=files /srv /srv
+COPY deploy/Caddyfile /etc/caddy/Caddyfile

@@ -1,0 +1,105 @@
+# Organiser stack for the event: Postgres, backend, LLM gateway, and Caddy in
+# front (HTTPS, the game page, downloads). Participants run only the SDK binary.
+#
+#   cp deploy/.env.example .env   # fill in the secrets and SITE_ADDRESS
+#   docker compose up -d --build
+#   (test cases load themselves at backend start; edit them in /admin)
+#
+# See README.md, "Deploy with Docker Compose".
+
+x-logging: &logging
+  driver: json-file
+  options: {max-size: "20m", max-file: "5"}
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+      POSTGRES_DB: zombie_defense
+    command: ["postgres", "-c", "max_connections=200"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres", "-q"]
+      interval: 2s
+      retries: 30
+    logging: *logging
+
+  backend:
+    build: {context: ., dockerfile: deploy/Dockerfile}
+    restart: unless-stopped
+    working_dir: /app/autopilot-backend
+    # One worker on purpose: budget ledgers and pause snapshots of running
+    # matches live in this process (see docs/issues/event-readiness.md).
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8010",
+              "--workers", "1", "--timeout-keep-alive", "30", "--no-access-log"]
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:${POSTGRES_PASSWORD:-password}@db:5432/zombie_defense
+      UPLOAD_DIR: /data/uploads
+      ADMIN_SECRET: ${ADMIN_SECRET:?set ADMIN_SECRET in .env}
+      SIMULATOR_SECRET: ${SIMULATOR_SECRET:?set SIMULATOR_SECRET in .env}
+      AUTOPILOT_STARTING_COINS: ${AUTOPILOT_STARTING_COINS:-3000}
+      DB_POOL_SIZE: ${DB_POOL_SIZE:-60}   # kept open: see app/database.py
+      # Login replies carry each team's LLM token (same secret as the gateway).
+      AUTOPILOT_GATEWAY_TEAM_SECRET: ${GATEWAY_TEAM_SECRET:?set GATEWAY_TEAM_SECRET in .env}
+      # true: `play` also needs a logged-in team (eval always does)
+      REQUIRE_LOGIN: ${REQUIRE_LOGIN:-false}
+    volumes:
+      - uploads:/data/uploads
+    depends_on:
+      db: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8010/health', timeout=3)"]
+      interval: 5s
+      retries: 30
+    logging: *logging
+
+  gateway:
+    build: {context: ., dockerfile: deploy/Dockerfile}
+    restart: unless-stopped
+    # One worker: the per-team rate limits are counted in this process.
+    command: ["uvicorn", "integration.gateway:app", "--host", "0.0.0.0", "--port", "8004",
+              "--workers", "1", "--no-access-log"]
+    environment:
+      AUTOPILOT_LLM_BASE_URL: ${AUTOPILOT_LLM_BASE_URL:-https://bedrock-mantle.ap-south-1.api.aws/v1}
+      AUTOPILOT_LLM_MODEL: ${AUTOPILOT_LLM_MODEL:-qwen.qwen3-next-80b-a3b-instruct}
+      AUTOPILOT_LLM_API_KEY: ${AUTOPILOT_LLM_API_KEY:?set AUTOPILOT_LLM_API_KEY in .env}
+      AUTOPILOT_GATEWAY_TOKENS: ${EVENT_GATEWAY_TOKEN:?set EVENT_GATEWAY_TOKEN in .env}
+      AUTOPILOT_GATEWAY_TEAM_SECRET: ${GATEWAY_TEAM_SECRET:?set GATEWAY_TEAM_SECRET in .env}
+      AUTOPILOT_GATEWAY_RATE_PER_MIN: ${AUTOPILOT_GATEWAY_RATE_PER_MIN:-60}
+    logging: *logging
+
+  web:
+    build: {context: ., dockerfile: deploy/Dockerfile.web}
+    restart: unless-stopped
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+    ports:
+      - "${BIND_ADDRESS:-0.0.0.0}:${HTTP_PORT:-80}:80"
+      - "${BIND_ADDRESS:-0.0.0.0}:${HTTPS_PORT:-443}:443"
+    volumes:
+      - caddy-data:/data   # certificates
+    depends_on:
+      backend: {condition: service_healthy}
+      gateway: {condition: service_started}
+    logging: *logging
+
+  # Public HTTPS without a domain or ports 80/443: a Cloudflare quick tunnel to
+  # Caddy. Enable with COMPOSE_PROFILES=tunnel; the URL is in its log
+  # (docker compose logs tunnel | grep trycloudflare). Redeploys leave this
+  # container alone, so the URL only changes if the container restarts.
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    profiles: ["tunnel"]
+    restart: unless-stopped
+    # No depends_on: rebuilding web must not restart the tunnel (a new URL).
+    command: ["tunnel", "--no-autoupdate", "--url", "http://web:80"]
+    logging: *logging
+
+volumes:
+  pgdata:
+  uploads:
+  caddy-data:

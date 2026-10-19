@@ -1,0 +1,7 @@
+-r autopilot-backend/requirements.txt
+-e ./autopilot-sdk[dev]
+python-dotenv>=1.0,<2
+playwright>=1.45,<2
+websockets>=12,<18
+PyYAML>=6,<7
+

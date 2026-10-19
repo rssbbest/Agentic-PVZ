@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 6fded23671594594dbf01ba60d972bee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6068728076983450179
+    second: VFX_FP_SmokeCircleGround_0
+  - first:
+      213: -7643318661459794015
+    second: VFX_FP_SmokeCircleGround_1
+  - first:
+      213: 3379411625077425742
+    second: VFX_FP_SmokeCircleGround_2
+  - first:
+      213: 564433929537029926
+    second: VFX_FP_SmokeCircleGround_3
+  - first:
+      213: 3913874988513367218
+    second: VFX_FP_SmokeCircleGround_4
+  - first:
+      213: 3478120675689686029
+    second: VFX_FP_SmokeCircleGround_5
+  - first:
+      213: -1516408796380567933
+    second: VFX_FP_SmokeCircleGround_6
+  - first:
+      213: 4611332145853490104
+    second: VFX_FP_SmokeCircleGround_7
+  - first:
+      213: 1640812264216521604
+    second: VFX_FP_SmokeCircleGround_8
+  - first:
+      213: -3472113885194898964
+    second: VFX_FP_SmokeCircleGround_9
+  - first:
+      213: -5218277713574633037
+    second: VFX_FP_SmokeCircleGround_10
+  - first:
+      213: 8684986228347085712
+    second: VFX_FP_SmokeCircleGround_11
+  - first:
+      213: -2957136917116876688
+    second: VFX_FP_SmokeCircleGround_12
+  - first:
+      213: 7356486977367898177
+    second: VFX_FP_SmokeCircleGround_13
+  - first:
+      213: 2199175570670360426
+    second: VFX_FP_SmokeCircleGround_14
+  - first:
+      213: 446196053882177110
+    second: VFX_FP_SmokeCircleGround_15
+  - first:
+      213: 2759777903419924844
+    second: VFX_FP_SmokeCircleGround_16
+  - first:
+      213: -528359863332589787
+    second: VFX_FP_SmokeCircleGround_17
+  - first:
+      213: 8652589825414910066
+    second: VFX_FP_SmokeCircleGround_18
+  - first:
+      213: 5557983045419883274
+    second: VFX_FP_SmokeCircleGround_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2294
+        width: 433
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db546fca7fb87cba0800000000000000
+      internalID: -6068728076983450179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_1
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 2092
+        width: 899
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a723966c2a7de590800000000000000
+      internalID: -7643318661459794015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_2
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 2087
+        width: 971
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46c096d7f416ee20800000000000000
+      internalID: 3379411625077425742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1054
+        width: 992
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6278b3d1ba545d700800000000000000
+      internalID: 564433929537029926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1037
+        width: 991
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b410a1c090e05630800000000000000
+      internalID: 3913874988513367218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1631
+        width: 417
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04ec60a354c44030800000000000000
+      internalID: 3478120675689686029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_6
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1735
+        width: 346
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3866575eb32a4fae0800000000000000
+      internalID: -1516408796380567933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_7
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1683
+        width: 415
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3efee972ebeff30800000000000000
+      internalID: 4611332145853490104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_8
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 1822
+        width: 355
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48beab79f0655c610800000000000000
+      internalID: 1640812264216521604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_9
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 1060
+        width: 455
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1b14541d290dfc0800000000000000
+      internalID: -3472113885194898964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_10
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1164
+        width: 261
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1eb0f2114f497b0800000000000000
+      internalID: -5218277713574633037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_11
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 1038
+        width: 365
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093a9cba5f4478870800000000000000
+      internalID: 8684986228347085712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 719
+        width: 273
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0780e0734a326f6d0800000000000000
+      internalID: -2957136917116876688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_13
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 848
+        width: 302
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148fcc8fded771660800000000000000
+      internalID: 7356486977367898177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 766
+        width: 217
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a671680a78a058e10800000000000000
+      internalID: 2199175570670360426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_15
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 955
+        width: 222
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65604db62f4313600800000000000000
+      internalID: 446196053882177110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 145
+        width: 116
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6121589163bc4620800000000000000
+      internalID: 2759777903419924844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_17
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 21
+        width: 366
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fac70f083eaa8f0800000000000000
+      internalID: -528359863332589787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_18
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 205
+        width: 69
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270d3035a9c241870800000000000000
+      internalID: 8652589825414910066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_FP_SmokeCircleGround_19
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 18
+        width: 285
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b55e1e12ce12d40800000000000000
+      internalID: 5557983045419883274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX_FP_SmokeCircleGround_0: -6068728076983450179
+      VFX_FP_SmokeCircleGround_1: -7643318661459794015
+      VFX_FP_SmokeCircleGround_10: -5218277713574633037
+      VFX_FP_SmokeCircleGround_11: 8684986228347085712
+      VFX_FP_SmokeCircleGround_12: -2957136917116876688
+      VFX_FP_SmokeCircleGround_13: 7356486977367898177
+      VFX_FP_SmokeCircleGround_14: 2199175570670360426
+      VFX_FP_SmokeCircleGround_15: 446196053882177110
+      VFX_FP_SmokeCircleGround_16: 2759777903419924844
+      VFX_FP_SmokeCircleGround_17: -528359863332589787
+      VFX_FP_SmokeCircleGround_18: 8652589825414910066
+      VFX_FP_SmokeCircleGround_19: 5557983045419883274
+      VFX_FP_SmokeCircleGround_2: 3379411625077425742
+      VFX_FP_SmokeCircleGround_3: 564433929537029926
+      VFX_FP_SmokeCircleGround_4: 3913874988513367218
+      VFX_FP_SmokeCircleGround_5: 3478120675689686029
+      VFX_FP_SmokeCircleGround_6: -1516408796380567933
+      VFX_FP_SmokeCircleGround_7: 4611332145853490104
+      VFX_FP_SmokeCircleGround_8: 1640812264216521604
+      VFX_FP_SmokeCircleGround_9: -3472113885194898964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

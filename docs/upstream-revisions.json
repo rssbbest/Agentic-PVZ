@@ -1,0 +1,15 @@
+{
+  "autopilot-sdk": {
+    "repository": "https://github.com/GDSC-NSUT/autopilot-sdk",
+    "revision": "5da1c37ccd6711b5fc6cda9052f6135b1b69f152"
+  },
+  "autopilot-backend": {
+    "repository": "https://github.com/GDSC-NSUT/autopilot-backend.git",
+    "revision": "c18b1571e1f82a32511e82284f3b6fa5245613a3"
+  },
+  "autopilot-game-engine-latest": {
+    "repository": "https://github.com/GDSC-NSUT/autopilot-game-engine.git",
+    "revision": "a597b1280be2d66aa5bba12512efa6f49116e1ce",
+    "upstream_base": "8b2cf2b303f6252c038e1f3999d50295bd6bc475"
+  }
+}

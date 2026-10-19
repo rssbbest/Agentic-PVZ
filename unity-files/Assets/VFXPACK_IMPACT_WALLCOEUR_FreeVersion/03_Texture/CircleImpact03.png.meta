@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: f1a9ca1afca3d4a41930bc540b044e9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9123369325543607323
+    second: CircleImpact03_0
+  - first:
+      213: -5465070646193647764
+    second: CircleImpact03_1
+  - first:
+      213: 4489491151430141683
+    second: CircleImpact03_2
+  - first:
+      213: -2674870389412217708
+    second: CircleImpact03_3
+  - first:
+      213: 299739359884563711
+    second: CircleImpact03_4
+  - first:
+      213: 7734254872557968265
+    second: CircleImpact03_5
+  - first:
+      213: -1535970000473867624
+    second: CircleImpact03_6
+  - first:
+      213: 8231632497386178147
+    second: CircleImpact03_7
+  - first:
+      213: 7014202091441536434
+    second: CircleImpact03_8
+  - first:
+      213: 5079261386776893143
+    second: CircleImpact03_9
+  - first:
+      213: -6593912352611342907
+    second: CircleImpact03_10
+  - first:
+      213: -2911200655691498284
+    second: CircleImpact03_11
+  - first:
+      213: 6395509427519038500
+    second: CircleImpact03_12
+  - first:
+      213: -2647279326976557208
+    second: CircleImpact03_13
+  - first:
+      213: -8308812300871392629
+    second: CircleImpact03_14
+  - first:
+      213: -3206347396013340126
+    second: CircleImpact03_15
+  - first:
+      213: 5069360592989149796
+    second: CircleImpact03_16
+  - first:
+      213: 983099027186527505
+    second: CircleImpact03_17
+  - first:
+      213: 5202724317976443642
+    second: CircleImpact03_18
+  - first:
+      213: 4453334065682033755
+    second: CircleImpact03_19
+  - first:
+      213: 7825094287557336364
+    second: CircleImpact03_20
+  - first:
+      213: 5077550952077214263
+    second: CircleImpact03_21
+  - first:
+      213: 3171311512760347369
+    second: CircleImpact03_22
+  - first:
+      213: -6121597713201861973
+    second: CircleImpact03_23
+  - first:
+      213: -8097499610760895203
+    second: CircleImpact03_24
+  - first:
+      213: -2833716012835540456
+    second: CircleImpact03_25
+  - first:
+      213: -6564191867034527529
+    second: CircleImpact03_26
+  - first:
+      213: -7138538126732727197
+    second: CircleImpact03_27
+  - first:
+      213: -4261724162352912983
+    second: CircleImpact03_28
+  - first:
+      213: -3803696655083081681
+    second: CircleImpact03_29
+  - first:
+      213: -4625431159213255739
+    second: CircleImpact03_30
+  - first:
+      213: 5230594575167940283
+    second: CircleImpact03_31
+  - first:
+      213: -5504974830820747595
+    second: CircleImpact03_32
+  - first:
+      213: 7586195945791040936
+    second: CircleImpact03_33
+  - first:
+      213: -2927493342015558503
+    second: CircleImpact03_34
+  - first:
+      213: -6439590224349925052
+    second: CircleImpact03_35
+  - first:
+      213: -1054466993887679405
+    second: CircleImpact03_36
+  - first:
+      213: -829816521279087473
+    second: CircleImpact03_37
+  - first:
+      213: -2673874353079206737
+    second: CircleImpact03_38
+  - first:
+      213: 6292305669733584497
+    second: CircleImpact03_39
+  - first:
+      213: -4522570332090706567
+    second: CircleImpact03_40
+  - first:
+      213: 6476444741474798706
+    second: CircleImpact03_41
+  - first:
+      213: 3038920094809132641
+    second: CircleImpact03_42
+  - first:
+      213: 2503635000422867276
+    second: CircleImpact03_43
+  - first:
+      213: -1614896686934594006
+    second: CircleImpact03_44
+  - first:
+      213: -925184598553030717
+    second: CircleImpact03_45
+  - first:
+      213: 4244934180568891623
+    second: CircleImpact03_46
+  - first:
+      213: 1317892343139016389
+    second: CircleImpact03_47
+  - first:
+      213: 6014953361513562712
+    second: CircleImpact03_48
+  - first:
+      213: -3560331343216461742
+    second: CircleImpact03_49
+  - first:
+      213: -1614027646372986175
+    second: CircleImpact03_50
+  - first:
+      213: -9143828366572565810
+    second: CircleImpact03_51
+  - first:
+      213: 2874011688244979187
+    second: CircleImpact03_52
+  - first:
+      213: 4974246881068447050
+    second: CircleImpact03_53
+  - first:
+      213: -5177185757665911452
+    second: CircleImpact03_54
+  - first:
+      213: 4140276956310629205
+    second: CircleImpact03_55
+  - first:
+      213: 3226159724012993824
+    second: CircleImpact03_56
+  - first:
+      213: 8920547918952422440
+    second: CircleImpact03_57
+  - first:
+      213: 1235706512919700578
+    second: CircleImpact03_58
+  - first:
+      213: 7016060135097935100
+    second: CircleImpact03_59
+  - first:
+      213: 777336016606313725
+    second: CircleImpact03_60
+  - first:
+      213: 8921324555006961844
+    second: CircleImpact03_61
+  - first:
+      213: 1816730141620651910
+    second: CircleImpact03_62
+  - first:
+      213: -8203533450226742832
+    second: CircleImpact03_63
+  - first:
+      213: -3346336709848534351
+    second: CircleImpact03_64
+  - first:
+      213: 6533250691568198530
+    second: CircleImpact03_65
+  - first:
+      213: -169860092473600926
+    second: CircleImpact03_66
+  - first:
+      213: 5246707981681495793
+    second: CircleImpact03_67
+  - first:
+      213: -7149278375127645816
+    second: CircleImpact03_68
+  - first:
+      213: 2133174565554307502
+    second: CircleImpact03_69
+  - first:
+      213: -8754479614075520925
+    second: CircleImpact03_70
+  - first:
+      213: -7093686459006103530
+    second: CircleImpact03_71
+  - first:
+      213: -2538544665217590719
+    second: CircleImpact03_72
+  - first:
+      213: -1576349674902127215
+    second: CircleImpact03_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CircleImpact03_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1112
+        width: 875
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cc8bb5018bc9e70800000000000000
+      internalID: 9123369325543607323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_1
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1130
+        width: 799
+        height: 889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f8635d33b2824b0800000000000000
+      internalID: -5465070646193647764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_2
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1130
+        width: 761
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6c0477a60ed4e30800000000000000
+      internalID: 4489491151430141683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_3
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 1208
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cbfda8d83f0ead0800000000000000
+      internalID: -2674870389412217708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_4
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 1176
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff45f171c53e82400800000000000000
+      internalID: 299739359884563711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_5
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1112
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bd62924d7955b60800000000000000
+      internalID: 7734254872557968265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_6
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 1132
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a39182c632faae0800000000000000
+      internalID: -1535970000473867624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_7
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 1112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366c340b422ac3270800000000000000
+      internalID: 8231632497386178147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 813
+        width: 26
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdbc2ba3a3775160800000000000000
+      internalID: 7014202091441536434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_9
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 895
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6d138f1592d7640800000000000000
+      internalID: 5079261386776893143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_10
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 841
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c56a8eb6a7bd74a0800000000000000
+      internalID: -6593912352611342907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 185
+        width: 626
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcbf978d665997d0800000000000000
+      internalID: -2911200655691498284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_12
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 768
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4242fe080f961c850800000000000000
+      internalID: 6395509427519038500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_13
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 645
+        width: 18
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fb35e5a79f24bd0800000000000000
+      internalID: -2647279326976557208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_14
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 642
+        width: 84
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b822a2dfb3b21bc80800000000000000
+      internalID: -8308812300871392629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_15
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 539
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a40220804c083d0800000000000000
+      internalID: -3206347396013340126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_16
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 553
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a5b77c99cf95640800000000000000
+      internalID: 5069360592989149796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_17
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 444
+        width: 49
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d2c764b5ba4ad00800000000000000
+      internalID: 983099027186527505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_18
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 369
+        width: 158
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afab545b33ac33840800000000000000
+      internalID: 5202724317976443642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_19
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 423
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5caf1becbb6dcd30800000000000000
+      internalID: 4453334065682033755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_20
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 428
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d1bcf9bc1589c60800000000000000
+      internalID: 7825094287557336364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_21
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 441
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732428b50b5177640800000000000000
+      internalID: 5077550952077214263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_22
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 421
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaef2eb403c20c20800000000000000
+      internalID: 3171311512760347369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_23
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 425
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa62ce3057bb0ba0800000000000000
+      internalID: -6121597713201861973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_24
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 433
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15abb3a107ef9f80800000000000000
+      internalID: -8097499610760895203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_25
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 418
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812f99ccc4e9ca8d0800000000000000
+      internalID: -2833716012835540456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_26
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 416
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d816e7864e47e4a0800000000000000
+      internalID: -6564191867034527529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_27
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 417
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c63843561deec90800000000000000
+      internalID: -7138538126732727197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_28
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 403
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5614434705bd4c0800000000000000
+      internalID: -4261724162352912983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_29
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 409
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f207e688b0e863bc0800000000000000
+      internalID: -3803696655083081681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_30
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 387
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c312160eda2fcfb0800000000000000
+      internalID: -4625431159213255739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_31
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 383
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb668f0ad0ec69840800000000000000
+      internalID: 5230594575167940283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_32
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 393
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b69677de866a93b0800000000000000
+      internalID: -5504974830820747595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_33
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 366
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad2261f405974960800000000000000
+      internalID: 7586195945791040936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_34
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 391
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c67d2e0547f57d0800000000000000
+      internalID: -2927493342015558503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_35
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 373
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4417b823fcaf1a6a0800000000000000
+      internalID: -6439590224349925052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_36
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 374
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c63f91bd7cd51f0800000000000000
+      internalID: -1054466993887679405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_37
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 332
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cd86c3546eb74f0800000000000000
+      internalID: -829816521279087473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_38
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 377
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facbfa2517d74ead0800000000000000
+      internalID: -2673874353079206737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_39
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 311
+        width: 114
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e85a62ba2c25750800000000000000
+      internalID: 6292305669733584497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_40
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 372
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975530c9e3a9c31c0800000000000000
+      internalID: -4522570332090706567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_41
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 360
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c4d0fbd24f0e950800000000000000
+      internalID: 6476444741474798706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_42
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 282
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e05efa9b96c2a20800000000000000
+      internalID: 3038920094809132641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_43
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 327
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41a07f94c2beb220800000000000000
+      internalID: 2503635000422867276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_44
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 294
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eee42f40cb699e0800000000000000
+      internalID: -1614896686934594006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_45
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 297
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf859b62851923f0800000000000000
+      internalID: -925184598553030717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_46
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 261
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e009b7852909ea30800000000000000
+      internalID: 4244934180568891623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_47
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 281
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce12058a181a4210800000000000000
+      internalID: 1317892343139016389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_48
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 230
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852ce85b638697350800000000000000
+      internalID: 6014953361513562712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 235
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258b4ecb189279ec0800000000000000
+      internalID: -3560331343216461742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 238
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c247483862d999e0800000000000000
+      internalID: -1614027646372986175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_51
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 235
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca4d43fb889a1180800000000000000
+      internalID: -9143828366572565810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_52
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 238
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5a92e376a82e720800000000000000
+      internalID: 2874011688244979187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_53
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 221
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45fd230f23180540800000000000000
+      internalID: 4974246881068447050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_54
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 242
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d9c1abbf0f628b0800000000000000
+      internalID: -5177185757665911452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_55
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 166
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b61a4a4f7357930800000000000000
+      internalID: 4140276956310629205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_56
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 206
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d77721d2f95cc20800000000000000
+      internalID: 3226159724012993824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_57
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 167
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c5207b1172ccb70800000000000000
+      internalID: 8920547918952422440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_58
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 201
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2642735c68c162110800000000000000
+      internalID: 1235706512919700578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_59
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 213
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4aa4b258d0e5160800000000000000
+      internalID: 7016060135097935100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_60
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 206
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcbfe41df6a9ca00800000000000000
+      internalID: 777336016606313725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_61
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 215
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e8236a69eecb70800000000000000
+      internalID: 8921324555006961844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_62
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 210
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6874b083072563910800000000000000
+      internalID: 1816730141620651910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_63
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 185
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9433c8ac1372e80800000000000000
+      internalID: -8203533450226742832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_64
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 180
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2f0a6fd7c6f81d0800000000000000
+      internalID: -3346336709848534351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_65
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 180
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2836f7ba3e4caaa50800000000000000
+      internalID: 6533250691568198530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 106
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2649896552984adf0800000000000000
+      internalID: -169860092473600926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_67
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 152
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe05507c1d00d840800000000000000
+      internalID: 5246707981681495793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_68
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 106
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88182224239a8cc90800000000000000
+      internalID: -7149278375127645816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_69
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 152
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea143cf17fe8a9d10800000000000000
+      internalID: 2133174565554307502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_70
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36831a99c27d18680800000000000000
+      internalID: -8754479614075520925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_71
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61051fedfb92e8d90800000000000000
+      internalID: -7093686459006103530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_72
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 88
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a1e37a31745ccd0800000000000000
+      internalID: -2538544665217590719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CircleImpact03_73
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 88
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19df7a1925eaf1ae0800000000000000
+      internalID: -1576349674902127215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CircleImpact03_0: 9123369325543607323
+      CircleImpact03_1: -5465070646193647764
+      CircleImpact03_10: -6593912352611342907
+      CircleImpact03_11: -2911200655691498284
+      CircleImpact03_12: 6395509427519038500
+      CircleImpact03_13: -2647279326976557208
+      CircleImpact03_14: -8308812300871392629
+      CircleImpact03_15: -3206347396013340126
+      CircleImpact03_16: 5069360592989149796
+      CircleImpact03_17: 983099027186527505
+      CircleImpact03_18: 5202724317976443642
+      CircleImpact03_19: 4453334065682033755
+      CircleImpact03_2: 4489491151430141683
+      CircleImpact03_20: 7825094287557336364
+      CircleImpact03_21: 5077550952077214263
+      CircleImpact03_22: 3171311512760347369
+      CircleImpact03_23: -6121597713201861973
+      CircleImpact03_24: -8097499610760895203
+      CircleImpact03_25: -2833716012835540456
+      CircleImpact03_26: -6564191867034527529
+      CircleImpact03_27: -7138538126732727197
+      CircleImpact03_28: -4261724162352912983
+      CircleImpact03_29: -3803696655083081681
+      CircleImpact03_3: -2674870389412217708
+      CircleImpact03_30: -4625431159213255739
+      CircleImpact03_31: 5230594575167940283
+      CircleImpact03_32: -5504974830820747595
+      CircleImpact03_33: 7586195945791040936
+      CircleImpact03_34: -2927493342015558503
+      CircleImpact03_35: -6439590224349925052
+      CircleImpact03_36: -1054466993887679405
+      CircleImpact03_37: -829816521279087473
+      CircleImpact03_38: -2673874353079206737
+      CircleImpact03_39: 6292305669733584497
+      CircleImpact03_4: 299739359884563711
+      CircleImpact03_40: -4522570332090706567
+      CircleImpact03_41: 6476444741474798706
+      CircleImpact03_42: 3038920094809132641
+      CircleImpact03_43: 2503635000422867276
+      CircleImpact03_44: -1614896686934594006
+      CircleImpact03_45: -925184598553030717
+      CircleImpact03_46: 4244934180568891623
+      CircleImpact03_47: 1317892343139016389
+      CircleImpact03_48: 6014953361513562712
+      CircleImpact03_49: -3560331343216461742
+      CircleImpact03_5: 7734254872557968265
+      CircleImpact03_50: -1614027646372986175
+      CircleImpact03_51: -9143828366572565810
+      CircleImpact03_52: 2874011688244979187
+      CircleImpact03_53: 4974246881068447050
+      CircleImpact03_54: -5177185757665911452
+      CircleImpact03_55: 4140276956310629205
+      CircleImpact03_56: 3226159724012993824
+      CircleImpact03_57: 8920547918952422440
+      CircleImpact03_58: 1235706512919700578
+      CircleImpact03_59: 7016060135097935100
+      CircleImpact03_6: -1535970000473867624
+      CircleImpact03_60: 777336016606313725
+      CircleImpact03_61: 8921324555006961844
+      CircleImpact03_62: 1816730141620651910
+      CircleImpact03_63: -8203533450226742832
+      CircleImpact03_64: -3346336709848534351
+      CircleImpact03_65: 6533250691568198530
+      CircleImpact03_66: -169860092473600926
+      CircleImpact03_67: 5246707981681495793
+      CircleImpact03_68: -7149278375127645816
+      CircleImpact03_69: 2133174565554307502
+      CircleImpact03_7: 8231632497386178147
+      CircleImpact03_70: -8754479614075520925
+      CircleImpact03_71: -7093686459006103530
+      CircleImpact03_72: -2538544665217590719
+      CircleImpact03_73: -1576349674902127215
+      CircleImpact03_8: 7014202091441536434
+      CircleImpact03_9: 5079261386776893143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

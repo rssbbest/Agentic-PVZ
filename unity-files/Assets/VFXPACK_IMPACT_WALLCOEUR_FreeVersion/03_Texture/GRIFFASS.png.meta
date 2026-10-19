@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 6c04eed2e84df904dada3f67ac564f36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9026732907294529462
+    second: GRIFFASS_0
+  - first:
+      213: -5325455372359732650
+    second: GRIFFASS_1
+  - first:
+      213: 1165272171229174441
+    second: GRIFFASS_2
+  - first:
+      213: -789637697164450612
+    second: GRIFFASS_3
+  - first:
+      213: 7696188764675047004
+    second: GRIFFASS_4
+  - first:
+      213: -44616408858140694
+    second: GRIFFASS_5
+  - first:
+      213: -6126908771798491569
+    second: GRIFFASS_6
+  - first:
+      213: 7080340666515060922
+    second: GRIFFASS_7
+  - first:
+      213: -1644489220693706418
+    second: GRIFFASS_8
+  - first:
+      213: -1017521837273956090
+    second: GRIFFASS_9
+  - first:
+      213: -8415427687143261754
+    second: GRIFFASS_10
+  - first:
+      213: -1968469090959573124
+    second: GRIFFASS_11
+  - first:
+      213: -3081967563374309654
+    second: GRIFFASS_12
+  - first:
+      213: -1399927003698157088
+    second: GRIFFASS_13
+  - first:
+      213: 5652236841129252766
+    second: GRIFFASS_14
+  - first:
+      213: -6659694816486254028
+    second: GRIFFASS_15
+  - first:
+      213: -8056373319903521531
+    second: GRIFFASS_16
+  - first:
+      213: 537978393551649603
+    second: GRIFFASS_17
+  - first:
+      213: -6332285048879632817
+    second: GRIFFASS_18
+  - first:
+      213: 4104880240514445484
+    second: GRIFFASS_19
+  - first:
+      213: 1615047959040382616
+    second: GRIFFASS_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GRIFFASS_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1252
+        width: 261
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48616a1f3a9ab280800000000000000
+      internalID: -9026732907294529462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_1
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1213
+        width: 494
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6527d47ed8e2816b0800000000000000
+      internalID: -5325455372359732650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1203
+        width: 487
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa53c8add0eb2010800000000000000
+      internalID: 1165272171229174441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 702
+        width: 472
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc46147b2b4aa05f0800000000000000
+      internalID: -789637697164450612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 761
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5efec2c7ea5eca60800000000000000
+      internalID: 7696188764675047004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 714
+        width: 460
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef5bdecc9d716ff0800000000000000
+      internalID: -44616408858140694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_6
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 714
+        width: 442
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed9bd0fe8d8faa0800000000000000
+      internalID: -6126908771798491569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 226
+        width: 307
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8f16ca25c624260800000000000000
+      internalID: 7080340666515060922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 264
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49b79344c99d29e0800000000000000
+      internalID: -1644489220693706418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_9
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 243
+        width: 121
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6014512b74901e1f0800000000000000
+      internalID: -1017521837273956090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_10
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 276
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9b6dafa15663b80800000000000000
+      internalID: -8415427687143261754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_11
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 269
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fb40a8ac79ea4e0800000000000000
+      internalID: -1968469090959573124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_12
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 264
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee4ccf74d6aa35d0800000000000000
+      internalID: -3081967563374309654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_13
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 260
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e92819aec5729ce0800000000000000
+      internalID: -1399927003698157088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_14
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 211
+        width: 96
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9792edc577c07e40800000000000000
+      internalID: 5652236841129252766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_15
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 276
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a93d659d20493a0800000000000000
+      internalID: -6659694816486254028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_16
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 266
+        width: 168
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50557396623023090800000000000000
+      internalID: -8056373319903521531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_17
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 245
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b3b74af78477700800000000000000
+      internalID: 537978393551649603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_18
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 228
+        width: 100
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e23054c443f18a0800000000000000
+      internalID: -6332285048879632817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 202
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0326584d677f830800000000000000
+      internalID: 4104880240514445484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRIFFASS_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 202
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89652d5df8dc96610800000000000000
+      internalID: 1615047959040382616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GRIFFASS_0: -9026732907294529462
+      GRIFFASS_1: -5325455372359732650
+      GRIFFASS_10: -8415427687143261754
+      GRIFFASS_11: -1968469090959573124
+      GRIFFASS_12: -3081967563374309654
+      GRIFFASS_13: -1399927003698157088
+      GRIFFASS_14: 5652236841129252766
+      GRIFFASS_15: -6659694816486254028
+      GRIFFASS_16: -8056373319903521531
+      GRIFFASS_17: 537978393551649603
+      GRIFFASS_18: -6332285048879632817
+      GRIFFASS_19: 4104880240514445484
+      GRIFFASS_2: 1165272171229174441
+      GRIFFASS_20: 1615047959040382616
+      GRIFFASS_3: -789637697164450612
+      GRIFFASS_4: 7696188764675047004
+      GRIFFASS_5: -44616408858140694
+      GRIFFASS_6: -6126908771798491569
+      GRIFFASS_7: 7080340666515060922
+      GRIFFASS_8: -1644489220693706418
+      GRIFFASS_9: -1017521837273956090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

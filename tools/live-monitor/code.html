@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Agent Code View</title>
+<style>
+:root { --bg: #1e1e1e; --gutter: #858585; --text: #d4d4d4; --kw: #c586c0; --str: #ce9178; --com: #6a9955;
+  --num: #b5cea8; --dec: #dcdcaa; --fn: #dcdcaa; --chg: #e3b341; --tab: #252526; --line: #333; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); }
+.bar { display: flex; align-items: center; gap: 10px; height: 36px; background: var(--tab); border-bottom: 1px solid var(--line);
+  font: 13px system-ui, sans-serif; padding: 0 14px; color: #ccc; }
+.bar .file { background: var(--bg); padding: 8px 14px; border-top: 2px solid #0e639c; }
+.bar .saved { margin-left: auto; color: var(--chg); opacity: 0; transition: opacity .3s; }
+.bar .saved.on { opacity: 1; }
+#code { overflow: auto; height: calc(100% - 37px); font: 15px/1.55 ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace; }
+.ln { display: flex; white-space: pre; padding-right: 20px; }
+.ln .no { width: 52px; flex: none; text-align: right; padding-right: 18px; color: var(--gutter); user-select: none; }
+.ln.changed { background: rgba(227, 179, 65, .22); animation: flash 4s ease-out; }
+@keyframes flash { 0% { background: rgba(227, 179, 65, .65); } 100% { background: rgba(227, 179, 65, .22); } }
+.kw { color: var(--kw); } .str { color: var(--str); } .com { color: var(--com); } .num { color: var(--num); } .dec { color: var(--dec); }
+</style>
+</head>
+<body>
+<div class="bar"><span class="file" id="file">agent.py</span><span class="saved" id="saved">● saved, live from the next game pause</span></div>
+<div id="code"></div>
+<script>
+const KW = /\b(def|return|if|elif|else|for|in|not|and|or|import|from|as|try|except|pass|with|lambda|None|True|False|while|class|is)\b/g;
+let last = null, mtime = 0;
+const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"}[c]));
+
+function paint(line) {
+  // Minimal Python colouring: comments, strings, decorators, keywords, numbers.
+  const m = line.match(/^(\s*)(#.*)$/);
+  if (m) return esc(m[1]) + `<span class="com">${esc(m[2])}</span>`;
+  let out = "", rest = line;
+  const re = /("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'|#.*$)/;
+  while (rest.length) {
+    const hit = rest.match(re);
+    const before = hit ? rest.slice(0, hit.index) : rest;
+    out += esc(before).replace(/^(\s*)(@\w+)/, '$1<span class="dec">$2</span>').replace(KW, '<span class="kw">$1</span>').replace(/\b(\d+(?:\.\d+)?)\b/g, '<span class="num">$1</span>');
+    if (!hit) break;
+    out += `<span class="${hit[0].startsWith("#") ? "com" : "str"}">${esc(hit[0])}</span>`;
+    rest = rest.slice(hit.index + hit[0].length);
+  }
+  return out;
+}
+
+async function poll() {
+  try {
+    const src = await (await fetch("/code/source", {cache: "no-store"})).json();
+    if (src.mtime !== mtime) {
+      const lines = src.text.split("\n");
+      const before = last ? last.split("\n") : null;
+      document.getElementById("file").textContent = (src.path || "agent.py").split("/").slice(-3).join("/");
+      document.getElementById("code").innerHTML = lines.map((l, i) =>
+        `<div class="ln${before && before[i] !== l ? " changed" : ""}" data-line="${i + 1}"><span class="no">${i + 1}</span><span>${paint(l) || " "}</span></div>`).join("");
+      if (last !== null) {
+        const s = document.getElementById("saved"); s.classList.add("on"); setTimeout(() => s.classList.remove("on"), 5000);
+        document.querySelector(".ln.changed")?.scrollIntoView({block: "center", behavior: "smooth"});
+      }
+      last = src.text; mtime = src.mtime;
+    }
+  } catch (e) {}
+  setTimeout(poll, 700);
+}
+poll();
+</script>
+</body>
+</html>

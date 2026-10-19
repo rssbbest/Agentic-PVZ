@@ -1,0 +1,109 @@
+# SITE_ADDRESS: a domain (or <ip>.sslip.io) gets a Let's Encrypt certificate
+# automatically; ":80" serves plain HTTP (local testing only: browsers block a
+# public HTTP page from calling the SDK on 127.0.0.1).
+{
+	servers {
+		timeouts {
+			read_body 30s
+			idle 2m
+		}
+	}
+}
+
+(site) {
+	# Participant routes, the registration page and the admin dashboard (its
+	# API needs X-Admin-Secret). Submission and simulator routes stay internal.
+	@backend path /backend/api/* /backend/health /backend/register /backend/admin /backend/admin/*
+	handle @backend {
+		uri strip_prefix /backend
+		reverse_proxy backend:8010
+	}
+	redir /register /backend/register
+	redir /admin /backend/admin
+	handle_path /llm/v1/* {
+		rewrite * /v1{uri}
+		reverse_proxy gateway:8004
+	}
+	# The one-line installers: curl -fsSL https://<site>/install.sh | sh  ·  irm https://<site>/install.ps1 | iex
+	@installer path /install.sh /install.ps1
+	handle @installer {
+		root * /srv/install
+		file_server
+	}
+	# The public and private leaderboards (live through /backend/api/leaderboard/stream).
+	redir /leaderboard /leaderboard/
+	handle_path /leaderboard/* {
+		root * /srv/leaderboard
+		file_server
+	}
+	# The guide, formatted, for browsers; curl, the install lines and ?raw get the Markdown file.
+	redir /guide /download/README_PARTICIPANT.md
+	redir /guide/event /download/playerGuide_event.md
+	handle_path /download/* {
+		@participantGuide {
+			path /README_PARTICIPANT.md
+			header Accept *text/html*
+			not query raw=*
+		}
+		handle @participantGuide {
+			root * /srv/guide
+			rewrite * /index.html
+			header Cache-Control "no-cache"
+			templates
+			file_server
+		}
+		@eventGuide {
+			path /playerGuide_event.md
+			header Accept *text/html*
+			not query raw=*
+		}
+		handle @eventGuide {
+			root * /srv/guide
+			rewrite * /event.html
+			header Cache-Control "no-cache"
+			templates
+			file_server
+		}
+		handle {
+			root * /srv/download
+			# never a stale program or manifest from a cache
+			header Cache-Control "no-cache"
+			file_server browse
+		}
+	}
+	handle {
+		root * /srv/game
+		@build path /Build/*
+		@page not path /Build/*
+		header @build Cache-Control "public, max-age=86400"
+		header @page Cache-Control "no-cache"
+		file_server {
+			precompressed gzip
+		}
+	}
+	log {
+		output stdout
+		# Never write the admin secret to the log (Authorization and cookies
+		# are already redacted by Caddy).
+		format filter {
+			wrap console
+			request>headers>X-Admin-Secret delete
+		}
+	}
+}
+
+{$SITE_ADDRESS::80} {
+	import site
+}
+
+# The event's domain. Best as a Cloudflare "DNS only" record (straight to this
+# server: Cloudflare's proxy sends Indian visitors through Europe): then Caddy
+# gets a Let's Encrypt certificate. While the record is proxied (SSL/TLS mode
+# "Full"), Let's Encrypt may not reach Caddy and its own certificate serves it.
+{$EVENT_DOMAIN:autopilot.gdgnsut.com} {
+	tls {
+		issuer acme
+		issuer internal
+	}
+	import site
+}

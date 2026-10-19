@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: ab41667d3e5495147a0b5ed61c88c5e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5086683717475040260
+    second: ImpatcValo8_0
+  - first:
+      213: -7336481173305335940
+    second: ImpatcValo8_1
+  - first:
+      213: -3717736399570470792
+    second: ImpatcValo8_2
+  - first:
+      213: -1418092485172466046
+    second: ImpatcValo8_3
+  - first:
+      213: 4710088812558961743
+    second: ImpatcValo8_4
+  - first:
+      213: -5895997931717092065
+    second: ImpatcValo8_5
+  - first:
+      213: -5633453542510257413
+    second: ImpatcValo8_6
+  - first:
+      213: -2778813929780330072
+    second: ImpatcValo8_7
+  - first:
+      213: -4214256226815630568
+    second: ImpatcValo8_8
+  - first:
+      213: -7675433724457658980
+    second: ImpatcValo8_9
+  - first:
+      213: 3841687346606717957
+    second: ImpatcValo8_10
+  - first:
+      213: -3490148808865957588
+    second: ImpatcValo8_11
+  - first:
+      213: 8542726137926199496
+    second: ImpatcValo8_12
+  - first:
+      213: -6132390263238790444
+    second: ImpatcValo8_13
+  - first:
+      213: -7516112764265566639
+    second: ImpatcValo8_14
+  - first:
+      213: 1834228895100264496
+    second: ImpatcValo8_15
+  - first:
+      213: 7105167093782245642
+    second: ImpatcValo8_16
+  - first:
+      213: 2174213029478879992
+    second: ImpatcValo8_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ImpatcValo8_0
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1039
+        width: 181
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3032ffb187869b0800000000000000
+      internalID: -5086683717475040260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_1
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1043
+        width: 179
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f5bc34e359f2a90800000000000000
+      internalID: -7336481173305335940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_2
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1040
+        width: 103
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878ff072172f76cc0800000000000000
+      internalID: -3717736399570470792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 532
+        width: 127
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ee4aae56ce15ce0800000000000000
+      internalID: -1418092485172466046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 535
+        width: 144
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c4e15e1d89d5140800000000000000
+      internalID: 4710088812558961743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_5
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 536
+        width: 136
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d90939e153d2ea0800000000000000
+      internalID: -5895997931717092065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 408
+        width: 16
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa9204b9d3f1d1b0800000000000000
+      internalID: -5633453542510257413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 439
+        width: 11
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a14982247baf69d0800000000000000
+      internalID: -2778813929780330072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 33
+        width: 115
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8132d203a44f385c0800000000000000
+      internalID: -4214256226815630568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_9
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 181
+        width: 79
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d5ac91b16b7590800000000000000
+      internalID: -7675433724457658980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_10
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 325
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c3b90a94a605530800000000000000
+      internalID: 3841687346606717957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_11
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 322
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29ba426620809fc0800000000000000
+      internalID: -3490148808865957588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 219
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c82980492cdd8670800000000000000
+      internalID: 8542726137926199496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 146
+        width: 13
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2769fdb8f55eaa0800000000000000
+      internalID: -6132390263238790444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_14
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 169
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15eeb22534761b790800000000000000
+      internalID: -7516112764265566639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_15
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 45
+        width: 45
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0306531467d747910800000000000000
+      internalID: 1834228895100264496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 79
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a017fa6b3df9a9260800000000000000
+      internalID: 7105167093782245642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImpatcValo8_17
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 79
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f25d181b3b5c2e10800000000000000
+      internalID: 2174213029478879992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ImpatcValo8_0: -5086683717475040260
+      ImpatcValo8_1: -7336481173305335940
+      ImpatcValo8_10: 3841687346606717957
+      ImpatcValo8_11: -3490148808865957588
+      ImpatcValo8_12: 8542726137926199496
+      ImpatcValo8_13: -6132390263238790444
+      ImpatcValo8_14: -7516112764265566639
+      ImpatcValo8_15: 1834228895100264496
+      ImpatcValo8_16: 7105167093782245642
+      ImpatcValo8_17: 2174213029478879992
+      ImpatcValo8_2: -3717736399570470792
+      ImpatcValo8_3: -1418092485172466046
+      ImpatcValo8_4: 4710088812558961743
+      ImpatcValo8_5: -5895997931717092065
+      ImpatcValo8_6: -5633453542510257413
+      ImpatcValo8_7: -2778813929780330072
+      ImpatcValo8_8: -4214256226815630568
+      ImpatcValo8_9: -7675433724457658980
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

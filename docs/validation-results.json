@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-11",
+  "automated_tests": {
+    "sdk": 47,
+    "integration": 18,
+    "backend": 9,
+    "total": 74
+  },
+  "portable_end_to_end": {
+    "test_agent": {
+      "submission_id": 1,
+      "status": "completed",
+      "score": 46.4703,
+      "runs": {
+        "completed": 50
+      },
+      "engine": "portable"
+    },
+    "llm_agent": {
+      "submission_id": 2,
+      "status": "completed",
+      "score": 38.1434,
+      "runs": {
+        "completed": 50
+      },
+      "engine": "portable"
+    },
+    "backend_stream": "status_update",
+    "gateway": {
+      "status": "ok",
+      "gateway": "local-development",
+      "cachedStrategies": 1,
+      "providerCalls": 1,
+      "cacheHits": 49,
+      "lastStatus": "cached_success",
+      "model": "gemini-3.5-flash-lite"
+    }
+  },
+  "negative_and_recovery": {
+    "test_agent": {
+      "submission_id": 1,
+      "status": "completed",
+      "score": 46.4703,
+      "runs": {
+        "completed": 50
+      },
+      "engine": "portable"
+    },
+    "backend_stream": "status_update",
+    "gateway": {
+      "status": "ok",
+      "gateway": "local-development",
+      "cachedStrategies": 1,
+      "providerCalls": 1,
+      "cacheHits": 49,
+      "lastStatus": "cached_success",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "duplicate_rejection": {
+      "submission_id": 3,
+      "status": "completed",
+      "score": 0.0,
+      "runs": {
+        "invalid": 50
+      }
+    },
+    "sdk_outage": {
+      "submission_id": 4,
+      "status": "failed",
+      "score": null,
+      "runs": {
+        "failed": 50
+      }
+    },
+    "sdk_recovery": {
+      "submission_id": 4,
+      "status": "completed",
+      "score": 46.4703,
+      "runs": {
+        "completed": 50
+      }
+    }
+  },
+  "frontend": {
+    "provider_key_excluded_from_other_service_environments": true,
+    "mobile_ui_and_portable_practice": "passed",
+    "javascript_errors": []
+  },
+  "native_unity_practice": {
+    "baseline": {
+      "sdk_valid": true,
+      "run_id": "1576732957",
+      "result": {
+        "engine": "unity",
+        "totalEnemies": 12,
+        "killed": 5,
+        "escaped": 7,
+        "defencesPlaced": 25,
+        "defencesAlive": 8,
+        "durationSeconds": 180.15457153320312,
+        "won": false
+      },
+      "score": 39.7333,
+      "replay_frames": 46
+    },
+    "gemini": {
+      "sdk_valid": true,
+      "run_id": "1004658414",
+      "result": {
+        "engine": "unity",
+        "totalEnemies": 12,
+        "killed": 3,
+        "escaped": 9,
+        "defencesPlaced": 25,
+        "defencesAlive": 9,
+        "durationSeconds": 180.30348205566406,
+        "won": false
+      },
+      "score": 27.2,
+      "replay_frames": 45
+    }
+  },
+  "native_unity_build": "passed, Unity 6000.1.17f1, fresh source import",
+  "webgl_build": "cancelled at user request during compilation",
+  "live_services": "stopped at user request"
+}

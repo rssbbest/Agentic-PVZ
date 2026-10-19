@@ -1,0 +1,5 @@
+autopilot-backend/
+tests/
+build/
+**/__pycache__
+*.egg-info

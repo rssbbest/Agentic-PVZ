@@ -1,0 +1,20 @@
+# Build context for docker-compose.yml (repo root). Only what the images copy.
+**/.git
+**/.venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+.runtime
+**/.env
+**/.env.*
+artifacts
+unity-files
+autopilot-game-engine_old/*
+!autopilot-game-engine_old/build12
+autopilot-game-engine_old/build12/server.py
+autopilot-sdk/build
+autopilot-sdk/dist
+autopilot-sdk-binary/build
+autopilot-sdk-binary/dist
+autopilot-sdk-binary/bin/*.zip
+test-agent

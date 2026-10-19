@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zombie Defence — Survivor Rankings</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Three.js living background: toxic-green lawn, drifting spores, patrolling defenders -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Atmosphere overlays (CSS) on top of the WebGL scene -->
+  <div class="vignette" aria-hidden="true"></div>
+  <div class="haze" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <p class="eyebrow">// QUARANTINE ZONE &mdash; THE LAWN HOLDS</p>
+    <h1 class="title" data-text="SURVIVOR RANKINGS">SURVIVOR RANKINGS</h1>
+    <p class="tagline">The horde presses the line. Defenders dig in. Only the ranked endure.</p>
+  </header>
+
+  <main class="board-wrap">
+    <section class="controls tabs" role="tablist" aria-label="Leaderboards">
+      <button type="button" class="tab" role="tab" data-board="public" aria-selected="true">
+        Live <small>public test cases</small>
+      </button>
+      <button type="button" class="tab" role="tab" data-board="private" aria-selected="false">
+        Final <small>hidden test cases</small>
+      </button>
+      <span class="live-dot" id="liveDot" title="Connection"></span>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <section class="board" aria-label="Team rankings">
+      <div class="board-head" role="row">
+        <span class="col-rank"  role="columnheader">Rank</span>
+        <span class="col-team"  role="columnheader">Team</span>
+        <span class="col-id"    role="columnheader">ID</span>
+        <span class="col-score" role="columnheader">Score</span>
+      </div>
+      <ul id="rows" class="board-rows" role="rowgroup"></ul>
+    </section>
+
+    <footer class="footer">
+      <span class="pulse" aria-hidden="true"></span>
+      <span id="updated"></span>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="background.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

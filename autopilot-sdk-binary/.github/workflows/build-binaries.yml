@@ -1,0 +1,55 @@
+name: Build standalone binaries
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-22.04
+            target: linux-x86_64
+          - os: windows-2022
+            target: windows-x86_64
+          - os: macos-15-intel
+            target: macos-x86_64
+          - os: macos-15
+            target: macos-arm64
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install ".[build]"
+      - run: python build_binary.py
+      - name: Smoke-check executable
+        shell: bash
+        run: |
+          if [[ "${{ runner.os }}" == "Windows" ]]; then
+            dist/autopilot-windows-x86_64.exe version
+          elif [[ "${{ matrix.target }}" == "macos-x86_64" ]]; then
+            dist/autopilot-macos-x86_64 version
+          elif [[ "${{ matrix.target }}" == "macos-arm64" ]]; then
+            dist/autopilot-macos-arm64 version
+          else
+            dist/autopilot-linux-x86_64 version
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: autopilot-${{ matrix.target }}
+          path: dist/autopilot-*
+          if-no-files-found: error
+      - name: Attach to tagged release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/autopilot-*
