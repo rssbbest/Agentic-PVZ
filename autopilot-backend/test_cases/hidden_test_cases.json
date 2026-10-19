@@ -1,0 +1,213 @@
+[
+  {
+    "name": "H01_Mirror_Swarm",
+    "description": "Example hidden test case: replace it from the admin dashboard before the event",
+    "enemies": [
+      {
+        "enemyId": 0,
+        "count": 3,
+        "allowedRows": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "enemyId": 1,
+        "count": 4,
+        "allowedRows": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "enemyId": 2,
+        "count": 1,
+        "allowedRows": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "spawnSettings": {
+      "interArrivalTime": 5.0,
+      "timeDecreaseRate": 0.3,
+      "minInterArrivalTime": 0.8
+    },
+    "gameSettings": {
+      "reinforcementsEnabled": true,
+      "reinforcementIntervalSeconds": 10.0,
+      "reinforcementHoldSeconds": 0.2,
+      "sendScreenshotToo": false
+    },
+    "code": "H01"
+  },
+  {
+    "name": "H02_Wizard_Wall",
+    "description": "Example hidden test case: replace it from the admin dashboard before the event",
+    "enemies": [
+      {
+        "enemyId": 0,
+        "count": 2,
+        "allowedRows": [
+          3
+        ]
+      },
+      {
+        "enemyId": 2,
+        "count": 10,
+        "allowedRows": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "spawnSettings": {
+      "interArrivalTime": 6.0,
+      "timeDecreaseRate": 0.2,
+      "minInterArrivalTime": 1.2
+    },
+    "gameSettings": {
+      "reinforcementsEnabled": true,
+      "reinforcementIntervalSeconds": 10.0,
+      "reinforcementHoldSeconds": 0.2,
+      "sendScreenshotToo": false
+    },
+    "code": "H02"
+  },
+  {
+    "name": "H03_Pirate_Flank",
+    "description": "Example hidden test case: replace it from the admin dashboard before the event",
+    "enemies": [
+      {
+        "enemyId": 0,
+        "count": 8,
+        "allowedRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "enemyId": 1,
+        "count": 11,
+        "allowedRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "spawnSettings": {
+      "interArrivalTime": 3.5,
+      "timeDecreaseRate": 0.15,
+      "minInterArrivalTime": 0.4
+    },
+    "gameSettings": {
+      "reinforcementsEnabled": true,
+      "reinforcementIntervalSeconds": 7.0,
+      "reinforcementHoldSeconds": 0.2,
+      "sendScreenshotToo": false
+    },
+    "code": "H03"
+  },
+  {
+    "name": "H04_Mixed_Siege",
+    "description": "Example hidden test case: replace it from the admin dashboard before the event",
+    "enemies": [
+      {
+        "enemyId": 0,
+        "count": 10,
+        "allowedRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "enemyId": 1,
+        "count": 1,
+        "allowedRows": [
+          2,
+          3
+        ]
+      },
+      {
+        "enemyId": 3,
+        "count": 9,
+        "allowedRows": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "spawnSettings": {
+      "interArrivalTime": 4.5,
+      "timeDecreaseRate": 0.2,
+      "minInterArrivalTime": 0.5
+    },
+    "gameSettings": {
+      "reinforcementsEnabled": true,
+      "reinforcementIntervalSeconds": 8.0,
+      "reinforcementHoldSeconds": 0.2,
+      "sendScreenshotToo": false
+    },
+    "code": "H04"
+  },
+  {
+    "name": "H05_Late_Rush",
+    "description": "Example hidden test case: replace it from the admin dashboard before the event",
+    "enemies": [
+      {
+        "enemyId": 1,
+        "count": 9,
+        "allowedRows": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "enemyId": 3,
+        "count": 11,
+        "allowedRows": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "spawnSettings": {
+      "interArrivalTime": 4.0,
+      "timeDecreaseRate": 0.1,
+      "minInterArrivalTime": 0.5
+    },
+    "gameSettings": {
+      "reinforcementsEnabled": true,
+      "reinforcementIntervalSeconds": 6.0,
+      "reinforcementHoldSeconds": 0.2,
+      "sendScreenshotToo": false
+    },
+    "code": "H05"
+  }
+]

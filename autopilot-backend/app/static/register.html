@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autopilot Registration</title>
+<style>
+  :root { --bg: #070b14; --panel: #0e1526; --line: #1f2b45; --text: #e6edf7; --dim: #8a97b1;
+          --accent: #35e0c2; --accent2: #7aa2ff; --bad: #ff6b6b; --ok: #4ade80; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: radial-gradient(1200px 600px at 20% -10%, #12234a 0%, transparent 60%), var(--bg);
+         color: var(--text); font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 40px 16px 64px; }
+  .tag { font: 600 12px/1 ui-monospace, Menlo, monospace; letter-spacing: .2em; color: var(--accent); }
+  h1 { margin: 10px 0 6px; font-size: 28px; letter-spacing: -.01em; }
+  p.lead { color: var(--dim); margin: 0 0 24px; white-space: pre-line; }
+  form, .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+  label { display: block; font-weight: 600; margin: 16px 0 6px; }
+  label:first-child { margin-top: 0; }
+  .req { color: var(--accent); }
+  .help { color: var(--dim); font-size: 13px; margin: -2px 0 6px; }
+  input[type=text], input[type=email], input[type=password], input[type=number], input[type=url], textarea, select {
+    width: 100%; padding: 10px 12px; border-radius: 9px; border: 1px solid var(--line); background: #0a1120; color: var(--text);
+    font: inherit; outline: none; }
+  textarea { min-height: 90px; resize: vertical; }
+  input:focus, textarea:focus, select:focus { border-color: var(--accent2); box-shadow: 0 0 0 3px #7aa2ff22; }
+  .check { display: flex; gap: 8px; align-items: center; font-weight: 400; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 520px) { .row { grid-template-columns: 1fr; } }
+  button { margin-top: 22px; width: 100%; padding: 12px; border: 0; border-radius: 10px; cursor: pointer;
+           background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #04101c; font-family: inherit; font-size: 15px; font-weight: 700; }
+  button:disabled { opacity: .6; cursor: wait; }
+  .err { color: var(--bad); margin-top: 14px; min-height: 1em; }
+  .done { text-align: center; }
+  .code { font: 700 56px/1.1 ui-monospace, Menlo, monospace; color: var(--accent); letter-spacing: .12em; margin: 12px 0; }
+  .muted { color: var(--dim); }
+</style>
+</head>
+<body>
+<main>
+  <div class="tag">AUTOPILOT // TEAM REGISTRATION</div>
+  <h1 id="title">Team registration</h1>
+  <p class="lead" id="desc"></p>
+  <div id="closed" class="card" hidden><b>Registration is closed.</b><p class="muted">Contact the organisers if you need help.</p></div>
+  <form id="form" hidden novalidate>
+    <label for="teamName">Team name <span class="req">*</span></label>
+    <input id="teamName" type="text" maxlength="60" autocomplete="organization" required>
+    <div class="row">
+      <div><label for="pw">Password <span class="req">*</span></label>
+        <input id="pw" type="password" minlength="8" autocomplete="new-password" required></div>
+      <div><label for="pw2">Repeat password <span class="req">*</span></label>
+        <input id="pw2" type="password" minlength="8" autocomplete="new-password" required></div>
+    </div>
+    <div class="help">At least 8 characters. You log in to the game with your team ID and this password.</div>
+    <div id="questions"></div>
+    <button id="submit" type="submit">Register team</button>
+    <div class="err" id="err" role="alert"></div>
+  </form>
+  <div id="done" class="card done" hidden>
+    <div class="tag">REGISTERED</div>
+    <p>Your team ID is</p>
+    <div class="code" id="teamCode"></div>
+    <p id="doneText"></p>
+    <p class="muted">Keep your team ID and password: the game asks for both.</p>
+  </div>
+</main>
+<script>
+  const base = location.pathname.replace(/\/register\/?$/, "");
+  const $ = (id) => document.getElementById(id);
+  let form;
+
+  function field(q) {
+    const wrap = document.createElement("div");
+    const id = "q_" + q.id;
+    if (q.type === "checkbox") {
+      wrap.innerHTML = `<label class="check"><input type="checkbox" id="${id}"> <span></span></label>`;
+      wrap.querySelector("span").textContent = q.label + (q.required ? " *" : "");
+    } else {
+      const label = document.createElement("label");
+      label.htmlFor = id;
+      label.textContent = q.label + " ";
+      if (q.required) label.insertAdjacentHTML("beforeend", '<span class="req">*</span>');
+      wrap.appendChild(label);
+      let input;
+      if (q.type === "textarea") input = document.createElement("textarea");
+      else if (q.type === "select") {
+        input = document.createElement("select");
+        input.innerHTML = '<option value="">Choose…</option>';
+        for (const o of q.options || []) { const opt = document.createElement("option"); opt.value = opt.textContent = o; input.appendChild(opt); }
+      } else { input = document.createElement("input"); input.type = q.type; }
+      input.id = id;
+      wrap.appendChild(input);
+    }
+    if (q.help) { const h = document.createElement("div"); h.className = "help"; h.textContent = q.help; wrap.appendChild(h); }
+    return wrap;
+  }
+
+  async function load() {
+    const r = await fetch(base + "/api/registration/form");
+    form = await r.json();
+    $("title").textContent = form.title;
+    $("desc").textContent = form.description || "";
+    document.title = form.title;
+    if (!form.open) { $("closed").hidden = false; return; }
+    for (const q of form.questions) $("questions").appendChild(field(q));
+    $("form").hidden = false;
+  }
+
+  $("form").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    $("err").textContent = "";
+    if ($("pw").value.length < 8) return ($("err").textContent = "The password needs at least 8 characters.");
+    if ($("pw").value !== $("pw2").value) return ($("err").textContent = "The two passwords are different.");
+    const answers = {};
+    for (const q of form.questions) {
+      const el = $("q_" + q.id);
+      answers[q.id] = q.type === "checkbox" ? el.checked : el.value;
+    }
+    $("submit").disabled = true;
+    try {
+      const r = await fetch(base + "/api/register", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ teamName: $("teamName").value, password: $("pw").value, answers }) });
+      const body = await r.json();
+      if (!r.ok) {
+        const d = body.detail;
+        $("err").textContent = Array.isArray(d) ? d.map((x) => x.msg).join("; ") : d || "Registration failed";
+        return;
+      }
+      $("form").hidden = true;
+      $("teamCode").textContent = body.teamID;
+      $("doneText").textContent = body.approved
+        ? `${body.teamName} is registered. You can log in now.`
+        : `${body.teamName} is registered. You can log in once the organisers approve your team.`;
+      $("done").hidden = false;
+    } catch (e) {
+      $("err").textContent = "Could not reach the server: " + e.message;
+    } finally {
+      $("submit").disabled = false;
+    }
+  });
+  load().catch((e) => { $("desc").textContent = "Could not load the form: " + e.message; });
+</script>
+</body>
+</html>

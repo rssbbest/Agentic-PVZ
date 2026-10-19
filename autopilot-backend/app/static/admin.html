@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autopilot Admin</title>
+<style>
+  :root { --bg: #070b14; --panel: #0e1526; --panel2: #0a1120; --line: #1f2b45; --text: #e6edf7; --dim: #8a97b1;
+          --accent: #35e0c2; --accent2: #7aa2ff; --bad: #ff6b6b; --warn: #fbbf24; --ok: #4ade80; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { display: flex; align-items: center; gap: 18px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: #0b1222;
+           position: sticky; top: 0; z-index: 5; flex-wrap: wrap; }
+  .brand { font: 700 13px/1 ui-monospace, Menlo, monospace; letter-spacing: .2em; color: var(--accent); }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; }
+  nav button { background: none; border: 1px solid transparent; color: var(--dim); padding: 7px 12px; border-radius: 8px; cursor: pointer; font: inherit; }
+  nav button.on { color: var(--text); border-color: var(--line); background: var(--panel); }
+  main { padding: 20px; max-width: 1400px; margin: 0 auto; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .stat b { display: block; font-size: 26px; font-variant-numeric: tabular-nums; }
+  .stat span { color: var(--dim); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .bar { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+  .bar .grow { flex: 1; }
+  input, select, textarea { background: var(--panel2); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; font: inherit; }
+  textarea { width: 100%; font: 12.5px/1.45 ui-monospace, Menlo, monospace; }
+  button.b { background: var(--panel2); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 6px 11px; cursor: pointer; font: inherit; }
+  button.b:hover { border-color: var(--accent2); }
+  button.primary { background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #04101c; border: 0; font-weight: 700; }
+  button.danger { color: var(--bad); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--dim); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; cursor: default; }
+  tbody tr:hover { background: #ffffff06; }
+  tr.click { cursor: pointer; }
+  .num { font-variant-numeric: tabular-nums; text-align: right; }
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 99px; font-size: 12px; border: 1px solid var(--line); }
+  .pill.ok { color: var(--ok); border-color: #4ade8055; } .pill.bad { color: var(--bad); border-color: #ff6b6b55; }
+  .pill.warn { color: var(--warn); border-color: #fbbf2455; } .pill.dim { color: var(--dim); }
+  .mono { font-family: ui-monospace, Menlo, monospace; }
+  .dim { color: var(--dim); }
+  .scroll { overflow-x: auto; }
+  dialog { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 14px; padding: 0; width: min(1100px, 96vw); max-height: 92vh; }
+  dialog::backdrop { background: #000a; }
+  .dlg-head { display: flex; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--panel); }
+  .dlg-head h2 { margin: 0; font-size: 18px; flex: 1; }
+  .dlg-body { padding: 16px 18px; overflow: auto; max-height: calc(92vh - 60px); }
+  pre.code { background: #050913; border: 1px solid var(--line); border-radius: 10px; padding: 12px; overflow: auto; max-height: 420px; font-size: 12.5px; }
+  .kv { display: grid; grid-template-columns: 180px 1fr; gap: 6px 14px; margin-bottom: 12px; }
+  .kv label { color: var(--dim); padding-top: 7px; }
+  .qrow { display: grid; grid-template-columns: 130px 1fr 120px 90px 1fr auto; gap: 8px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  @media (max-width: 800px) { .qrow { grid-template-columns: 1fr 1fr; } .kv { grid-template-columns: 1fr; } }
+  #login { max-width: 380px; margin: 12vh auto; }
+  #toast { position: fixed; bottom: 18px; right: 18px; background: var(--panel); border: 1px solid var(--line); padding: 10px 14px; border-radius: 10px; opacity: 0; transition: .2s; pointer-events: none; }
+  #toast.show { opacity: 1; }
+  h3 { margin: 18px 0 8px; font-size: 14px; color: var(--dim); text-transform: uppercase; letter-spacing: .08em; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">AUTOPILOT // MISSION CONTROL</div>
+  <nav id="nav" hidden>
+    <button data-tab="overview" class="on">Overview</button>
+    <button data-tab="teams">Teams</button>
+    <button data-tab="evals">Eval runs</button>
+    <button data-tab="cases">Test cases</button>
+    <button data-tab="boards">Leaderboards</button>
+    <button data-tab="form">Registration form</button>
+  </nav>
+  <div style="flex:1"></div>
+  <a class="dim" id="regLink" href="register" target="_blank">Registration page ↗</a>
+  <button class="b" id="logout" hidden>Sign out</button>
+</header>
+
+<main>
+  <div id="login" class="panel">
+    <h2 style="margin-top:0">Organiser sign-in</h2>
+    <p class="dim">Enter the backend's ADMIN_SECRET. It is kept only in this browser tab.</p>
+    <input id="secret" type="password" style="width:100%" placeholder="ADMIN_SECRET" autocomplete="current-password">
+    <div class="bar" style="margin-top:12px"><button class="b primary" id="signin">Sign in</button><span class="dim" id="loginErr"></span></div>
+  </div>
+
+  <section id="tab-overview" hidden>
+    <div class="grid" id="stats"></div>
+    <div class="panel"><h3 style="margin-top:0">Latest eval runs</h3><div class="scroll"><table id="latestEvals"></table></div></div>
+  </section>
+
+  <section id="tab-teams" hidden>
+    <div class="panel">
+      <div class="bar">
+        <input id="teamFilter" class="grow" placeholder="Search team, ID or answer…">
+        <select id="teamStatus"><option value="">All teams</option><option value="pending">Waiting for approval</option>
+          <option value="approved">Approved</option><option value="banned">Banned</option></select>
+        <button class="b primary" id="importTeams">Import from Unstop</button>
+        <button class="b" id="addTeam">+ Add team</button>
+        <button class="b" id="exportTeams">Export CSV</button>
+      </div>
+      <div class="scroll"><table id="teams"></table></div>
+    </div>
+  </section>
+
+  <section id="tab-evals" hidden>
+    <div class="panel"><div class="scroll"><table id="evals"></table></div></div>
+  </section>
+
+  <section id="tab-cases" hidden>
+    <div class="panel">
+      <div class="bar"><span class="grow dim">Public test cases are listed to participants for <b>play</b>. Hidden ones are only played in <b>eval</b>, and an eval plays every active hidden case. Changes apply to the next game.</span>
+        <button class="b" id="addCase">+ Add test case</button></div>
+      <div class="scroll"><table id="cases"></table></div>
+    </div>
+  </section>
+
+  <section id="tab-boards" hidden>
+    <div class="panel">
+      <div class="kv">
+        <label>PUBLISH PRIVATE open</label><label class="dim" style="padding:0"><input type="checkbox" id="lbEvalOpen"> teams can PUBLISH PRIVATE (the hidden test cases). Keep it closed during the build phase.</label>
+        <label>Private board</label><label class="dim" style="padding:0"><input type="checkbox" id="lbPublished"> published: everyone sees the final ranking on the hidden test cases</label>
+        <label>Eval that counts</label><select id="lbRule"><option value="latest">each team's latest complete private run</option><option value="best">each team's best complete private run</option></select>
+      </div>
+      <div class="bar" style="margin-top:12px"><span class="grow dim">Boards: each team's published runs (PUBLISH PUBLIC / PUBLISH PRIVATE in the SDK), scored as the sum over the run's test cases. Only complete runs count (every test case played). Public: each team's best run. Single PLAY games never count. Live page: <a id="lbLink" target="_blank">/leaderboard/</a></span>
+        <button class="b" id="lbClose" title="At the end of the event: close every private run still running (an incomplete run does not count)">Close running private runs</button>
+        <button class="b primary" id="lbSave">Save</button></div>
+    </div>
+    <div class="panel"><h3 style="margin-top:0">Private · hidden test cases <span class="dim" id="lbPrivNote"></span></h3><div class="scroll"><table id="lbPrivate"></table></div></div>
+    <div class="panel"><h3 style="margin-top:0">Public · live <span class="dim" id="lbPubNote"></span></h3><div class="scroll"><table id="lbPublic"></table></div></div>
+  </section>
+
+  <section id="tab-form" hidden>
+    <div class="panel">
+      <div class="kv">
+        <label>Title</label><input id="fTitle">
+        <label>Description</label><textarea id="fDesc" rows="3" style="font-family:inherit"></textarea>
+        <label>Registration open</label><label class="dim" style="padding:0"><input type="checkbox" id="fOpen"> new teams can register</label>
+        <label>Auto-approve</label><label class="dim" style="padding:0"><input type="checkbox" id="fAuto"> teams can log in right after registering (otherwise approve them in Teams)</label>
+      </div>
+      <h3>Questions <span class="dim" style="text-transform:none;letter-spacing:0">(team name and password are always asked)</span></h3>
+      <div id="questions"></div>
+      <div class="bar" style="margin-top:12px"><button class="b" id="addQ">+ Add question</button><span class="grow"></span>
+        <button class="b primary" id="saveForm">Save form</button></div>
+    </div>
+  </section>
+</main>
+
+<dialog id="dlg"><div class="dlg-head"><h2 id="dlgTitle"></h2><button class="b" id="dlgClose">Close</button></div><div class="dlg-body" id="dlgBody"></div></dialog>
+<div id="toast"></div>
+
+<script>
+const base = location.pathname.replace(/\/admin\/?$/, "");
+const $ = (id) => document.getElementById(id);
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = (v, d = 2) => (typeof v === "number" ? v.toFixed(d).replace(/\.?0+$/, "") : "–");
+const when = (iso) => (iso ? new Date(iso).toLocaleString() : "–");
+let secret = sessionStorage.getItem("apAdmin") || "";
+let teams = [];
+let teamSort = ["id", 1];  // click a column heading to sort (numbers: highest first)
+let form = null;
+
+function toast(text) { const t = $("toast"); t.textContent = text; t.classList.add("show"); setTimeout(() => t.classList.remove("show"), 2600); }
+
+async function api(path, opts = {}) {
+  const r = await fetch(base + "/admin/api" + path, { ...opts, headers: { "X-Admin-Secret": secret, "Content-Type": "application/json", ...(opts.headers || {}) } });
+  if (r.status === 401) { signOut(); throw new Error("Wrong admin secret"); }
+  if (!r.ok) { let d; try { d = (await r.json()).detail; } catch { d = r.statusText; } throw new Error(typeof d === "string" ? d : JSON.stringify(d)); }
+  return r.status === 204 ? null : r.json();
+}
+
+function signOut() { secret = ""; sessionStorage.removeItem("apAdmin"); $("login").hidden = false; $("nav").hidden = true; $("logout").hidden = true; document.querySelectorAll("section").forEach((s) => (s.hidden = true)); }
+
+async function signIn() {
+  secret = $("secret").value.trim() || secret;
+  try { await api("/overview"); } catch (e) { $("loginErr").textContent = e.message; return; }
+  sessionStorage.setItem("apAdmin", secret);
+  $("login").hidden = true; $("nav").hidden = false; $("logout").hidden = false;
+  show(location.hash.slice(1) || "overview");
+}
+
+function show(tab) {
+  document.querySelectorAll("#nav button").forEach((b) => b.classList.toggle("on", b.dataset.tab === tab));
+  document.querySelectorAll("section").forEach((s) => (s.hidden = s.id !== "tab-" + tab));
+  history.replaceState(null, "", "#" + tab);
+  ({ overview: loadOverview, teams: loadTeams, evals: loadEvals, cases: loadCases, boards: loadBoards, form: loadForm }[tab] || loadOverview)().catch((e) => toast(e.message));
+}
+
+function status(t) {
+  if (t.banned) return '<span class="pill bad">banned</span>';
+  if (!t.approved) return '<span class="pill warn">waiting</span>';
+  return t.hasPassword ? '<span class="pill ok">approved</span>' : '<span class="pill dim">no password</span>';
+}
+
+// ── Overview ──
+async function loadOverview() {
+  const [o, evals] = await Promise.all([api("/overview"), api("/evals")]);
+  const cells = [["Teams", o.teams], ["Waiting for approval", o.pending], ["Banned", o.banned], ["Games played (all)", o.games],
+                 ["Runs scored", o.evalsCounted], ["Runs in progress", o.evalsRunning], ["Runs (all, incl. void)", o.evals],
+                 ["Public test cases", o.publicCases], ["Hidden test cases", o.hiddenCases]];
+  $("stats").innerHTML = cells.map(([k, v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join("");
+  evalTable($("latestEvals"), evals.slice(0, 10));
+}
+
+// ── Teams ──
+async function loadTeams() { teams = await api("/teams"); renderTeams(); }
+function renderTeams() {
+  const q = $("teamFilter").value.toLowerCase(), st = $("teamStatus").value;
+  const rows = teams.filter((t) => {
+    if (st === "banned" && !t.banned) return false;
+    if (st === "pending" && (t.approved || t.banned)) return false;
+    if (st === "approved" && (!t.approved || t.banned)) return false;
+    return !q || (t.teamID + " " + t.name + " " + JSON.stringify(t.answers)).toLowerCase().includes(q);
+  });
+  const [key, dir] = teamSort;
+  rows.sort((a, b) => { const x = a[key] ?? -Infinity, y = b[key] ?? -Infinity; return (x < y ? -1 : x > y ? 1 : 0) * dir; });
+  const th = (k, label, cls = "") => `<th class="${cls}" data-sort="${k}" style="cursor:pointer">${label}${k === key ? (dir > 0 ? " ▲" : " ▼") : ""}</th>`;
+  $("teams").innerHTML = `<thead><tr>${th("id", "ID")}${th("name", "Team")}<th>Status</th>${th("gamesPlayed", "Practice games", "num")}${th("evalsCounted", "Runs scored", "num")}
+    ${th("bestPublic", "Best public", "num")}${th("bestEval", "Best private", "num")}${th("lastEval", "Last private", "num")}${th("lastActive", "Last active")}<th></th></tr></thead><tbody>` +
+    rows.map((t) => `<tr class="click" data-id="${t.id}"><td class="mono">${t.teamID}</td><td>${esc(t.name)}</td><td>${status(t)}</td>
+      <td class="num">${t.gamesPlayed}</td><td class="num">${t.evalsCounted}${t.evalsRunning ? ` <span class="dim">+${t.evalsRunning} running</span>` : ""}</td><td class="num">${fmt(t.bestPublic)}</td><td class="num">${fmt(t.bestEval)}</td><td class="num">${fmt(t.lastEval)}</td>
+      <td class="dim">${when(t.lastActive)}</td><td style="white-space:nowrap">
+      ${!t.approved && !t.banned ? `<button class="b" data-act="approve">Approve</button>` : ""}
+      <button class="b ${t.banned ? "" : "danger"}" data-act="${t.banned ? "unban" : "ban"}">${t.banned ? "Unban" : "Ban"}</button></td></tr>`).join("") + "</tbody>";
+}
+$("teams").addEventListener("click", async (ev) => {
+  const sortBy = ev.target.closest("th[data-sort]");
+  if (sortBy) { const k = sortBy.dataset.sort; teamSort = [k, teamSort[0] === k ? -teamSort[1] : (k === "id" || k === "name" ? 1 : -1)]; return renderTeams(); }
+  const tr = ev.target.closest("tr[data-id]"); if (!tr) return;
+  const id = +tr.dataset.id, act = ev.target.dataset.act;
+  if (!act) return openTeam(id);
+  ev.stopPropagation();
+  const patch = { approve: { approved: true }, ban: { banned: true }, unban: { banned: false } }[act];
+  if (act === "ban" && !confirm("Ban this team? It can no longer log in or play.")) return;
+  await api(`/teams/${id}`, { method: "PATCH", body: JSON.stringify(patch) }); toast("Saved"); loadTeams();
+});
+$("teamFilter").oninput = renderTeams; $("teamStatus").onchange = renderTeams;
+$("exportTeams").onclick = () => {
+  const keys = [...new Set(teams.flatMap((t) => Object.keys(t.answers || {})))];
+  const head = ["teamID", "name", "approved", "banned", "practiceGames", "runsScored", "bestPublic", "bestPrivate", "lastPrivate", ...keys];
+  const csv = [head, ...teams.map((t) => [t.teamID, t.name, t.approved, t.banned, t.gamesPlayed, t.evalsCounted, t.bestPublic ?? "", t.bestEval ?? "", t.lastEval ?? "",
+    ...keys.map((k) => t.answers?.[k] ?? "")])].map((r) => r.map((c) => `"${String(c).replace(/"/g, '""')}"`).join(",")).join("\n");
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" })); a.download = "teams.csv"; a.click();
+};
+$("addTeam").onclick = () => {
+  dialog("Add team", `<div class="kv"><label>Team name</label><input id="nName"><label>Password</label><input id="nPw" placeholder="at least 8 characters"></div>
+    <button class="b primary" id="nSave">Create</button>`);
+  $("nSave").onclick = async () => {
+    try { const t = await api("/teams", { method: "POST", body: JSON.stringify({ name: $("nName").value, password: $("nPw").value || null }) });
+      toast(`Created team ${t.teamID}`); $("dlg").close(); loadTeams(); } catch (e) { toast(e.message); }
+  };
+};
+
+// ── Bulk import (an Unstop registrations export, or any CSV/Excel sheet) ──
+function parseCsv(text) {
+  const rows = []; let row = [], cell = "", q = false;
+  text = text.replace(/^﻿/, "");
+  const sep = (text.split("\n")[0].match(/\t/g) || []).length > (text.split("\n")[0].match(/,/g) || []).length ? "\t" : ",";
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) { if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; } else if (c === '"') q = false; else cell += c; }
+    else if (c === '"') q = true;
+    else if (c === sep) { row.push(cell); cell = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && text[i + 1] === "\n") i++; row.push(cell); rows.push(row); row = []; cell = ""; }
+    else cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  return rows.filter((r) => r.some((c) => c.trim()));
+}
+async function readSheet(file) {
+  if (!/\.xlsx?$/i.test(file.name)) return parseCsv(await file.text());
+  if (!window.XLSX) await new Promise((ok, fail) => { const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"; s.onload = ok;
+    s.onerror = () => fail(new Error("Could not load the Excel reader: save the sheet as CSV instead")); document.head.append(s); });
+  const wb = XLSX.read(await file.arrayBuffer());
+  return XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1, raw: false, defval: "" })
+    .map((r) => r.map((c) => String(c))).filter((r) => r.some((c) => c.trim()));
+}
+// Which column holds what: guessed from the header, changeable in the dialog.
+const IMPORT_FIELDS = [
+  ["team", "Team name", /team.?name|^team$/i],
+  ["members", "Member name", /(candidate|participant|member|student|full)\b.*name|^name$/i],
+  ["email", "Email", /e-?mail/i],
+  ["phone", "Phone", /phone|mobile|contact.?n/i],
+  ["college", "College", /college|organi[sz]ation|institute|university/i],
+];
+let sheet = null;
+$("importTeams").onclick = () => {
+  sheet = null;
+  dialog("Import teams", `
+    <p class="dim" style="margin-top:0">Upload the registrations export from Unstop (Excel or CSV; one row per
+      participant or per team). Rows with the same team name become one team. Every new team gets a
+      generated password; teams already here (same name) are skipped, so you can import an updated
+      file again.</p>
+    <div class="bar"><input type="file" id="impFile" accept=".csv,.tsv,.txt,.xlsx,.xls"><span class="dim">or paste below</span></div>
+    <textarea id="impPaste" rows="4" placeholder="Team Name,Candidate's Name,Candidate's Email,…"></textarea>
+    <div id="impMap"></div>`);
+  $("impFile").onchange = async () => { try { setSheet(await readSheet($("impFile").files[0])); } catch (e) { toast(e.message); } };
+  $("impPaste").oninput = () => setSheet(parseCsv($("impPaste").value));
+};
+function setSheet(rows) {
+  if (rows.length < 2) { $("impMap").innerHTML = '<p class="dim">Needs a header row and at least one data row.</p>'; return; }
+  const head = rows[0].map((h) => h.trim());
+  sheet = { head, rows: rows.slice(1), map: {} };
+  for (const [key, , re] of IMPORT_FIELDS) {
+    const i = head.findIndex((h, j) => re.test(h) && !Object.values(sheet.map).includes(j));
+    sheet.map[key] = i;
+  }
+  const opts = (sel) => `<option value="-1">(none)</option>` + head.map((h, i) => `<option value="${i}" ${i === sel ? "selected" : ""}>${esc(h || "column " + (i + 1))}</option>`).join("");
+  $("impMap").innerHTML = `<h3>Columns</h3><div class="kv">` +
+    IMPORT_FIELDS.map(([key, label]) => `<label>${label}</label><select data-map="${key}">${opts(sheet.map[key])}</select>`).join("") +
+    `<label>Other columns</label><label class="dim" style="padding:7px 0 0"><input type="checkbox" id="impRest" checked> keep them as team details</label>
+     <label>Access</label><label class="dim" style="padding:7px 0 0"><input type="checkbox" id="impApproved" checked> approved: can log in at once</label></div>
+     <div id="impPreview"></div>`;
+  document.querySelectorAll("[data-map]").forEach((el) => (el.onchange = () => { sheet.map[el.dataset.map] = +el.value; preview(); }));
+  $("impRest").onchange = preview;
+  preview();
+}
+function sheetTeams() {
+  const { head, rows, map } = sheet, byName = new Map();
+  const used = new Set(Object.values(map).filter((i) => i >= 0));
+  const keepRest = $("impRest").checked;
+  for (const r of rows) {
+    const name = (r[map.team] ?? "").replace(/\s+/g, " ").trim();
+    if (!name) continue;
+    const key = name.toLowerCase();
+    if (!byName.has(key)) byName.set(key, { name, cols: {} });
+    const t = byName.get(key);
+    const add = (k, v) => { v = String(v ?? "").trim(); if (v && !(t.cols[k] ||= []).includes(v)) t.cols[k].push(v); };
+    for (const [k] of IMPORT_FIELDS.slice(1)) if (map[k] >= 0) add(k, r[map[k]]);
+    if (keepRest) head.forEach((h, i) => { if (!used.has(i) && h) add(h, r[i]); });
+  }
+  return [...byName.values()].map((t) => ({ name: t.name,
+    answers: Object.fromEntries(Object.entries(t.cols).map(([k, v]) => [k, v.join(k === "members" || k === "email" || k === "phone" ? "\n" : ", ")])) }));
+}
+function preview() {
+  if (sheet.map.team < 0) { $("impPreview").innerHTML = '<p class="dim">Choose the column with the team name.</p>'; return; }
+  const list = sheetTeams(), have = new Set(teams.map((t) => t.name.toLowerCase()));
+  const fresh = list.filter((t) => !have.has(t.name.toLowerCase()));
+  $("impPreview").innerHTML = `<p>${sheet.rows.length} rows → <b>${list.length} teams</b>: ${fresh.length} new,
+      ${list.length - fresh.length} already here (skipped).</p>
+    <div class="scroll"><table><thead><tr><th>Team</th><th>Members</th><th>Email</th><th>College</th></tr></thead><tbody>
+    ${list.slice(0, 25).map((t) => `<tr${have.has(t.name.toLowerCase()) ? ' class="dim"' : ""}><td>${esc(t.name)}</td>
+      <td>${esc(t.answers.members || "").replace(/\n/g, "<br>")}</td><td>${esc(t.answers.email || "").replace(/\n/g, "<br>")}</td>
+      <td>${esc(t.answers.college || "")}</td></tr>`).join("")}</tbody></table></div>
+    ${list.length > 25 ? `<p class="dim">…and ${list.length - 25} more.</p>` : ""}
+    <div class="bar"><button class="b primary" id="impGo" ${fresh.length ? "" : "disabled"}>Create ${fresh.length} teams</button></div>`;
+  if (fresh.length) $("impGo").onclick = () => runImport(fresh);
+}
+async function runImport(list) {
+  $("impGo").disabled = true; $("impGo").textContent = "Creating…";
+  let res;
+  try { res = await api("/teams/import", { method: "POST", body: JSON.stringify({ teams: list, approved: $("impApproved").checked }) }); }
+  catch (e) { toast(e.message); $("impGo").disabled = false; $("impGo").textContent = "Retry"; return; }
+  const download = () => {
+    const head = ["teamID", "teamName", "password", "email", "members", "phone"];
+    const csv = [head, ...res.created.map((t) => [t.teamID, t.name, t.password, t.answers.email || "", t.answers.members || "", t.answers.phone || ""])]
+      .map((r) => r.map((c) => `"${String(c).replace(/"/g, '""')}"`).join(",")).join("\n");
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+    a.download = `team-logins-${new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-")}.csv`; a.click();
+  };
+  if (res.created.length) download();
+  dialog("Import done", `
+    <p><b>${res.created.length} teams created.</b> ${res.skipped.length ? `${res.skipped.length} skipped.` : ""}</p>
+    <p class="dim">The logins file (team ID, name, password, email) has been downloaded. <b>This is the only time the
+      passwords are shown</b>; a lost one can be reset in the team's page. Send each team only its own line.</p>
+    <div class="bar"><button class="b primary" id="impAgain">Download the logins again</button></div>
+    <div class="scroll"><table><thead><tr><th>ID</th><th>Team</th><th>Password</th><th>Email</th></tr></thead><tbody>
+    ${res.created.map((t) => `<tr><td class="mono">${t.teamID}</td><td>${esc(t.name)}</td><td class="mono">${esc(t.password)}</td>
+      <td>${esc((t.answers.email || "").split("\n")[0])}</td></tr>`).join("")}
+    ${res.skipped.map((t) => `<tr class="dim"><td class="mono">${t.teamID || ""}</td><td>${esc(t.name)}</td><td colspan="2">skipped: ${esc(t.reason)}</td></tr>`).join("")}
+    </tbody></table></div>`);
+  $("impAgain").onclick = download;
+  loadTeams();
+}
+
+async function openTeam(id) {
+  const t = await api(`/teams/${id}`);
+  const fq = form || (await api("/registration-form"));
+  const labels = Object.fromEntries((fq.questions || []).map((q) => [q.id, q.label]));
+  const keys = [...new Set([...(fq.questions || []).map((q) => q.id), ...Object.keys(t.answers || {})])];
+  dialog(`${t.teamID} · ${esc(t.name)}`, `
+    <div class="bar">${status(t)}<span class="dim">registered ${when(t.createdAt)} · ${t.gamesPlayed} practice games · ${t.evalsCounted} runs scored${t.evalsRunning ? ` (+${t.evalsRunning} running)` : ""} · best public ${fmt(t.bestPublic)} · best private ${fmt(t.bestEval)}</span></div>
+    <div class="kv">
+      <label>Team name</label><input id="eName" value="${esc(t.name)}">
+      ${keys.map((k) => `<label>${esc(labels[k] || k)}</label><textarea rows="2" data-ans="${esc(k)}" style="font-family:inherit">${esc(t.answers?.[k] ?? "")}</textarea>`).join("")}
+      <label>Organiser notes</label><textarea id="eNotes" rows="2" style="font-family:inherit">${esc(t.notes)}</textarea>
+      <label>New password</label><input id="ePw" placeholder="leave empty to keep the current one">
+      <label>Access</label><div class="bar" style="margin:0">
+        <label><input type="checkbox" id="eApproved" ${t.approved ? "checked" : ""}> approved</label>
+        <label><input type="checkbox" id="eBanned" ${t.banned ? "checked" : ""}> banned</label></div>
+    </div>
+    <button class="b primary" id="eSave">Save team</button>
+    <h3>Eval runs</h3>${t.evalRuns.length ? "" : '<p class="dim">None yet.</p>'}<div class="scroll"><table id="tEvals"></table></div>
+    <h3>Games</h3><div class="scroll"><table id="tGames"></table></div>`);
+  if (t.evalRuns.length) evalTable($("tEvals"), t.evalRuns);
+  gameTable($("tGames"), t.games);
+  $("eSave").onclick = async () => {
+    const answers = {}; document.querySelectorAll("[data-ans]").forEach((el) => (answers[el.dataset.ans] = el.value));
+    const body = { name: $("eName").value, answers, notes: $("eNotes").value, approved: $("eApproved").checked, banned: $("eBanned").checked };
+    if ($("ePw").value) body.password = $("ePw").value;
+    try { await api(`/teams/${id}`, { method: "PATCH", body: JSON.stringify(body) }); toast("Team saved"); loadTeams(); } catch (e) { toast(e.message); }
+  };
+}
+
+function gameTable(el, games) {
+  el.innerHTML = `<thead><tr><th>Started</th><th>Mode</th><th>Test case</th><th class="num">Score</th><th>Result</th><th class="num">Killed</th>
+    <th class="num">Pauses</th><th class="num">Placed</th><th>agent.py</th><th>Session</th></tr></thead><tbody>` +
+    (games.map((g) => `<tr><td class="dim">${when(g.startedAt)}</td><td>${g.mode}${g.evalSlot ? " #" + g.evalSlot : ""}</td><td class="mono">${esc(g.testCase)}</td>
+      <td class="num">${g.finishedAt ? fmt(g.score) : '<span class="dim">unfinished</span>'}</td><td>${g.won == null ? "–" : g.won ? '<span class="pill ok">won</span>' : '<span class="pill bad">lost</span>'}</td>
+      <td class="num">${g.killed ?? "–"}${g.enemies ? "/" + g.enemies : ""}</td><td class="num">${g.pauses}</td><td class="num">${g.placements}</td>
+      <td class="mono dim">${esc((g.agentSha256 || "").slice(0, 10))}</td><td class="mono dim">${esc(g.sessionID)}</td></tr>`).join("") || '<tr><td colspan="10" class="dim">No games yet.</td></tr>') + "</tbody>";
+}
+
+// ── Evals ──
+function evalTable(el, runs) {
+  el.innerHTML = `<thead><tr><th>Run</th><th>Team</th><th>Board</th><th>Status</th><th class="num">Score</th><th>Started</th><th>Finished</th><th>agent.py</th><th>Log</th></tr></thead><tbody>` +
+    (runs.map((e) => `<tr class="click" data-eval="${e.evalId}"><td class="mono">#${e.evalId}</td><td class="mono">${e.teamID}</td><td>${esc(e.board || "private")}</td>
+      <td>${{ finished: '<span class="pill ok">finished</span>', running: '<span class="pill warn">running</span>' }[e.status] || `<span class="pill dim">${e.status}</span>`}</td>
+      <td class="num">${fmt(e.score, 2)}</td><td class="dim">${when(e.startedAt)}</td><td class="dim">${when(e.finishedAt)}</td>
+      <td class="mono dim">${esc(e.agentSha256.slice(0, 10))}</td><td>${e.hasLog ? "✓" : "–"}</td></tr>`).join("") || '<tr><td colspan="9" class="dim">No published runs yet.</td></tr>') + "</tbody>";
+  el.onclick = (ev) => { const tr = ev.target.closest("tr[data-eval]"); if (tr) openEval(+tr.dataset.eval); };
+}
+async function loadEvals() { evalTable($("evals"), await api("/evals")); }
+
+// ── Leaderboards ──
+async function loadBoards() {
+  const lb = await api("/leaderboard");
+  $("lbEvalOpen").checked = lb.settings.evalOpen; $("lbPublished").checked = lb.settings.privatePublished;
+  $("lbRule").value = lb.settings.privateRule;
+  const pv = lb.private, pb = lb.public;
+  $("lbPrivNote").textContent = `· ${pv.published ? "published" : "not published"} · ${pv.hiddenCases} hidden cases · ${pv.rule} run counts`;
+  $("lbPrivate").innerHTML = `<thead><tr><th class="num">#</th><th>Team</th><th>Name</th><th class="num">Score</th><th>Run</th><th>Cases</th><th class="num">Runs</th><th>Finished</th></tr></thead><tbody>` +
+    (pv.rows.map((r) => `<tr><td class="num">${r.rank}</td><td class="mono">${r.teamID}</td><td>${esc(r.teamName)}</td><td class="num">${fmt(r.score, 2)}</td>
+      <td class="mono">#${r.evalId} <span class="pill ${r.status === "finished" ? "ok" : "warn"}">${r.status}</span></td><td>${r.played}/${r.totalCases}</td>
+      <td class="num">${r.evals}</td><td class="dim">${when(r.finishedAt)}</td></tr>`).join("") || '<tr><td colspan="8" class="dim">No scored private runs yet.</td></tr>') + "</tbody>";
+  $("lbPubNote").textContent = `· ${pb.cases.length} public cases`;
+  $("lbPublic").innerHTML = `<thead><tr><th class="num">#</th><th>Team</th><th>Name</th><th class="num">Score</th><th>Cases</th><th class="num">Runs</th>${pb.cases.map((c) => `<th class="num">${esc(c)}</th>`).join("")}</tr></thead><tbody>` +
+    (pb.rows.map((r) => `<tr><td class="num">${r.rank}</td><td class="mono">${r.teamID}</td><td>${esc(r.teamName)}</td><td class="num">${fmt(r.score, 2)}</td>
+      <td>${r.played}/${r.totalCases}</td><td class="num">${r.evals}</td>${pb.cases.map((c) => `<td class="num dim">${r.cases[c] == null ? "–" : fmt(r.cases[c])}</td>`).join("")}</tr>`).join("")
+      || `<tr><td colspan="${6 + pb.cases.length}" class="dim">No published public runs yet.</td></tr>`) + "</tbody>";
+}
+$("lbSave").onclick = async () => {
+  const body = { evalOpen: $("lbEvalOpen").checked, privatePublished: $("lbPublished").checked, privateRule: $("lbRule").value };
+  try { await fetch(base + "/admin/api/leaderboard/settings", { method: "PUT", headers: { "X-Admin-Secret": secret, "Content-Type": "application/json" }, body: JSON.stringify(body) })
+          .then(async (r) => { if (!r.ok) throw new Error((await r.json()).detail || r.statusText); });
+        toast("Saved"); loadBoards(); } catch (e) { toast(e.message); }
+};
+$("lbClose").onclick = async () => {
+  if (!confirm("Close every private run that is still running? Each is scored as it stands (test cases not played count 0) and cannot be continued.")) return;
+  try { const r = await api("/evals/close-running", { method: "POST", body: JSON.stringify({ board: "private" }) });
+        toast(`${r.closed.length} running private runs closed`); loadBoards(); } catch (e) { toast(e.message); }
+};
+async function openEval(id) {
+  const e = await api(`/evals/${id}`);
+  dialog(`Run #${e.evalId} (${e.board || "private"}) · team ${e.teamID}`, `
+    <div class="bar"><span class="pill">${e.status}</span><span>total <b>${fmt(e.score, 2)}</b></span><span class="dim">SDK ${esc(e.sdkVersion || "?")} · started ${when(e.startedAt)} · finished ${when(e.finishedAt)}</span>
+      <span class="grow"></span>${e.hasLog ? `<button class="b" id="dlLog">Download run log</button>` : '<span class="dim">no log uploaded</span>'}
+      ${e.status === "running" ? '<button class="b" id="closeRun" title="Close it now: an incomplete run does not count">Close run</button>' : ""}
+      ${e.status === "void" ? "" : '<button class="b" id="voidRun" title="Remove it from the leaderboard and let the team publish again">Void run</button>'}</div>
+    <h3>Test cases</h3><table><thead><tr><th>#</th><th>Test case</th><th>Played</th><th class="num">Score</th><th>Result</th></tr></thead><tbody>
+      ${e.slots.map((s) => `<tr><td>${s.slot}</td><td class="mono">${esc(e.cases[s.slot - 1])}</td><td>${s.played ? "✓" : "–"}</td><td class="num">${fmt(s.score)}</td>
+        <td>${s.won == null ? "–" : s.won ? "won" : "lost"}</td></tr>`).join("")}</tbody></table>
+    <h3>Games</h3><div class="scroll"><table id="eGames"></table></div>
+    <h3>agent.py <span class="dim mono" style="text-transform:none">${esc(e.agentSha256)}</span></h3><pre class="code" id="eSrc"></pre>`);
+  $("eSrc").textContent = e.agentSource;
+  gameTable($("eGames"), e.games);
+  if ($("voidRun")) $("voidRun").onclick = async () => {
+    if (!confirm(`Void run #${id} of team ${e.teamID}? It leaves the leaderboard, and the team may publish this board again (with any agent.py).`)) return;
+    try { await api(`/evals/${id}/void`, { method: "POST" }); toast(`Run #${id} voided`); $("dlg").close(); loadEvals(); } catch (err) { toast(err.message); }
+  };
+  if ($("closeRun")) $("closeRun").onclick = async () => {
+    if (!confirm(`Close run #${id} of team ${e.teamID} now? It is scored as it stands (${e.slots.filter((s) => s.played).length}/${e.slots.length} test cases played; the rest count 0) and the team cannot continue it.`)) return;
+    try { await api(`/evals/${id}/close`, { method: "POST" }); toast(`Run #${id} closed`); openEval(id); loadEvals(); } catch (err) { toast(err.message); }
+  };
+  if (e.hasLog) $("dlLog").onclick = async () => {
+    const r = await fetch(base + `/admin/api/evals/${id}/log`, { headers: { "X-Admin-Secret": secret } });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(await r.blob()); a.download = `eval${id}_team${e.teamID}.jsonl.gz`; a.click();
+  };
+}
+
+// ── Test cases ──
+async function loadCases() {
+  const cases = await api("/test-cases");
+  $("cases").innerHTML = `<thead><tr><th>Code</th><th>Name</th><th>Kind</th><th>Active</th><th class="num">Enemies</th><th class="num">Order</th><th>Updated</th></tr></thead><tbody>` +
+    cases.map((c) => `<tr class="click" data-code="${esc(c.code)}"><td class="mono">${esc(c.code)}</td><td>${esc(c.name)}</td>
+      <td>${c.hidden ? '<span class="pill warn">hidden</span>' : '<span class="pill">public</span>'}</td><td>${c.active ? "✓" : '<span class="dim">off</span>'}</td>
+      <td class="num">${c.enemies}</td><td class="num">${c.position}</td><td class="dim">${when(c.updatedAt)}</td></tr>`).join("") + "</tbody>";
+  $("cases").onclick = (ev) => { const tr = ev.target.closest("tr[data-code]"); if (tr) editCase(cases.find((c) => c.code === tr.dataset.code)); };
+}
+const ENEMY_HELP = "enemyId: 0 clown, 1 monk, 2 wizard, 3 pirate · allowedRows: 0-5 · defencePlacementData: starting defences (usually [])";
+function editCase(c) {
+  const isNew = !c;
+  c = c || { code: "", name: "", hidden: true, active: true, position: 0,
+             level: { enemies: [{ enemyId: 0, count: 5, allowedRows: [1, 2, 3] }], spawnSettings: { interArrivalTime: 6, timeDecreaseRate: 0.25, minInterArrivalTime: 1 },
+                      gameSettings: { reinforcementsEnabled: true, reinforcementIntervalSeconds: 3, reinforcementHoldSeconds: 0.2 }, defencePlacementData: [] } };
+  dialog(isNew ? "Add test case" : `Test case ${esc(c.code)}`, `
+    <div class="kv"><label>Code</label><input id="cCode" value="${esc(c.code)}" placeholder="e.g. H06">
+      <label>Name</label><input id="cName" value="${esc(c.name)}">
+      <label>Kind</label><label style="padding:0"><input type="checkbox" id="cHidden" ${c.hidden ? "checked" : ""}> hidden (eval only)</label>
+      <label>Active</label><label style="padding:0"><input type="checkbox" id="cActive" ${c.active ? "checked" : ""}> played (an eval plays every active hidden case)</label>
+      <label>Order</label><input id="cPos" type="number" value="${c.position}"></div>
+    <h3>Level (JSON)</h3><p class="dim">${ENEMY_HELP}</p><textarea id="cLevel" rows="20">${esc(JSON.stringify(c.level, null, 2))}</textarea>
+    <div class="bar" style="margin-top:12px"><button class="b primary" id="cSave">${isNew ? "Create" : "Save"}</button>
+      ${isNew ? "" : '<button class="b danger" id="cDel">Delete</button>'}<span class="dim" id="cErr"></span></div>`);
+  $("cSave").onclick = async () => {
+    let level; try { level = JSON.parse($("cLevel").value); } catch (e) { return ($("cErr").textContent = "Level is not valid JSON: " + e.message); }
+    const body = { code: $("cCode").value.trim(), name: $("cName").value, hidden: $("cHidden").checked, active: $("cActive").checked, position: +$("cPos").value || 0, level };
+    try { await api(isNew ? "/test-cases" : `/test-cases/${encodeURIComponent(c.code)}`, { method: isNew ? "POST" : "PUT", body: JSON.stringify(body) });
+      toast("Test case saved"); $("dlg").close(); loadCases(); } catch (e) { $("cErr").textContent = e.message; }
+  };
+  if (!isNew) $("cDel").onclick = async () => {
+    if (!confirm(`Delete ${c.code}? Past games keep their scores.`)) return;
+    await api(`/test-cases/${encodeURIComponent(c.code)}`, { method: "DELETE" }); toast("Deleted"); $("dlg").close(); loadCases();
+  };
+}
+$("addCase").onclick = () => editCase(null);
+
+// ── Registration form ──
+async function loadForm() {
+  form = await api("/registration-form");
+  $("fTitle").value = form.title; $("fDesc").value = form.description; $("fOpen").checked = form.open; $("fAuto").checked = form.autoApprove;
+  renderQuestions();
+}
+function renderQuestions() {
+  $("questions").innerHTML = form.questions.map((q, i) => `<div class="qrow" data-i="${i}">
+    <input data-k="id" value="${esc(q.id)}" placeholder="id" title="answer key (letters, no spaces)">
+    <input data-k="label" value="${esc(q.label)}" placeholder="Question">
+    <select data-k="type">${["text", "textarea", "email", "number", "url", "select", "checkbox"].map((t) => `<option ${t === q.type ? "selected" : ""}>${t}</option>`).join("")}</select>
+    <label><input type="checkbox" data-k="required" ${q.required ? "checked" : ""}> required</label>
+    <input data-k="options" value="${esc((q.options || []).join(", "))}" placeholder="options for select, comma-separated">
+    <span style="white-space:nowrap"><button class="b" data-mv="-1">↑</button> <button class="b" data-mv="1">↓</button> <button class="b danger" data-rm>✕</button></span></div>`).join("");
+}
+function readQuestions() {
+  return [...document.querySelectorAll(".qrow")].map((row) => {
+    const get = (k) => row.querySelector(`[data-k="${k}"]`);
+    return { id: get("id").value.trim(), label: get("label").value, type: get("type").value, required: get("required").checked,
+             options: get("options").value.split(",").map((s) => s.trim()).filter(Boolean) };
+  });
+}
+$("questions").addEventListener("click", (ev) => {
+  const row = ev.target.closest(".qrow"); if (!row) return;
+  form.questions = readQuestions(); const i = +row.dataset.i;
+  if (ev.target.dataset.rm !== undefined) form.questions.splice(i, 1);
+  else if (ev.target.dataset.mv) { const j = i + +ev.target.dataset.mv; if (j < 0 || j >= form.questions.length) return; [form.questions[i], form.questions[j]] = [form.questions[j], form.questions[i]]; }
+  else return;
+  renderQuestions();
+});
+$("addQ").onclick = () => { form.questions = readQuestions(); form.questions.push({ id: "q" + (form.questions.length + 1), label: "", type: "text", required: false, options: [] }); renderQuestions(); };
+$("saveForm").onclick = async () => {
+  const body = { title: $("fTitle").value, description: $("fDesc").value, open: $("fOpen").checked, autoApprove: $("fAuto").checked, questions: readQuestions() };
+  try { form = await api("/registration-form", { method: "PUT", body: JSON.stringify(body) }); renderQuestions(); toast("Form saved"); } catch (e) { toast(e.message); }
+};
+
+// ── Shell ──
+function dialog(title, html) { $("dlgTitle").innerHTML = title; $("dlgBody").innerHTML = html; if (!$("dlg").open) $("dlg").showModal(); }
+$("dlgClose").onclick = () => $("dlg").close();
+document.querySelectorAll("#nav button").forEach((b) => (b.onclick = () => show(b.dataset.tab)));
+$("signin").onclick = signIn; $("secret").onkeydown = (e) => { if (e.key === "Enter") signIn(); };
+$("logout").onclick = signOut;
+$("regLink").href = base + "/register";
+$("lbLink").href = location.origin + "/leaderboard/";
+if (secret) signIn();
+</script>
+</body>
+</html>

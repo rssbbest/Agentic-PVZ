@@ -1,0 +1,53 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: zombie_defense
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  backend:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - db
+      - sdk
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:password@db:5432/zombie_defense
+      UPLOAD_DIR: /app/uploads
+      SDK_URL: http://sdk:8001
+      SIMULATOR_URL: http://simulator:8002
+      EVALUATOR_URL: http://evaluator:8003
+      # Set these in a .env file next to docker-compose.yml (or your shell)
+      SIMULATOR_SECRET: ${SIMULATOR_SECRET:-change-me-in-production}
+      ADMIN_SECRET: ${ADMIN_SECRET:-change-me-in-production}
+      MAX_CONCURRENT_RUNS: ${MAX_CONCURRENT_RUNS:-4}
+    volumes:
+      - ./uploads:/app/uploads
+
+  sdk:
+    build: ../autopilot-sdk-binary
+    restart: unless-stopped
+    command: ["autopilot", "serve", "--host", "0.0.0.0", "--port", "8001"]
+    environment:
+      AUTOPILOT_AGENT_DIR: /agents
+      AUTOPILOT_REINFORCEMENT_TIMEOUT_SECONDS: ${AUTOPILOT_REINFORCEMENT_TIMEOUT_SECONDS:-3.5}
+    volumes:
+      # The SDK resolves the latest team{id}_*.py submission from this shared,
+      # read-only upload directory for POST /reinforcements.
+      - ./uploads:/agents:ro
+    expose:
+      - "8001"
+
+volumes:
+  pgdata:

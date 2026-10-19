@@ -1,0 +1,142 @@
+[
+  {
+    "testCaseId": 1,
+    "name": "TC01_Balanced_Opening",
+    "description": "Easy: standard opening wave of mostly light zombies, heavies arrive late and isolated so each can be answered calmly",
+    "coins": 1500,
+    "enemies": [
+      { "enemyId": 0, "count": 5, "allowedRows": [1, 2, 3] },
+      { "enemyId": 1, "count": 4, "allowedRows": [0, 1, 2, 3, 4] },
+      { "enemyId": 2, "count": 2, "allowedRows": [0, 1, 2] },
+      { "enemyId": 3, "count": 1, "allowedRows": [2, 3, 4, 5] }
+    ],
+    "spawnSettings": { "interArrivalTime": 6.0, "timeDecreaseRate": 0.25, "minInterArrivalTime": 1.0, "spawnSequence": [0, 0, 1, 0, 1, 0, 1, 0, 2, 1, 2, 3] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 10.0, "reinforcementHoldSeconds": 3.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 2,
+    "name": "TC02_Frontline_Swarm",
+    "description": "Medium: high volume of light and fast zombies with a light armoured backline, heavies drip in among the swarm",
+    "coins": 1500,
+    "enemies": [
+      { "enemyId": 0, "count": 4, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 1, "count": 3, "allowedRows": [0, 1, 2] },
+      { "enemyId": 2, "count": 2, "allowedRows": [3, 4, 5] },
+      { "enemyId": 3, "count": 2, "allowedRows": [0, 1, 5] }
+    ],
+    "spawnSettings": { "interArrivalTime": 5.0, "timeDecreaseRate": 0.3, "minInterArrivalTime": 0.8, "spawnSequence": [0, 1, 0, 3, 1, 2, 0, 3, 1, 2, 0] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 10.0, "reinforcementHoldSeconds": 3.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 3,
+    "name": "TC03_Heavy_Assault",
+    "description": "Hard: type-0 pressure backed by clustered type-2 and type-3 heavies. Bombers and tanks are front-loaded and bunched so several rows are threatened at once with no recovery gaps",
+    "coins": 2500,
+    "enemies": [
+      { "enemyId": 0, "count": 9, "allowedRows": [0, 1, 2, 3, 4, 5] },
+      { "enemyId": 1, "count": 2, "allowedRows": [2, 3] },
+      { "enemyId": 2, "count": 2, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 3, "count": 5, "allowedRows": [1, 2, 3, 4] }
+    ],
+    "spawnSettings": { "interArrivalTime": 4.5, "timeDecreaseRate": 0.2, "minInterArrivalTime": 0.8, "spawnSequence": [3, 2, 3, 0, 3, 2, 3, 0, 3, 0, 1, 0, 0, 1, 0, 0, 0, 0] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 8.0, "reinforcementHoldSeconds": 2.5, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 4,
+    "name": "TC04_Sentry_Rush",
+    "description": "Easy: fast but light central-row rush with one armoured and one bomber unit spaced well apart; no reinforcements but easily held",
+    "coins": 1300,
+    "enemies": [
+      { "enemyId": 0, "count": 7, "allowedRows": [2, 3] },
+      { "enemyId": 1, "count": 2, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 2, "count": 1, "allowedRows": [1] },
+      { "enemyId": 3, "count": 1, "allowedRows": [4] }
+    ],
+    "spawnSettings": { "interArrivalTime": 4.0, "timeDecreaseRate": 0.35, "minInterArrivalTime": 0.5, "spawnSequence": [0, 0, 1, 0, 0, 2, 0, 1, 0, 3, 0] },
+    "gameSettings": { "reinforcementsEnabled": false, "reinforcementIntervalSeconds": 10.0, "reinforcementHoldSeconds": 1.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 5,
+    "name": "TC05_Armored_Split_Pincer",
+    "description": "Medium: tougher enemies on the outer top and bottom rows force a split defence; heavies alternate between the two flanks",
+    "coins": 2000,
+    "enemies": [
+      { "enemyId": 0, "count": 2, "allowedRows": [2, 3] },
+      { "enemyId": 1, "count": 2, "allowedRows": [0, 1] },
+      { "enemyId": 2, "count": 4, "allowedRows": [0, 5] },
+      { "enemyId": 3, "count": 4, "allowedRows": [4, 5] }
+    ],
+    "spawnSettings": { "interArrivalTime": 5.5, "timeDecreaseRate": 0.25, "minInterArrivalTime": 1.0, "spawnSequence": [0, 2, 1, 3, 2, 3, 0, 2, 1, 3, 2, 3] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 12.0, "reinforcementHoldSeconds": 4.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 6,
+    "name": "TC06_Speed_Demon_Wave",
+    "description": "Medium: massive runner swarm of light zombies stiffened by a few armoured units; constant pressure but no heavy clustering",
+    "coins": 2500,
+    "enemies": [
+      { "enemyId": 0, "count": 9, "allowedRows": [0, 1, 2, 3, 4, 5] },
+      { "enemyId": 1, "count": 10, "allowedRows": [0, 1, 2, 3, 4, 5] },
+      { "enemyId": 2, "count": 2, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 3, "count": 1, "allowedRows": [2, 3] }
+    ],
+    "spawnSettings": { "interArrivalTime": 3.5, "timeDecreaseRate": 0.15, "minInterArrivalTime": 0.4, "spawnSequence": [0, 1, 0, 1, 2, 0, 1, 0, 1, 3, 0, 1, 0, 1, 2, 0, 1, 0, 1, 1, 0, 1] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 7.0, "reinforcementHoldSeconds": 2.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 7,
+    "name": "TC07_Tank_Wall",
+    "description": "Hard: a concentrated brute wall of high-health type-2 units with a mixed escort. Tanks arrive back-to-back in the central rows with bombers mixed in, leaving no room to rebuild between hits",
+    "coins": 2500,
+    "enemies": [
+      { "enemyId": 0, "count": 1, "allowedRows": [2] },
+      { "enemyId": 1, "count": 2, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 2, "count": 9, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 3, "count": 2, "allowedRows": [2, 3] }
+    ],
+    "spawnSettings": { "interArrivalTime": 6.0, "timeDecreaseRate": 0.2, "minInterArrivalTime": 1.2, "spawnSequence": [2, 2, 3, 2, 2, 3, 2, 2, 1, 2, 2, 1, 2, 0] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 10.0, "reinforcementHoldSeconds": 3.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 8,
+    "name": "TC08_Boss_Pressure",
+    "description": "Hard: relentless type-3 bomber pressure down the two middle rows with mixed support. Pirates come in tight back-to-back runs so each lane loses its bait and the next bomber is already on it",
+    "coins": 3000,
+    "enemies": [
+      { "enemyId": 0, "count": 4, "allowedRows": [0, 5] },
+      { "enemyId": 1, "count": 2, "allowedRows": [1, 4] },
+      { "enemyId": 2, "count": 3, "allowedRows": [2, 3] },
+      { "enemyId": 3, "count": 9, "allowedRows": [2, 3] }
+    ],
+    "spawnSettings": { "interArrivalTime": 5.0, "timeDecreaseRate": 0.2, "minInterArrivalTime": 0.75, "spawnSequence": [3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 3, 0, 1, 0, 1, 0, 0] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 8.0, "reinforcementHoldSeconds": 3.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 9,
+    "name": "TC09_Midgame_Stamina",
+    "description": "Medium: prolonged combat with a full four-type mix testing reinforcement timing; threats are steady and interleaved rather than clustered",
+    "coins": 2100,
+    "enemies": [
+      { "enemyId": 0, "count": 2, "allowedRows": [0, 2, 4] },
+      { "enemyId": 1, "count": 7, "allowedRows": [0, 2, 4] },
+      { "enemyId": 2, "count": 4, "allowedRows": [1, 3, 5] },
+      { "enemyId": 3, "count": 2, "allowedRows": [1, 3, 5] }
+    ],
+    "spawnSettings": { "interArrivalTime": 4.5, "timeDecreaseRate": 0.25, "minInterArrivalTime": 0.6, "spawnSequence": [1, 0, 2, 1, 3, 1, 2, 1, 0, 1, 2, 3, 1, 2, 1] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 10.0, "reinforcementHoldSeconds": 3.0, "sendScreenshotToo": false }
+  },
+  {
+    "testCaseId": 10,
+    "name": "TC10_Endgame_Siege",
+    "description": "Hard: endurance siege with a full roster weighted to heavies. Bombers and tanks pour into the central rows in dense runs at a shrinking spawn gap, demanding two counters at once with no slack",
+    "coins": 3900,
+    "enemies": [
+      { "enemyId": 0, "count": 3, "allowedRows": [0, 1, 2, 3, 4, 5] },
+      { "enemyId": 1, "count": 8, "allowedRows": [0, 1, 2, 3, 4, 5] },
+      { "enemyId": 2, "count": 4, "allowedRows": [1, 2, 3, 4] },
+      { "enemyId": 3, "count": 10, "allowedRows": [1, 2, 3, 4] }
+    ],
+    "spawnSettings": { "interArrivalTime": 4.0, "timeDecreaseRate": 0.1, "minInterArrivalTime": 0.5, "spawnSequence": [3, 2, 3, 3, 2, 3, 1, 3, 2, 3, 3, 1, 3, 2, 3, 3, 0, 1, 1, 0, 1, 1, 0, 1, 1] },
+    "gameSettings": { "reinforcementsEnabled": true, "reinforcementIntervalSeconds": 6.0, "reinforcementHoldSeconds": 2.0, "sendScreenshotToo": false }
+  }
+]

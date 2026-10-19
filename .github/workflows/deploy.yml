@@ -1,0 +1,84 @@
+name: Deploy test_branch
+
+# Every push to test_branch: build and smoke-test the Windows and Linux SDK
+# binaries, then deploy the stack (backend, LLM gateway, game page, downloads
+# with the new binaries) to the event server with deploy/push-to-server.sh.
+# The server's .env is never touched. To freeze deploys (e.g. during the
+# event): gh variable set DEPLOY_PAUSED --body true
+#
+# Secrets: EC2_HOST, EC2_USER, EC2_SSH_KEY (a key only for this workflow),
+# EC2_KNOWN_HOSTS (ssh-keyscan of the host).
+on:
+  push:
+    branches: [test_branch]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-event-server
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  binaries:
+    if: vars.DEPLOY_PAUSED != 'true'
+    uses: ./.github/workflows/build-binaries.yml
+    with:
+      macos: true
+
+  deploy:
+    needs: binaries
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: New Windows and Linux binaries
+        uses: actions/download-artifact@v4
+        with:
+          path: autopilot-sdk-binary/bin
+          merge-multiple: true
+      - name: Same SDK code as live? Keep the live programs (no update for every participant)
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, runpy, urllib.request
+          live_url = "https://13-200-183-134.sslip.io/download/"
+          updater = runpy.run_path("autopilot-sdk/src/autopilot_sdk/updater.py")
+          code = updater["fingerprint"]("autopilot-sdk-binary/src/autopilot_sdk")
+          try:
+              live = json.load(urllib.request.urlopen(live_url + "sdk-manifest.json", timeout=30))
+          except Exception as exc:
+              live = {}
+              print("no live manifest:", exc)
+          if live.get("programsBuild") != code:
+              print("SDK code changed (or first release): the new programs ship")
+          else:
+              for name in ("autopilot-linux-x86_64", "autopilot-windows-x86_64.exe"):
+                  data = urllib.request.urlopen(live_url + name, timeout=600).read()
+                  assert hashlib.sha256(data).hexdigest() == live["programs"][name], name
+                  open("autopilot-sdk-binary/bin/" + name, "wb").write(data)
+              print("SDK code unchanged: the live programs stay")
+          PY
+      - run: chmod +x autopilot-sdk-binary/bin/autopilot-linux-x86_64 autopilot-sdk-binary/bin/autopilot-macos-* && ls -la autopilot-sdk-binary/bin
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: SDK package for participants' editors (pip install …whl)
+        run: |
+          python -m pip wheel --no-deps -q -w autopilot-sdk-binary/bin ./autopilot-sdk
+          ls autopilot-sdk-binary/bin/autopilot_sdk-*-py3-none-any.whl
+      - name: Prepare SDK downloads and update manifest
+        run: bash deploy/package-downloads.sh
+      - name: Game build (release game-build12)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download game-build12 -p build12.zip -D /tmp
+          unzip -q -o /tmp/build12.zip 'build12/Build/*' 'build12/StreamingAssets/*' -d autopilot-game-engine_old
+          ls autopilot-game-engine_old/build12/Build autopilot-game-engine_old/build12/index.html
+      - name: SSH key
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key && chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "${{ secrets.EC2_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+      - name: Deploy
+        run: deploy/push-to-server.sh "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" ~/.ssh/deploy_key

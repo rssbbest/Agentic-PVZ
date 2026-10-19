@@ -1,0 +1,14 @@
+# Unity attributes scoped to this directory. Assets are ordinary Git blobs,
+# so a fresh clone does not require Git LFS or a custom merge driver.
+*.cs text diff=csharp
+*.shader text
+*.hlsl text linguist-language=hlsl
+*.json text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.unity linguist-language=yaml
+*.prefab linguist-language=yaml
+*.asset linguist-language=yaml
+*.meta linguist-language=yaml
+Assets/Plugins/** linguist-generated
+Packages/packages-lock.json linguist-generated

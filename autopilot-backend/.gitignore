@@ -1,0 +1,19 @@
+# secrets / local config
+.env
+
+# participant uploads
+uploads/*
+!uploads/.gitkeep
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# editor / tooling
+.claude/
+.vscode/
+.idea/
+.DS_Store
